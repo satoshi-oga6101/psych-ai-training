@@ -1,0 +1,35 @@
+{
+  "modes": [
+    {
+      "id": "normal",
+      "label": "通常型",
+      "description": "通常のチャット、またはカスタム指示（システムプロンプト）欄に貼り付けて使います。"
+    },
+    {
+      "id": "study",
+      "label": "Studyモード型",
+      "description": "各AIの「学習モード」に貼り付けて使います。AIが答えを教えるのではなく、学習を導く進め方になります。"
+    }
+  ],
+  "ais": [
+    {
+      "id": "chatgpt",
+      "label": "ChatGPT",
+      "studyModeName": "Study（学習）モード",
+      "url": "https://chatgpt.com/"
+    },
+    {
+      "id": "claude",
+      "label": "Claude",
+      "studyModeName": "Learning Style（学習スタイル）",
+      "url": "https://claude.ai/"
+    },
+    {
+      "id": "gemini",
+      "label": "Gemini",
+      "studyModeName": "Guided Learning",
+      "url": "https://gemini.google.com/"
+    }
+  ],
+  "_note": "AIの学習モード名は変わり得ます。名称の更新はこのファイルのみで行い、UI・データ側は変更しないでください（plan.md §7）。"
+}

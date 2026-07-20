@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ai-clinical-psychology",
+    "title": "AIと学ぶ心理臨床",
+    "volume": null,
+    "order": 1,
+    "sourceDir": "ai-clinical-psychology"
+  },
+  {
+    "id": "counseling-techniques",
+    "title": "カウンセリング技法AI独学ワークブック",
+    "volume": null,
+    "order": 2,
+    "sourceDir": "counseling-techniques"
+  },
+  {
+    "id": "interview-process",
+    "title": "心理面接はなぜ進むのか",
+    "volume": null,
+    "order": 3,
+    "sourceDir": "interview-process"
+  },
+  {
+    "id": "clinical-hypnosis",
+    "title": "心理臨床家のための臨床催眠入門（全3巻）",
+    "volume": null,
+    "order": 4,
+    "sourceDir": "clinical-hypnosis"
+  }
+]

@@ -1,0 +1,57 @@
+:root {
+  --bg: #f7f8fa;
+  --fg: #1f2430;
+  --muted: #5b6472;
+  --accent: #3b6ea5;
+  --card: #ffffff;
+  --border: #e2e6ec;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif;
+  color: var(--fg);
+  background: var(--bg);
+  line-height: 1.7;
+}
+
+.site-header {
+  padding: 2rem 1.25rem;
+  background: var(--accent);
+  color: #fff;
+}
+.site-header h1 { margin: 0 0 .25rem; font-size: 1.5rem; }
+.tagline { margin: 0; opacity: .9; font-size: .95rem; }
+
+.container { max-width: 880px; margin: 0 auto; padding: 1.5rem 1.25rem 3rem; }
+
+.status {
+  padding: .75rem 1rem;
+  background: #eef3f8;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--muted);
+  font-size: .9rem;
+}
+
+.books h2 { font-size: 1.15rem; margin-top: 2rem; }
+
+.book-list { list-style: none; padding: 0; display: grid; gap: .75rem; }
+.book-list li {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+}
+.book-list .book-title { font-weight: 600; }
+.book-list .book-meta { color: var(--muted); font-size: .85rem; }
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 1.25rem;
+  text-align: center;
+  color: var(--muted);
+  font-size: .8rem;
+}

@@ -1,0 +1,13 @@
+# OS / エディタ
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# 生成物（ドラフトはコミットしない。最終版 exercises.json のみコミットする）
+docs/data/exercises.draft.json
