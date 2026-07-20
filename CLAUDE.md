@@ -175,7 +175,9 @@ docs/data/exercises.json       （サイトが読む最終データ）
 
 - リポジトリはローカルの Mac 上で管理（GitHub Pages `/docs` 公開、`main` ブランチ）。
 - 変更フロー: `content` か `docs` を編集 → `build-data.mjs` → `validate-data.mjs` → `git add -A` → `git commit` → `git push` → Pages 自動更新。
-- `.gitignore` 済み: `.DS_Store` / `docs/data/exercises.draft.json` / `content/*/manifest.draft.json` / `node_modules`。ドラフトはコミットしない。
+- `.gitignore` 済み: `.DS_Store` / `docs/data/exercises.draft.json` / `content/*/manifest.draft.json` / `node_modules` / **`planning/`**。ドラフトはコミットしない。
+- **このリポジトリは GitHub 上で public。** `planning/` の企画資料・記事の下書きは公開したくないため git 管理から外し、ローカルにのみ置く（ファイル自体は残るので参照はできる）。新しく資料を足すときも `planning/` の中に置けば自動で除外される。
+- **コミットの著者情報はグローバル設定（`Satoshi Oga` / GitHub の noreply アドレス）を使う。** 以前はこのリポジトリのローカル設定が別名・個人アドレスを上書きしていたため、履歴を書き換えて統一した。`git config --local user.email` を設定し直さないこと。
 - 注意: 過去にクラウド環境から git 初期化した名残でロックファイル等が残る場合がある。ローカルの Mac では通常の git で問題なく扱える。
 
 ---

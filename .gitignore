@@ -12,3 +12,6 @@ npm-debug.log*
 # 生成物・ドラフト（コミットしない）
 docs/data/exercises.draft.json
 content/*/manifest.draft.json
+
+# 企画・下書き（public リポジトリなのでコミットしない。ローカルにのみ置く）
+planning/
