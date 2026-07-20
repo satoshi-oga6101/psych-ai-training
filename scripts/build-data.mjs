@@ -62,12 +62,14 @@ function compile() {
         if (!existsSync(file)) {
           throw new Error(`${ex.id}: sourceFile が見つかりません → content/${book.sourceDir}/${step.sourceFile}`);
         }
-        return {
+        const out = {
           order: step.order ?? i + 1,
           label: step.label ?? "",
           sourceFile: step.sourceFile,
           prompt: readFileSync(file, "utf8").trim(),
         };
+        if (step.mode) out.mode = step.mode; // ステップ単位でモードが異なる場合のみ付与
+        return out;
       });
 
       out.push({
@@ -78,6 +80,7 @@ function compile() {
         skillCategories: ex.skillCategories ?? [],
         promptRole: ex.promptRole ?? "",
         mode: ex.mode ?? "normal",
+        template: ex.template ?? false,
         difficulty: ex.difficulty ?? null,
         learningObjective: ex.learningObjective ?? "",
         overview: ex.overview ?? "",
@@ -126,6 +129,7 @@ function scaffold(bookId) {
         skillCategories: [],
         promptRole: "",              // client / evaluator / educator / guide / quizmaster / partner
         mode: "normal",             // normal / study
+        template: false,             // [ ] を学習者が埋めるテンプレートなら true
         difficulty: null,
         learningObjective: "",
         overview: "",

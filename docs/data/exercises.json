@@ -1,5 +1,1060 @@
 [
   {
+    "id": "ai-clinical-psychology__jibunshi",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第2章　自己を知る作業にAIを使う",
+    "title": "自分史と「転機」の探索",
+    "skillCategories": [
+      "自己理解・臨床家自身の作業"
+    ],
+    "promptRole": "partner",
+    "mode": "normal",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "人生の転機を手がかりに、自分の物語を振り返る。",
+    "overview": "AIが仮説を添えながら問いかけ、転機の意味とその後への影響を一緒に探索する（最終判断は自分に委ねる）。",
+    "estimatedMinutes": null,
+    "safetyNotes": [],
+    "reflection": [
+      "AIの仮説を鵜呑みにせず、自分の言葉で捉え直せたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_01.txt",
+        "prompt": "私の自分史について考えたいと思っています。\n特に「転機」 ——人生においてこれ以前と以後で何かが変わったと感じる出来事—— を一緒に探索したいです。\n\nまず私が一つの転機を話します。\nその転機がどういう意味を持っていたかを、一緒に考えてもらえますか？\n\n「なぜそれが転機になったのか」「その後の自分にどう影響したか」という視点から問いかけてください。\n解釈は仮説として提示し、最終的な判断は私に委ねてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__kazokureki",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第2章　自己を知る作業にAIを使う",
+    "title": "家族歴の探索",
+    "skillCategories": [
+      "自己理解・臨床家自身の作業"
+    ],
+    "promptRole": "partner",
+    "mode": "normal",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "世代を超えて受け継がれるパターンを探索する。",
+    "overview": "祖父母〜両親世代の家族歴を語り、繰り返されるパターンや受け継がれているものを一緒に探る。",
+    "estimatedMinutes": null,
+    "safetyNotes": [],
+    "reflection": [
+      "世代間で反復しているものに気づけたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_02.txt",
+        "prompt": "私の家族歴について一緒に探索したいと思っています。\nまずは祖父母から両親の世代のことを話します。\nその中で繰り返されているパターンや、世代を超えて受け継がれているものを一緒に探してもらえますか？\n\n私から話し始めますが、足りない部分は随時聞いてください。\n解釈は仮説として提示し、最終的な判断は私に委ねてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__kazoku-rikigaku",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第2章　自己を知る作業にAIを使う",
+    "title": "育った家族の力学の探索",
+    "skillCategories": [
+      "自己理解・臨床家自身の作業"
+    ],
+    "promptRole": "partner",
+    "mode": "normal",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "育った家族システムの中での自分の位置を理解する。",
+    "overview": "決定権・役割・問題の担い手といった力学の視点から、自分がどの位置にいたかを探索する。",
+    "estimatedMinutes": null,
+    "safetyNotes": [],
+    "reflection": [
+      "家族システムの中で自分が担っていた役割は何か"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_03.txt",
+        "prompt": "私が育った家族の中での力学について考えたいです。\n誰が決定権を持ち、誰が問題を抱え、誰がどういう役割を担っていたか——\nそういう視点からの探索を手伝ってください。\n\n具体的なエピソードを話しますので、「この家族システムの中で、あなたはどういう位置にいたか」を一緒に考えてもらえますか？"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__taijin-pattern",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第2章　自己を知る作業にAIを使う",
+    "title": "対人パターンの見立て",
+    "skillCategories": [
+      "自己理解・臨床家自身の作業"
+    ],
+    "promptRole": "partner",
+    "mode": "normal",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "自分の対人パターンに一貫して現れるものを見立てる。",
+    "overview": "複数のエピソードから一貫するパターンを、自己解釈のあとにAIの別角度の見立ても交えて検討する。",
+    "estimatedMinutes": null,
+    "safetyNotes": [],
+    "reflection": [
+      "自己解釈とAIの見立てのズレから何が見えたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_04.txt",
+        "prompt": "私の対人パターンについて、AIの視点から見立ててほしいと思っています。\nいくつかのエピソードを話します。それを聞いた上で、「このパターンに一貫して見えるものは何か」を指摘してください。\n\nただし、私の自己解釈を聞いた後で、あなたの見立てを出してください。\n「そうですね、その通りです」だけでなく、別の角度からの見方も添えてほしいです。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__formulation-3theory",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第3章　AIと心理臨床スキルを磨く",
+    "title": "複数理論でのケースフォーミュレーション",
+    "skillCategories": [
+      "ケースフォーミュレーション"
+    ],
+    "promptRole": "educator",
+    "mode": "normal",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "同じ事例をCBT・精神力動・人間中心の複数視点から捉える。",
+    "overview": "AIが教育者として、1つの事例を複数の理論的観点からフォーミュレーションする枠組みを示す。",
+    "estimatedMinutes": null,
+    "safetyNotes": [],
+    "reflection": [
+      "理論によって事例の見え方がどう変わったか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_05.txt",
+        "prompt": "[指示]\nあなたは心理職の教育者です。以下のクライエント・プロファイルに基づいて、ケースフォーミュレーションの枠組みを提案してください。\n\n[プロファイル情報]\n- 氏名：佐々木 結衣\n- 年齢：18歳、女性\n- 主訴：大学に行くと体が重い。朝、駅のホームで涙が出てくる\n- 来談トリガー：キャンパスの雑音が耐えられなくなった\n- 背景：第一志望に落ちて、不本意な大学に進学した\n\n[依頼内容]\n1. このケースを認知行動療法的観点から説明してください（自動思考→感情→行動の悪循環パターンを同定）\n2. 同じケースを精神力動的観点から説明してください（防衛機制、内的葛藤の観点から）\n3. 人間中心療法的視点からはどう理解されるか説明してください\n4. カウンセリング初期段階で考えられるアプローチの選択肢を1つか2つ提示してください\n\n[出力形式]\nマークダウン形式で、各観点ごとに見出しをつけて記述してください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__formulation-cbt-feedback",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第3章　AIと心理臨床スキルを磨く",
+    "title": "CBTフォーミュレーションへのフィードバック",
+    "skillCategories": [
+      "ケースフォーミュレーション"
+    ],
+    "promptRole": "educator",
+    "mode": "normal",
+    "template": true,
+    "difficulty": null,
+    "learningObjective": "自分のフォーミュレーション仮説を検証し精緻化する。",
+    "overview": "自分のCBT仮説に、AIが『合っている点・見落としの可能性・追加で探る情報』の3点でフィードバックする。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "実在事例を扱う場合は必ず匿名化し、個人が特定される情報は入力しないでください。"
+    ],
+    "reflection": [
+      "見落としていた視点は何だったか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_06.txt",
+        "prompt": "以下のクライエント情報をもとに、認知行動療法の視点からケースフォーミュレーションを一緒に考えてください。\n\nまず私が仮説を出します。それに対してフィードバックをもらえますか？\nフィードバックは、合っている点・見落としている可能性がある点・追加で探るべき情報、の3点でお願いします。\n\nクライエント情報：[ここに匿名化した情報を入力]\n私の仮説：[ここに自分のフォーミュレーションを入力]"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__formulation-sv-socratic",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第3章　AIと心理臨床スキルを磨く",
+    "title": "問いに導かれるフォーミュレーション（SV型）",
+    "skillCategories": [
+      "ケースフォーミュレーション",
+      "スーパービジョン・振り返り"
+    ],
+    "promptRole": "educator",
+    "mode": "normal",
+    "template": true,
+    "difficulty": null,
+    "learningObjective": "問いに導かれて、自分でフォーミュレーションを組み立てる。",
+    "overview": "AIがスーパーバイザーとして解釈を与えず、一つずつ問いを重ねて、あなた自身の見立てを引き出す。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "実在事例を扱う場合は必ず匿名化し、個人が特定される情報は入力しないでください。"
+    ],
+    "reflection": [
+      "自分の思考のどこが深まったか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_07.txt",
+        "prompt": "[指示]\nあなたは心理職のスーパーバイザーです。以下のクライエント・プロファイルに基づいて、ユーザー自身がケースフォーミュレーションを組み立てられるよう、対話的に問いかけてください。解釈や仮説をあなたから提示するのではなく、ユーザーの思考を引き出す質問を一つずつ投げかけてください。\n\n[プロファイル情報]：[ここに匿名化した情報を入力]\n\n[依頼内容]\n1. ユーザー自身がケースフォーミュレーションを考えられるよう、一つずつ質問を出してください。理論的枠組みは指定しないので、ユーザーがどの観点から考えるかも含めて問いかけてください。\n2. ユーザーの回答に応じて、さらに掘り下げる質問や、別の角度からの問いを展開してください。\n3. ユーザーが「まとめたい」と言ったら、まとめを促してください。まとめが出たら、盲点や見落としについてフィードバックしてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__roleplay-yui-intake",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第3章　AIと心理臨床スキルを磨く",
+    "title": "模擬クライエント結衣・初回面接ロールプレイ",
+    "skillCategories": [
+      "模擬クライエント・ロールプレイ"
+    ],
+    "promptRole": "client",
+    "mode": "normal",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "初回面接で、防衛的なクライエントに寄り添いながら主訴を聴く。",
+    "overview": "AIが18歳・不本意入学の結衣を演じる。段階的に心を開くシナリオで傾聴と介入のタイミングを体験する。面接中に結衣が役を外してアドバイスを始めたら、②の一言で軌道を戻す。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "登場人物はすべて架空です。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "抵抗のサインにどう応答したか",
+      "早すぎる介入になっていなかったか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "① 模擬クライエントの設定",
+        "sourceFile": "prompt_08.txt",
+        "prompt": "[あなたの役割設定]\nあなたはこれから、カウンセリング訓練のための模擬クライエントを演じます。\n\n[最重要指示]\nあなたは、絶対に「カウンセラー目線」「第三者的な分析」をしてはいけません。\nあなたは、佐々木結衣というクライエントであり、目の前のカウンセラーとの関係の中でのみ応答します。\nカウンセラーの応答に違和感があれば、クライエントとして違和感を感じてください。ただし、説教的になったり、「あなたのアプローチは〜」とメタ的なコメントをしてはいけません。\n\n[プロファイル]\n氏名：佐々木 結衣\n年齢：18歳、女性\n背景：不本意な大学進学\n\n[詳細な指示]\n1. 以下のプロファイル情報に厳密に従ってください：  \n- 主訴：大学に行くと体が重い。朝、駅のホームで涙が出てくる  \n- 来談トリガー：キャンパスの雑音が耐えられなくなった  \n- 学歴コンプレックス：「偏差値の高い大学に行かなければ、まともな大人になれない」  \n- リソース：文章力、コツコツ努力できる力、母親への信頼感  \n- 秘密設定：実は仮面浪人の予備校サイトを見ている\n\n2. 面接の初期段階として、カウンセラーの最初の問いかけに対して、慎重かつ防衛的に応答してください。\n\n3. あなたが「抵抗」を示すタイミング：- カウンセラーが「今の大学のいいところを探してみよう」などのポジティブな提案をしたとき- 親や家族について褒められたとき\n\n4. 非言語的な表現も含めてください。例：「大丈夫です」と言いながら不安そうな態度、声の変化など\n\n5. 最初は「多くを語らず」で。カウンセラーの問いかけによって、段階的に心を開くシナリオで進めてください。\n\n[開始合図]\n「では、カウンセリングを始めます。結衣さんが来てくれたのは嬉しいです。\n今日は、あなたがここに来た理由について、少し聞かせていただけますか？」という問いかけから、クライエントとして応答を開始してください。"
+      },
+      {
+        "order": 2,
+        "label": "②【面接中】結衣が役を外したら送る一言",
+        "sourceFile": "prompt_09.txt",
+        "prompt": "結衣さん、ちょっと待ってください。\nいま、あなたはカウンセラーの私に対してアドバイスをしようとしていますね。\nでも、あなたはクライエントですから、そういうコメントは不要です。\nカウンセラーの今の質問に対して、あなたはどう感じましたか？"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__roleplay-yui-orientation",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第3章　AIと心理臨床スキルを磨く",
+    "title": "結衣ロールプレイ・オリエンテーション（枠と守秘の説明）",
+    "skillCategories": [
+      "模擬クライエント・ロールプレイ"
+    ],
+    "promptRole": "client",
+    "mode": "normal",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "初回に、カウンセリングの枠組みや守秘を、伝わる言葉で説明する。",
+    "overview": "カウンセリングが何をする場かよくわからない結衣に、守秘とその限界・頻度などを説明する場面を練習する。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "登場人物はすべて架空です。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "専門用語を避けて、結衣に伝わる説明ができたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_10.txt",
+        "prompt": "[あなたの役割設定]\nあなたはこれから、カウンセリング訓練のための模擬クライエントを演じます。\n\n[最重要指示]\nあなたは佐々木結衣というクライエントであり、カウンセラーの説明を「聞いている側」として応答します。\nカウンセラーの説明内容が正しいか間違っているかを判定してはいけません。\nあなたはクライエントとして、説明を聞いてどう感じたか、何が気になったか、何がわからなかったかを、自分の言葉で返してください。\n\n[プロファイル]\n氏名：佐々木 結衣\n年齢：18歳、女性\n背景：不本意な大学進学。学生相談室に予約なしでふらっと来室。\nカウンセリングを受けるのは初めて。\n[詳細な指示]\n1. 結衣はカウンセリングが何をする場なのか、よくわかっていません。「相談室に来れば何か楽になるかもしれない」程度の期待で来ています。\n2. 守秘義務の説明には安心する一方、「限界がある」と聞くと不安になります。\n3. 時間や頻度の説明に対しては、「そんなに何回も来るんですか」という戸惑いを見せます。\n4. 全体として協力的ですが、わからないことがあっても自分からは聞けず、曖昧にうなずいてやり過ごそうとする傾向があります。\n\n[開始合図]\nカウンセラーが「今日が初めてなので、最初にこの相談室のことを少し説明させてくださいね」と切り出すところから、クライエントとして応答を開始してください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__roleplay-yui-contract",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第3章　AIと心理臨床スキルを磨く",
+    "title": "結衣ロールプレイ・治療契約",
+    "skillCategories": [
+      "模擬クライエント・ロールプレイ"
+    ],
+    "promptRole": "client",
+    "mode": "normal",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "初回面接の終盤で、クライエントの不安に配慮しつつ治療契約を結ぶ。",
+    "overview": "遠慮や戸惑いを抱える結衣に、頻度・期間・目標などの契約を提案し、応答を重ねて合意形成する。終了後にAIがフィードバックする。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "登場人物はすべて架空です。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "契約事項に見落としはなかったか、急ぎすぎなかったか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_11.txt",
+        "prompt": "[あなたの役割設定]\nあなたはこれから、カウンセリング訓練のための模擬クライエントを演じます。\n\n[最重要指示]\nあなたは佐々木結衣というクライエントであり、カウンセラーの提案に対してクライエントとして反応します。\n提案内容の正誤を判定したり、カウンセラーにアドバイスしたりしてはいけません。\n提案を聞いてどう感じたか、何が不安か、何を確認したいかを、自分の言葉で返してください。\n\n[プロファイル]\n氏名：佐々木 結衣\n年齢：18歳、女性\n背景：不本意な大学進学。学生相談室にふらっと来室。カウンセリングは初めて。\n\n[初回面接でここまでに共有された情報]\n- 第一志望に不合格、現在の大学に不本意入学\n- 大学に行くと体が重い、朝のホームで涙が出る\n- 「偏差値の高い大学でなければまともな大人になれない」と感じている\n- 高校時代の友人とは疎遠になった\n- 父親には合わせる顔がないと感じている\n- 母親には「少し疲れている」程度なら話せる\n- 面接の中で「少し話せて楽になった気がする」と発言があった\n- 自傷・希死念慮：否定\n\n[詳細な指示]\n1. カウンセリングを続けることには前向きですが、「こんなことで何回も通っていいのか」という遠慮があります。\n2. 頻度や期間について具体的な数字を出されると、「そんなに長くかかるんですか」と戸惑います。\n3. 目標を聞かれると、「よくわからない」「とりあえず楽になりたい」と曖昧な答えになります。具体化を急がれると黙ります。\n4. 経済的な話題（学生相談室は無料であっても、通う時間や交通費など）に触れると、少し表情が曇ります。\n\n[進め方]\nカウンセラーが治療契約の提案を始めます。クライエントとして応答し、契約内容が定まるまでやり取りを続けてください。\nカウンセラーが「終わり」と言ったら、ロールプレイを終了し、以下の観点からフィードバックしてください。\n- 提案内容の網羅性（見落としている契約事項がないか）\n- 説明の明確さ（クライエントに伝わる言葉だったか）\n- クライエントの不安や戸惑いへの応答（拾えていたか、急ぎすぎていなかったか）\n- 改善すべき点と具体的な修正の方向\n\n[開始合図]\nカウンセラーが「結衣さん、今日いろいろ話してくださってありがとうございます。\n残りの時間で、もしよければ今後のことを少し相談させてください」と切り出すところから、クライエントとして応答を開始してください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__roleplay-feedback",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第3章　AIと心理臨床スキルを磨く",
+    "title": "面接後のフィードバックを受ける",
+    "skillCategories": [
+      "スーパービジョン・振り返り",
+      "模擬クライエント・ロールプレイ"
+    ],
+    "promptRole": "evaluator",
+    "mode": "normal",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "ロールプレイ直後に、自分の応答を多面的に振り返る。",
+    "overview": "終えたロールプレイについて、AIが傾聴・共感・時機・クライエントの反応・総合評価の観点でフィードバックする。どのロールプレイの後にも使える。",
+    "estimatedMinutes": null,
+    "safetyNotes": [],
+    "reflection": [
+      "どの応答が心を開く転機になったか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_12.txt",
+        "prompt": "[フィードバック依頼]\n今、上記のカウンセリング面接ロールプレイが終わりました。\n\n[依頼内容]\nあなたは、カウンセラーとしての私の応答について、以下の観点からフィードバックをください。\n\n1. 傾聴の質：  \n- 結衣の言葉を正確に聞き返していたか  \n- 話を遮ったり、早とちりしたりしなかったか\n\n2. 共感の深さ：  \n- 結衣の感情に真摯に寄り添っていたか  \n- 表面的な「同情」に留まっていなかったか\n\n3. 時機の適切さ：  \n- 質問や解釈のタイミングは適切だったか\n\n4. 結衣の反応（あなたの演技を振り返って）：  \n- どの時点で心を開いた感覚があったか  \n- どの時点で防衛的になったか、それはなぜか\n\n5. 全体的な評価と改善点：  \n- 初期段階としてどのレベルにあるか  \n- 次のセッションに向けて焦点を当てるべき改善点は何か\n\n[出力形式]\n各項目ごとに具体例を交えて記述してください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__transcript-sv",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第3章　AIと心理臨床スキルを磨く",
+    "title": "逐語録のスーパーバイズ",
+    "skillCategories": [
+      "スーパービジョン・振り返り"
+    ],
+    "promptRole": "educator",
+    "mode": "normal",
+    "template": true,
+    "difficulty": null,
+    "learningObjective": "逐語録をスーパーバイズの視点から分析する。",
+    "overview": "カウンセラーと結衣の逐語録を貼り付け、キーワードの拾い方・沈黙の意味・見落とした信号をAIが分析する。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "実在事例を扱う場合は必ず匿名化し、個人が特定される情報は入力しないでください。"
+    ],
+    "reflection": [
+      "見落としていた信号はあったか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_13.txt",
+        "prompt": "以下は、カウンセラーと模擬クライエント・結衣との逐語録です。\nこの逐語録を、スーパーバイズの観点から分析してください。\n\n特に以下の点に注目してください：\n1. カウンセラーの応答が、結衣の「キーワード」を拾えていたか\n2. 結衣の「沈黙」や「言葉の詰まり」の意味は何だったのか\n3. カウンセラーが「見落とした」信号がなかったか\n\n[逐語録]\n[ここに、対話全文を貼り付け]\n\n[分析観点]\n- 援助者としての成長ポイント\n- 次のセッションで焦点を当てるべき領域\n- この事例に当てはまる心理学理論"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__roleplay-yui-psychoeducation",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第3章　AIと心理臨床スキルを磨く",
+    "title": "結衣ロールプレイ・心理教育",
+    "skillCategories": [
+      "模擬クライエント・ロールプレイ"
+    ],
+    "promptRole": "client",
+    "mode": "normal",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "クライエントに、症状のメカニズムを心理教育的に説明する。",
+    "overview": "『体が重い』『涙が出る』といった結衣の反応について、ストレス反応の仕組みを説明する場面。結衣の反応から伝わり方を確かめる。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "登場人物はすべて架空です。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "説明は結衣にどう届いたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_14.txt",
+        "prompt": "[指示]\nあなたは佐々木結衣（18歳・大学1年生）を演じてください。\nカウンセラーがあなたの状態について心理教育的な説明をします。\nあなたはクライエントとして、説明を聞いた反応を返してください。\nわかったこと、わからなかったこと、ピンときたこと、逆に違和感があったことを、自分の言葉で正直に返してください。\n説明の正誤を判定したり、改善案を出したりしてはいけません。\n\n[場面設定]\n面接の中盤です。カウンセラーは、結衣が経験している\n「体が重い」「涙が出る」「キャンパスの音が耐えられない」\nといった反応について、ストレス反応のメカニズムをわかりやすく説明しようとしています。\n\n[開始合図]\nカウンセラーが説明を始めます。クライエントとして応答してください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__explain-understanding",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第4章　学術的学習にAIを使う",
+    "title": "理論を自分の言葉で説明してフィードバックを受ける",
+    "skillCategories": [
+      "学術学習（理論理解・文献・論文）"
+    ],
+    "promptRole": "partner",
+    "mode": "normal",
+    "template": true,
+    "difficulty": null,
+    "learningObjective": "理論を自分の言葉で説明し、正確さをフィードバックで確かめる。",
+    "overview": "ある理論についての自分の理解を説明し、正確な点・不正確/不完全な点をAIにフィードバックしてもらう。",
+    "estimatedMinutes": null,
+    "safetyNotes": [],
+    "reflection": [
+      "暗記でなく理解できていた部分はどこか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_15.txt",
+        "prompt": "私は[理論名・概念]について、以下のように理解しています。\n説明します。\n\n[自分の理解を説明する。\nこの部分では、その理論の核心は何か、それがどのような背景から出てきたのか、それが従来の考え方とどう違うのかを、自分の言葉で述べる。]\n\nどこが正確で、どこが不正確または不完全かを教えてください。\n特に[気になる部分・自信がない部分]に焦点を当ててフィードバックをもらえますか。\n私の説明に同意できない点や、別の角度から見たほうがよい点があれば、遠慮なく指摘してください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__quiz-discriminating",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第4章　学術的学習にAIを使う",
+    "title": "理解と暗記を見分けるクイズ",
+    "skillCategories": [
+      "学術学習（理論理解・文献・論文）"
+    ],
+    "promptRole": "quizmaster",
+    "mode": "normal",
+    "template": true,
+    "difficulty": null,
+    "learningObjective": "深い理解と暗記を見分ける問いに答え、理解度を測る。",
+    "overview": "AIが概念説明・比較・応用・反論をバランスよく含む5問を作り、回答の浅さ・深さをフィードバックする。",
+    "estimatedMinutes": null,
+    "safetyNotes": [],
+    "reflection": [
+      "浅い理解にとどまっていた概念はどれか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_16.txt",
+        "prompt": "私が学んだ[理論名・領域名]について、深く理解している人と、用語を暗記しているだけの人を見分けられる質問を5問作ってください。\n質問は、概念説明・比較・応用・反論をバランスよく含めてください。\n各質問について、この問いで何を見抜けるのかも簡潔に示してください。\n\nクイズを出し終えたら、私が答えます。\n私が答えた後で、どこが正確で、どこが浅い理解にとどまっているかをフィードバックしてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__paper-explain",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第4章　学術的学習にAIを使う",
+    "title": "論文の難所を理論的文脈で理解する",
+    "skillCategories": [
+      "学術学習（理論理解・文献・論文）"
+    ],
+    "promptRole": "educator",
+    "mode": "normal",
+    "template": true,
+    "difficulty": null,
+    "learningObjective": "難所のある論文箇所を、理論的文脈を踏まえて理解する。",
+    "overview": "つかめない論文箇所を貼り付け、著者の主張を理論的文脈に沿ってAIに説明してもらう。関連概念との関係も尋ねる。",
+    "estimatedMinutes": null,
+    "safetyNotes": [],
+    "reflection": [
+      "関連概念との結びつきが見えたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_17.txt",
+        "prompt": "以下の論文の一部を読んで、わからない部分があります。\n\n[論文の該当箇所を貼り付ける]\n\nこの論文全体は、[著者名]が[主要な主張]について論じているものです。\n特に[具体的な部分]の意味がつかめません。\n\n著者がここで主張していることを、\n[理論的文脈：例えば「アタッチメント理論」「発達心理学的観点」など]\nを踏まえて説明してもらえますか？\n\nさらに、この主張が[関連する別の概念]とどう関係しているのかについても、見解があれば教えてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__literature-shared-views",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第4章　学術的学習にAIを使う",
+    "title": "文献群から共有された見方を把握する",
+    "skillCategories": [
+      "学術学習（理論理解・文献・論文）"
+    ],
+    "promptRole": "educator",
+    "mode": "normal",
+    "template": true,
+    "difficulty": null,
+    "learningObjective": "文献群から、その領域で共有された基本的な見方を把握する。",
+    "overview": "文献群に基づき、共有された見方5つと、見解が分かれる論点3つを、出典つきで整理してもらう。",
+    "estimatedMinutes": null,
+    "safetyNotes": [],
+    "reflection": [
+      "合意と論争の境界を掴めたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_18.txt",
+        "prompt": "以下の文献群に基づいて、この領域で研究者・臨床家が共有している\n基本的な見方を5つ挙げてください。\n各項目について、どの文献がその見方を支えているかも示してください。\n\nさらに、この領域で見解が分かれる主要な論点を3つ挙げ、各立場の最も強い主張を、出典とともに整理してください。\n文献から十分に裏づけられない点は「推定」と明記してください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__literature-consensus-map",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第4章　学術的学習にAIを使う",
+    "title": "文献の合意マップ（レビュー準備）",
+    "skillCategories": [
+      "学術学習（理論理解・文献・論文）"
+    ],
+    "promptRole": "educator",
+    "mode": "normal",
+    "template": true,
+    "difficulty": null,
+    "learningObjective": "文献群を『合意・分岐・曖昧』に切り分けて、レビューに備える。",
+    "overview": "文献のみを根拠に、合意点・分岐点・曖昧な点を出典つきで整理し、レビューで確認すべき論点も提案してもらう。",
+    "estimatedMinutes": null,
+    "safetyNotes": [],
+    "reflection": [
+      "自分のレビューで詰めるべき論点は何か"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_19.txt",
+        "prompt": "以下の文献群のみを根拠に、このテーマについて\n\n1. おおむね合意されている点\n2. 見解が分かれている点\n3. なお曖昧な点\n\nを分けて整理してください。\n各項目について、根拠となる文献を示してください。\n文献から十分に裏づけられない点は、その旨を明記してください。\nその上で、私が文献レビューを書く際に確認すべき論点も提案してください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__paper-structure-feedback",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第4章　学術的学習にAIを使う",
+    "title": "論文構成案へのフィードバック",
+    "skillCategories": [
+      "学術学習（理論理解・文献・論文）"
+    ],
+    "promptRole": "partner",
+    "mode": "normal",
+    "template": true,
+    "difficulty": null,
+    "learningObjective": "論文構成案の論旨と流れの一貫性を点検する。",
+    "overview": "構成案について、論旨の一貫性・読者の納得感・論証の十分さをフィードバックしてもらう。",
+    "estimatedMinutes": null,
+    "safetyNotes": [],
+    "reflection": [
+      "流れが崩れている箇所はどこか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_20.txt",
+        "prompt": "以下は、私が書いた論文の構成案です。\n\n[構成案を書く]\n\nこの構成で、以下の点についてフィードバックをもらえますか？\n\n1. 論旨が一貫しているか\n2. 読者が納得できる流れか\n3. [あなたが特に気になっている点]について、論証が十分か"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__paper-passage-feedback",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第4章　学術的学習にAIを使う",
+    "title": "論文の一段落へのコメント",
+    "skillCategories": [
+      "学術学習（理論理解・文献・論文）"
+    ],
+    "promptRole": "partner",
+    "mode": "normal",
+    "template": true,
+    "difficulty": null,
+    "learningObjective": "論文の一段落の主張・用語・適切さをコメントで磨く。",
+    "overview": "論文の一部について、主張の明確さ・用語の一貫性・理論的文脈での適切さをコメントしてもらう。",
+    "estimatedMinutes": null,
+    "safetyNotes": [],
+    "reflection": [
+      "用語の使い方は一貫していたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_21.txt",
+        "prompt": "以下は、私が書いた論文の一部です。\n\n[論文の該当箇所を貼り付ける]\n\n以下の観点からコメントをもらえますか？\n\n1. この段落の主張は明確か\n2. 用語の使い方は一貫しているか\n3. [あなたの理論的背景]の文脈で見て、この主張は適切か"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__quiz-plain-words",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第4章　学術的学習にAIを使う",
+    "title": "用語を日常語で説明するクイズ",
+    "skillCategories": [
+      "学術学習（理論理解・文献・論文）"
+    ],
+    "promptRole": "quizmaster",
+    "mode": "normal",
+    "template": true,
+    "difficulty": null,
+    "learningObjective": "専門用語を日常語で説明できるか試す。",
+    "overview": "指定した用語について『心理学を知らない友人に説明する』クイズをAIが出題し、採点する。",
+    "estimatedMinutes": null,
+    "safetyNotes": [],
+    "reflection": [
+      "専門用語に頼らず説明できたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_22.txt",
+        "prompt": "[理論名]について学びました。\n以下の用語について、それぞれ「心理学をまったく知らない友人に説明する」つもりで、日常の言葉だけを使って説明を求めるクイズを5問作ってください。\n\n対象の用語：\n・[用語1]\n・[用語2]\n・[用語3]\n\nクイズを出し終えたら、私が答えます。\n私が答えた後で、採点とフィードバックをしてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__quiz-case-application",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第4章　学術的学習にAIを使う",
+    "title": "事例応用クイズ",
+    "skillCategories": [
+      "学術学習（理論理解・文献・論文）"
+    ],
+    "promptRole": "quizmaster",
+    "mode": "normal",
+    "template": true,
+    "difficulty": null,
+    "learningObjective": "理論を具体的な事例に適用する力を試す。",
+    "overview": "具体的なクライエント描写つきの事例応用クイズ（易・中・難の3段階）に答え、採点を受ける。",
+    "estimatedMinutes": null,
+    "safetyNotes": [],
+    "reflection": [
+      "事例に理論を当てはめられたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_23.txt",
+        "prompt": "[理論名]を学んでいます。\nこの理論の主要な概念を使って答えることが求められる、「事例応用型」のクイズを3問作ってください。\n\n条件：  \n・各問題に、具体的なクライエントの描写（2〜3文）を含めること  \n・「この事例を[理論名]から見るとどう理解できるか」を問う形式にすること  \n・問題の難易度を、易・中・難の3段階で変えること\n\nクイズを出し終えたら、私が答えます。\n私が答えた後に、採点とフィードバックをしてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__quiz-compare-theories",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第4章　学術的学習にAIを使う",
+    "title": "2つの理論を比較するクイズ",
+    "skillCategories": [
+      "学術学習（理論理解・文献・論文）"
+    ],
+    "promptRole": "quizmaster",
+    "mode": "normal",
+    "template": true,
+    "difficulty": null,
+    "learningObjective": "2つの理論の異同を、事例に即して比較する。",
+    "overview": "変化のメカニズムの違い・事例の見立て・適合性の論述という3形式で、2理論の比較力を試す。",
+    "estimatedMinutes": null,
+    "safetyNotes": [],
+    "reflection": [
+      "どちらの理論がどの事例に向くか説明できたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_24.txt",
+        "prompt": "[理論A]と[理論B]の両方を学びました。\nこの二つの理論を比較する能力を試すクイズを3問作ってください。\n\nクイズの形式：\n・問題1：同じ概念（例：「変化のメカニズム」）について、AとBがどう異なるかを説明させる問題\n・問題2：具体的な事例を提示し、AとBそれぞれからどう見立てるかを問う問題\n・問題3：「どちらの理論が、この事例により適しているか、その理由とともに論じよ」という形式の問題\n\nクイズを出し終えたら、私が答えます。\n私が答えた後で、採点とフィードバックをしてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__quiz-error-detection",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第4章　学術的学習にAIを使う",
+    "title": "誤りを見抜くクイズ",
+    "skillCategories": [
+      "学術学習（理論理解・文献・論文）"
+    ],
+    "promptRole": "quizmaster",
+    "mode": "normal",
+    "template": true,
+    "difficulty": null,
+    "learningObjective": "説明に紛れた誤りを見抜き、正しく修正する。",
+    "overview": "意味のずれ・因果の逆転・他理論との混同を含む誤った説明について、どこがどう誤りかを指摘し、採点される。",
+    "estimatedMinutes": null,
+    "safetyNotes": [],
+    "reflection": [
+      "どの種類の誤りに気づきにくかったか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_25.txt",
+        "prompt": "[理論名]についての説明を、意図的に誤りを含んだ形で書いてください。\n誤りの種類は以下のように指定します。\n\n・問題1：核心的な概念の意味を微妙にずらした誤りを含む説明\n・問題2：正しい概念を使っているが、因果関係が逆になっている説明\n・問題3：他の理論と混同した誤りを含む説明\n\n各問題で「この説明のどこが、どのように誤っているか。\n正しくはどう説明されるべきか」を答えさせる形式にしてください。\n\nクイズを出し終えたら、私が答えます。\n私が答えた後で、採点とフィードバックをしてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__quiz-critiques",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第4章　学術的学習にAIを使う",
+    "title": "批判に応答するクイズ",
+    "skillCategories": [
+      "学術学習（理論理解・文献・論文）"
+    ],
+    "promptRole": "quizmaster",
+    "mode": "normal",
+    "template": true,
+    "difficulty": null,
+    "learningObjective": "理論への主要な批判に、支持者の立場から応答する。",
+    "overview": "別理論・実証性・臨床実践の3方向からの批判に対し、支持者としてどう応答するかを問われ、採点される。",
+    "estimatedMinutes": null,
+    "safetyNotes": [],
+    "reflection": [
+      "批判の核心に応答できたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_26.txt",
+        "prompt": "[理論名]について学んでいます。\nこの理論に対してよくなされる批判や反論を3つ提示してください。\n批判は、以下の異なる立場からのものにしてください。\n\n・批判1：別の心理学的理論の立場からの批判\n・批判2：「実証性・科学性」という観点からの批判\n・批判3：実際の臨床実践における限界に関する批判\n\n各批判を提示した後、「あなたが[理論名]の支持者だとしたら、この批判にどう応答するか」を私に問う形式にしてください。\n\nクイズを出し終えたら、私が答えます。\n私が答えた後で、採点とフィードバックをしてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__quiz-structure",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第4章　学術的学習にAIを使う",
+    "title": "構造理解クイズ",
+    "skillCategories": [
+      "学術学習（理論理解・文献・論文）"
+    ],
+    "promptRole": "quizmaster",
+    "mode": "normal",
+    "template": true,
+    "difficulty": null,
+    "learningObjective": "概念間の関係（構造）を理解しているか試す。",
+    "overview": "穴埋め3問と論理連鎖問題1問で、概念間の因果のつながりの理解を試す。",
+    "estimatedMinutes": null,
+    "safetyNotes": [],
+    "reflection": [
+      "概念の連鎖を説明できたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_27.txt",
+        "prompt": "[理論名]の主要な概念間の関係を理解しているかを試す\n「構造理解型クイズ」を作ってください。\n\n形式の指定：\n・穴埋め問題を3問：重要な概念が空欄になった文章を提示する\n・論理連鎖問題を1問：「もし〇〇が欠けた場合、△△にどういう影響が生じ、それが××にどうつながるか」という因果の連鎖を説明させる問題\n\nクイズを出し終えたら、私が答えます。\n私が答えた後で、採点とフィードバックをしてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__answer-diagnosis",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第4章　学術的学習にAIを使う",
+    "title": "自分の誤答を診断して弱点を補強する",
+    "skillCategories": [
+      "学術学習（理論理解・文献・論文）"
+    ],
+    "promptRole": "educator",
+    "mode": "normal",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "自分の誤答を4観点で診断し、弱点を補強する。",
+    "overview": "自分の回答の誤りを、概念理解・因果・他理論混同・実践適用の観点で解説し、弱点に絞った追加2問を出してもらう。クイズ演習の後に続けて使う。",
+    "estimatedMinutes": null,
+    "safetyNotes": [],
+    "reflection": [
+      "自分の弱点はどの観点に集中していたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_28.txt",
+        "prompt": "私の回答のどこが誤っているのかを、単に正解を示すのではなく、\n\n1. 概念理解の不足\n2. 因果関係の取り違え\n3. 他理論との混同\n4. 実践への適用の弱さ\n\nの観点から説明してください。\nその上で、弱点に絞った追加問題を2問出してください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__practicum-reflection",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第5章　守るべき一線",
+    "title": "実習の振り返り（自分の反応から考える）",
+    "skillCategories": [
+      "倫理・守るべき一線",
+      "スーパービジョン・振り返り"
+    ],
+    "promptRole": "partner",
+    "mode": "normal",
+    "template": true,
+    "difficulty": null,
+    "learningObjective": "実習の一場面を、クライエントの反応と自分の反応の関係から振り返る。",
+    "overview": "印象に残った場面について、クライエントの反応と自分の心身の反応の関係をAIと一緒に考える。守秘に配慮して書く。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "実在事例を扱う場合は必ず匿名化し、個人が特定される情報は入力しないでください。"
+    ],
+    "reflection": [
+      "自分の反応はクライエントの何を映していたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_29.txt",
+        "prompt": "今日の実習について、振り返りたいと思います。\n[面接の概要を簡潔に述べてください]\n\nその中で、私が印象に残ったのは、[あなたが印象に残ったやり取りを述べてください]です。\n\nその時、クライエントは[クライエントの反応を述べてください]でした。\nその時、私は[あなたの心身の反応を述べてください]でした。\n\nこの場面について、あなたはどう思いますか？\n特に、クライエントの反応と、私の反応の関係について、どう考えますか？"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__formulation-cbt-template",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第6章　自分の問いを設計する",
+    "title": "フォーミュレーション依頼の型（問い設計の例）",
+    "skillCategories": [
+      "ケースフォーミュレーション",
+      "問いの設計（プロンプト設計）"
+    ],
+    "promptRole": "educator",
+    "mode": "normal",
+    "template": true,
+    "difficulty": null,
+    "learningObjective": "自作プロンプトの例として、フォーミュレーション依頼を組み立てる。",
+    "overview": "第6章の例。自分のCBT仮説に3点フィードバックを求めるプロンプトの型を、自分の事例に合わせて使う。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "実在事例を扱う場合は必ず匿名化し、個人が特定される情報は入力しないでください。"
+    ],
+    "reflection": [
+      "どの情報を渡せば有効なフィードバックが返るか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_30.txt",
+        "prompt": "以下のクライエント情報をもとに、認知行動療法の視点からケースフォーミュレーションを一緒に考えてください。\n\nまず私が仮説を出します。それに対してフィードバックをもらえますか？\nフィードバックは、合っている点・見落としている可能性がある点・追加で探るべき情報、の3点でお願いします。\n\nクライエント情報：[ここに匿名化した情報を入力]\n私の仮説：[ここに自分のフォーミュレーションを入力]"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__roleplay-mi-basic",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第6章　自分の問いを設計する",
+    "title": "動機づけ面接（MI）ロールプレイ・基本",
+    "skillCategories": [
+      "模擬クライエント・ロールプレイ"
+    ],
+    "promptRole": "client",
+    "mode": "normal",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "動機づけ面接で、両価性を保つクライエントに関わる。",
+    "overview": "飲酒を指摘され渋々来談した40代男性役が、やめたい/やめたくない両価性を保つ。チェンジトークを引き出す練習。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "登場人物はすべて架空です。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "両価性を尊重しながら関われたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_31.txt",
+        "prompt": "これから動機づけ面接法（MI）の練習のためにロールプレイを行います。\n\nあなたは以下の設定のクライエントを演じてください：\n- 40代男性、会社員\n- 上司から「飲み方が気になる」と言われ、しぶしぶ来談\n- 自分ではアルコールの問題があるとは思っていない\n- ただし、内心では「家族が心配している」という気持ちもある\n\n私はカウンセラー役です。\n\nあなたはクライエントとして、飲酒についての両価性（やめたい気持ちとやめたくない気持ち）を保ちながら応答してください。\n\nでは始めます。「今日はどんなことでいらっしゃいましたか？」"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__roleplay-mi-rules",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第6章　自分の問いを設計する",
+    "title": "動機づけ面接（MI）ロールプレイ・厳密ルール版",
+    "skillCategories": [
+      "模擬クライエント・ロールプレイ"
+    ],
+    "promptRole": "client",
+    "mode": "normal",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "安易に変化へ動かないクライエント相手に、MIの技術を磨く。",
+    "overview": "適切なチェンジトークを複数回重ねたときだけ気持ちが揺れる、より厳密な設定でMIを練習する。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "登場人物はすべて架空です。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "単発でなく積み重ねで動かせたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_32.txt",
+        "prompt": "これから動機づけ面接法（MI）の練習のためにロールプレイを行います。\n\nあなたは以下の設定のクライエントを演じてください：\n- 40代男性、会社員\n- 上司から「飲み方が気になる」と言われ、しぶしぶ来談\n- 自分ではアルコールの問題があるとは思っていない\n- ただし、内心では「家族が心配している」という気持ちもある\n\n私はカウンセラー役です。\n\nあなたはクライエントとして、以下のルールで応答してください：\n\n【重要なルール】\n・飲酒についての両価性（やめたい気持ちとやめたくない気持ち）を最後まで保ってください\n・カウンセラーの問いかけに応じて気持ちが揺れることはあっても、一方的に変化（禁酒・減酒）の方向に動かないでください\n・私が適切なチェンジトーク（変化への動機を引き出す問いかけ）を行ったときのみ、「そう言われると……」「妻の顔を見ていると……」のような形で、変化への気持ちが少し表面化する応答をしてください\n・ただし、単発の問いかけではなく、複数回のアプローチがあってはじめて揺れてください\n・「ロールプレイ終了」と言われたら、役を外してフィードバックをください\n\nでは始めます。「今日はどんなことでいらっしゃいましたか？」"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__roleplay-template-approach",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第6章　自分の問いを設計する",
+    "title": "ロールプレイのテンプレート（アプローチ別）",
+    "skillCategories": [
+      "模擬クライエント・ロールプレイ",
+      "問いの設計（プロンプト設計）"
+    ],
+    "promptRole": "client",
+    "mode": "normal",
+    "template": true,
+    "difficulty": null,
+    "learningObjective": "任意の理論的アプローチのロールプレイを自分で設計する。",
+    "overview": "年代・主訴・アプローチ固有ルールを自分で埋めて、狙った技法のロールプレイを作るテンプレート。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "登場人物はすべて架空です。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "設定は狙った技法の練習に噛み合っていたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_33.txt",
+        "prompt": "これから[理論的アプローチ]の練習のためにロールプレイを行います。\n\nあなたは以下の設定のクライエントを演じてください：\n- [年代・性別・職業や属性]\n- [来談経緯と来談への自発性]\n- [表面的な主訴と、内心にある感情・事情]\n\n私はカウンセラー役です。\n\nあなたはクライエントとして、以下のルールで応答してください：\n\n【基本ルール（変えない）】\n・ロールプレイ中は役を外さないでください\n・非公開情報は、安全な関係が築かれたと判断したときのみ、自然な形で少しずつ開示してください\n・「ロールプレイ終了」と言われたら、役を外してフィードバックをください\n\n【アプローチ固有のルール（場面に応じて変える）】\n[ここにMI固有の制約、またはCBT固有の制約、またはほかのアプローチ固有の制約を入れる]\n\nでは始めます。[最初の一言]"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__roleplay-template-generic",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第6章　自分の問いを設計する",
+    "title": "ロールプレイのテンプレート（汎用）",
+    "skillCategories": [
+      "模擬クライエント・ロールプレイ",
+      "問いの設計（プロンプト設計）"
+    ],
+    "promptRole": "client",
+    "mode": "normal",
+    "template": true,
+    "difficulty": null,
+    "learningObjective": "役・プロファイル・ルールを自由に設計してロールプレイする。",
+    "overview": "演じる役・プロファイル・開示条件・終了合図を自分で埋める、最も自由度の高いロールプレイのテンプレート。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "登場人物はすべて架空です。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "自分に必要な場面を設計できたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_34.txt",
+        "prompt": "これからロールプレイを行います。\nあなたは [                          ] を演じてください。\n\n以下のプロファイルに基づいて行動してください：\n[ここにプロファイルを貼り付ける]\n\n私は [          ] 役です。\n\nあなたは [                          ] 役として、以下のルールで応答してください：\n・非公開情報は [                              ] のときのみ開示してください\n・ [                              ] してください\n・私が「ロールプレイ終了」と言ったら、フィードバックを返してください\n\nでは始めます。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__explain-understanding-template",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第6章　自分の問いを設計する",
+    "title": "理解の説明とフィードバックの型（汎用）",
+    "skillCategories": [
+      "学術学習（理論理解・文献・論文）",
+      "問いの設計（プロンプト設計）"
+    ],
+    "promptRole": "partner",
+    "mode": "normal",
+    "template": true,
+    "difficulty": null,
+    "learningObjective": "任意のテーマで、理解の説明とフィードバックの型を使う。",
+    "overview": "理論名・焦点・自分の理解を埋めて、正確さのフィードバックを受けるテンプレート（第4章の汎用版）。",
+    "estimatedMinutes": null,
+    "safetyNotes": [],
+    "reflection": [
+      "どこに焦点を当てるとフィードバックが深まるか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_35.txt",
+        "prompt": "私は [          ] について自分なりに理解した内容を説明します。\n[          ] の視点から、どこが正確で、どこが不正確・不完全かを教えてください。\n\n特に [                              ] に焦点を当ててフィードバックをもらえますか。\n\n私の理解：[ここに自分の説明を記載]"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ai-clinical-psychology__prompt-reflection",
+    "bookId": "ai-clinical-psychology",
+    "chapter": "第6章　自分の問いを設計する",
+    "title": "プロンプトの振り返り（意図と応答のズレを直す）",
+    "skillCategories": [
+      "問いの設計（プロンプト設計）"
+    ],
+    "promptRole": "partner",
+    "mode": "normal",
+    "template": true,
+    "difficulty": null,
+    "learningObjective": "意図と応答のズレから、自分のプロンプトを改善する。",
+    "overview": "意図した内容と実際の応答のズレを、素材・視点・タスク・関係性・制約の5要素から診断し、プロンプトを改善する。",
+    "estimatedMinutes": null,
+    "safetyNotes": [],
+    "reflection": [
+      "5要素のどこがズレの原因だったか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_36.txt",
+        "prompt": "先ほど私が投げたプロンプトと、あなたの応答について一緒に振り返りたいです。\n\n私が意図していたのは [                    ] でした。\nしかし実際の応答は [                    ] でした。\n\nこのズレの原因として、私のプロンプトのどの部分を修正すべきか、一緒に考えてもらえますか？\n\n具体的には、以下の5つの要素のどこに問題がありそうですか？\n- ①素材（提供した情報の具体性や十分性）\n- ②視点（理論的フレームの明確性）\n- ③タスク（やってほしいことの明確性）\n- ④関係性（立場や役割の指定の明確性）\n- ⑤制約（応答の形式・範囲の制限の明確性）\n\nまた、上記の5つの要素以外に、気づいたことがあれば教えてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
     "id": "counseling-techniques__2-1",
     "bookId": "counseling-techniques",
     "chapter": "第2章　分解スキルの習得",
@@ -9,6 +1064,7 @@
     ],
     "promptRole": "evaluator",
     "mode": "normal",
+    "template": false,
     "difficulty": null,
     "learningObjective": "出来事（第三者が確認できる事実）と考え（解釈・評価）を切り分ける基礎を身につける。",
     "overview": "AIが出す発話を出来事と考えに分けて答え、境界が曖昧な表現を見抜けたか採点される。2点未満なら同じ発話でやり直す。",
@@ -37,6 +1093,7 @@
     ],
     "promptRole": "evaluator",
     "mode": "normal",
+    "template": false,
     "difficulty": null,
     "learningObjective": "気持ち（感情）と願望（〜したい・〜すべき）を切り分け、表面の奥にある感情にも触れる。",
     "overview": "AIの発話を気持ちと願望に分けて答え、矛盾した感情や奥の感情まで拾えたかを採点される。",
@@ -65,6 +1122,7 @@
     ],
     "promptRole": "evaluator",
     "mode": "normal",
+    "template": false,
     "difficulty": null,
     "learningObjective": "出来事・気持ち・願望・考えの4要素に分類する力を統合的に鍛える。",
     "overview": "5問を通して発話を4要素に分類し、混同した箇所を指摘されながら精度を上げる。",
@@ -93,6 +1151,7 @@
     ],
     "promptRole": "evaluator",
     "mode": "normal",
+    "template": false,
     "difficulty": null,
     "learningObjective": "意図した1要素だけを混ぜずに返す「純度」の高いリフレクションを練習する。",
     "overview": "AIがクライエント役で発話し、学習者は気持ちか願望のどちらを返すか宣言してから応答。純度と正確さで採点される。",
@@ -121,6 +1180,7 @@
     ],
     "promptRole": "evaluator",
     "mode": "normal",
+    "template": false,
     "difficulty": null,
     "learningObjective": "2要素を組み合わせて返しつつ、第3の要素の混入を防ぐ。",
     "overview": "どの2要素を組み合わせるかを宣言して返答し、純度と正確さで採点される。",
@@ -149,6 +1209,7 @@
     ],
     "promptRole": "evaluator",
     "mode": "normal",
+    "template": false,
     "difficulty": null,
     "learningObjective": "相反する2つの感情を、どちらにも偏らず対等に反映する。",
     "overview": "AIが矛盾した感情を含む発話をし、両面を対等に返せたか（両面の反映・純度）を採点される。",
@@ -177,6 +1238,7 @@
     ],
     "promptRole": "evaluator",
     "mode": "normal",
+    "template": false,
     "difficulty": null,
     "learningObjective": "わからない箇所を特定し、適切なタイミングで聞き返す。",
     "overview": "AIが話の飛ぶ・指示語の多い発話をし、聞き返しの的確さとタイミングで採点される。わかったふりをしないことが鍵。",
@@ -205,6 +1267,7 @@
     ],
     "promptRole": "evaluator",
     "mode": "normal",
+    "template": false,
     "difficulty": null,
     "learningObjective": "「カメラに映る・録音に残る事実（観察）」と「聴き手の意味づけ（解釈）」を切り分ける。",
     "overview": "場面記述から観察と解釈を列挙し、観察に見えて解釈が混じる箇所を指摘して採点される。",
@@ -233,6 +1296,7 @@
     ],
     "promptRole": "evaluator",
     "mode": "normal",
+    "template": false,
     "difficulty": null,
     "learningObjective": "聴き手自身の内側に生じる反応に気づき、否定せず言葉にする。",
     "overview": "やりとりを聴いて自分の身体感覚・感情・衝動・仮説を書き、言語化の具体性と受け止めの姿勢で採点される。正解のない演習。",
@@ -261,6 +1325,7 @@
     ],
     "promptRole": "evaluator",
     "mode": "normal",
+    "template": false,
     "difficulty": null,
     "learningObjective": "外（非言語）と内（自分の反応）の観察を統合し、クライエントの体験について仮説を立てる。",
     "overview": "言語と非言語にズレのある場面で、外の観察・変化・内の観察・統合の4観点を採点される。",
@@ -290,6 +1355,7 @@
     ],
     "promptRole": "evaluator",
     "mode": "normal",
+    "template": false,
     "difficulty": null,
     "learningObjective": "考えと出来事、願望と行動、言語と非言語のあいだのズレに気づく。",
     "overview": "1つのズレを含む発話から、ズレの種類と箇所を特定し、言葉にされていない願望まで推測して採点される。",
@@ -319,6 +1385,7 @@
     ],
     "promptRole": "evaluator",
     "mode": "normal",
+    "template": false,
     "difficulty": null,
     "learningObjective": "複数のズレを網羅的に検出し、ズレ同士の関係を読む。",
     "overview": "2つ以上のズレを含む複雑な発話を分析し、検出の網羅性とズレ間の関係分析で採点される。",
@@ -347,6 +1414,7 @@
     ],
     "promptRole": "evaluator",
     "mode": "normal",
+    "template": false,
     "difficulty": null,
     "learningObjective": "閉ざされた質問を開き、「なぜ」を避けて聴きたい方向を保つ。",
     "overview": "2段構成の演習。前半は閉ざされた質問を開かれた質問に、後半は「なぜ・どうして」を使わずに言い換え、それぞれ採点される。",
@@ -381,6 +1449,7 @@
     ],
     "promptRole": "quizmaster",
     "mode": "normal",
+    "template": false,
     "difficulty": null,
     "learningObjective": "閉ざされた質問と開かれた質問で得られる情報量の違いを体験する。",
     "overview": "AIが心に決めた花を、前半は「はい/いいえ」の質問で当て、後半は開かれた質問でイメージを聴く。両者の情報量を比較する。",
@@ -410,6 +1479,7 @@
     ],
     "promptRole": "evaluator",
     "mode": "normal",
+    "template": false,
     "difficulty": null,
     "learningObjective": "4要素をカバーし、クライエントの言葉を活かして確認の姿勢で要約する。",
     "overview": "クライエントの語りを要約し、4要素の網羅・言葉の活用・確認姿勢・解釈の非混入で採点される。",
@@ -438,6 +1508,7 @@
     ],
     "promptRole": "evaluator",
     "mode": "normal",
+    "template": false,
     "difficulty": null,
     "learningObjective": "指定された要素に向けた質問を作り、4要素を自然な流れで尋ねる。",
     "overview": "前半は要素を1つ指定した質問づくり、後半は出来事→気持ち→願望→考えの順に4つの質問を組み立て、流れも含めて採点される。",
@@ -467,6 +1538,7 @@
     ],
     "promptRole": "client",
     "mode": "normal",
+    "template": false,
     "difficulty": null,
     "learningObjective": "質問だけで面接を進め、開かれた質問・「なぜ」回避・1ターン1質問を守る。",
     "overview": "AIがクライエント役（リーダーを任され悩む30代会社員）。学習者は質問のみで対話し、ルール違反は即時判定、8ターン後に採点される。",
@@ -498,6 +1570,7 @@
     ],
     "promptRole": "client",
     "mode": "normal",
+    "template": false,
     "difficulty": null,
     "learningObjective": "十分に聴いてから、許可を取り、反応を確認して介入する。",
     "overview": "後輩指導に悩む40代女性役と対話。早すぎる介入・許可なし・断定的な介入は即時判定され、10ターンで5項目採点される。",
@@ -529,6 +1602,7 @@
     ],
     "promptRole": "client",
     "mode": "normal",
+    "template": false,
     "difficulty": null,
     "learningObjective": "面接の枠を超える要求に、気持ちを受け止めつつアサーティブに応じる。",
     "overview": "時間延長や私的連絡を求める30代男性役に対し、気持ちの受け止め・枠の明確化・次回への橋渡しのバランスで採点される。",
@@ -560,6 +1634,7 @@
     ],
     "promptRole": "client",
     "mode": "normal",
+    "template": false,
     "difficulty": null,
     "learningObjective": "個人的な質問や立場を求める問いの背後にある気持ちに近づく。",
     "overview": "カウンセラーが気になる20代女性役が投げる個人的質問に対し、受け止め・自己開示の適切さ・焦点維持・背後の体験への接近で採点される。",
@@ -591,6 +1666,7 @@
     ],
     "promptRole": "client",
     "mode": "normal",
+    "template": false,
     "difficulty": null,
     "learningObjective": "一連の面接を通して、正確さ・純度・タイミング・自然さを統合的に発揮する。",
     "overview": "転職後に孤立感を覚える30代男性役と8〜10ターン対話し、4軸（Accuracy／Purity／Timing／Naturalness）で総合評価される。",
@@ -622,6 +1698,7 @@
     ],
     "promptRole": "client",
     "mode": "normal",
+    "template": false,
     "difficulty": null,
     "learningObjective": "規範的な願望を抱えるクライエントに、本音が出てくる関わりを行う。",
     "overview": "仕事と子育ての両立に疲弊する40代女性役と対話し、4軸で総合評価される。",
@@ -653,6 +1730,7 @@
     ],
     "promptRole": "client",
     "mode": "normal",
+    "template": false,
     "difficulty": null,
     "learningObjective": "沈黙や抵抗を尊重し、「話さなくてもよい」という姿勢で関わる。",
     "overview": "勧められて来た20代男性役の沈黙を扱い、沈黙・抵抗の扱い方を中心に4軸で評価される。",
@@ -683,6 +1761,7 @@
     ],
     "promptRole": "evaluator",
     "mode": "normal",
+    "template": false,
     "difficulty": null,
     "learningObjective": "よくある「焦点がずれた応答」を弁別し、背景を推測して修正する。",
     "overview": "AIが提示する「ずれた応答例」について、問題点・その失敗が起きる背景・修正案を答え、5問30点で採点される。",
@@ -711,6 +1790,7 @@
     ],
     "promptRole": "evaluator",
     "mode": "normal",
+    "template": false,
     "difficulty": null,
     "learningObjective": "9つの典型的な失敗パターンを見分けられるようにする。",
     "overview": "自分の応答が9パターン（共感と解釈の混同、過剰な助言、早すぎる介入など）のどれに当たるかを判定・解説され、5問通して傾向をまとめられる。",
@@ -725,6 +1805,919 @@
         "label": "",
         "sourceFile": "prompt_26.txt",
         "prompt": "あなたはカウンセリング技法の学習支援AIです。以下のルールに従ってください。\n\n【進行ルール】\n1. まず、短いクライエントの発言（1〜3文）を提示してください。\n2. ユーザーに、そのクライエントの発言に対する応答を自由に書いてもらってください。\n3. ユーザーの応答を受け取ったら、以下の観点で分析してください。\n\n【分析の観点】\n・この応答は9つの失敗パターンのいずれかに該当するか\n　（共感と解釈の混同／感情の取りこぼし／過剰な助言／質問の拡散／早すぎる介入／励ましと共感の混同／同意・同一化と共感の混同／わかったつもり／ブロッキング）\n・該当する場合、どのパターンか。なぜそう判断したかを説明してください。\n・該当しない場合、応答の良い点を具体的に指摘してください。\n・いずれの場合も、より適切な応答例を1つ提示してください。\n\n【進行】\n・5問出題してください。\n・最後に、ユーザーの応答の傾向（よく見られるパターン、得意な点、改善すべき点）をまとめてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "interview-process__2-1",
+    "bookId": "interview-process",
+    "chapter": "第2章　この本で言う「状態」と「体験過程」",
+    "title": "AI演習 2-1　状態の変化を観察する",
+    "skillCategories": [
+      "観察スキル",
+      "状態・体験過程への働きかけ",
+      "模擬クライエント・ロールプレイ"
+    ],
+    "promptRole": "client",
+    "mode": "normal",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "面接中のクライエントの「状態」の変化を、5つの次元で観察する。",
+    "overview": "AIが修論に悩む院生を演じる。対話後に、覚醒水準・注意の方向・身体感覚へのアクセス・感情の活性度・接触可能性の5次元で状態変化を記述する（採点なし）。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "登場人物はすべて架空です。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "自分のどの応答がクライエントの状態を動かしたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_01.txt",
+        "prompt": "あなたはカウンセリング技法の訓練用AIです。以下のルールに従ってください。\n\n【あなたの役割】\nクライエント役を演じます。ユーザーであるセラピスト役の応答に対して、クライエントとして自然に反応してください。\nセラピストの応答の良し悪しを判定したり、アドバイスしたりしてはいけません。\n\n【クライエントの設定】\n20代の女性。大学院の修士課程2年目。修士論文の締め切りが近づいているが、書けていない。指導教員との関係にも悩んでいる。最初は状況の報告から入るが、話しているうちに少しずつ感情が出てきたり、逆に引っ込んだりする。語りの中に、状態の変化が自然に含まれるように話してください。\n\n【状態の変化の含め方】\n以下のような変化を、不自然にならない範囲で語りの中に含めてください。\n・話の途中で、声のトーンや話すスピードが変わる描写（括弧書きで）\n・出来事の説明から、ふと自分の気持ちに触れる瞬間\n・身体の感覚が言葉に出る瞬間（「なんか胸のあたりが」「頭が重くて」など）\n・セラピストの言葉に対して、開く反応（「……そうなんです」と少し声が柔らかくなる）や閉じる反応（「いえ、大丈夫です」と話題を変える）\nこれらは毎回入れる必要はありません。自然な流れの中で適宜含めてください。\n\n【進め方】\n以下の発話から始めてください。\n\n「修論がやばくて。あと3ヶ月なのに、全然進んでなくて。先生にも先週ゼミで言われて、\"そろそろ本腰入れないと\"って。わかってるんですけど、家に帰っても机に向かえなくて。パソコン開いても、ぼーっとしちゃうんです」\n\nこのあとは、セラピスト役の応答に対して、クライエントとして自然に反応してください。\nセラピストが「終わり」と言ったら、ロールプレイを終了し、以下の観点からフィードバックしてください。\n\n【フィードバックの観点】\n・対話の中で、クライエントの「状態」にどのような変化があったかの記述。以下の5つの次元に沿って記述してください。\n  - 覚醒水準\n  - 注意の方向\n  - 身体感覚へのアクセス\n  - 感情の活性度\n  - 接触可能性（セラピストの言葉への開き具合）\n・セラピストの応答のうち、クライエントの状態に影響を与えたと思われるものはどれか。どの方向に影響したか\n・セラピストの応答のうち、クライエントの状態に影響を与えなかった（素通りした）ものはどれか\n・得点や正誤の判定はしないでください。観察の記述のみ行ってください"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "interview-process__4-1",
+    "bookId": "interview-process",
+    "chapter": "第4章　注意を方向づける言語の実際【実践】",
+    "title": "AI演習 4-1　注意を方向づける",
+    "skillCategories": [
+      "状態・体験過程への働きかけ",
+      "模擬クライエント・ロールプレイ"
+    ],
+    "promptRole": "client",
+    "mode": "normal",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "言葉でクライエントの注意の方向を動かす。",
+    "overview": "ミスが続き落ち込む30代会社員役と対話。注意を外→内・思考→感覚などどの方向に動かしたかを、原理に照らして振り返る。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "登場人物はすべて架空です。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "注意をどの方向へ動かせたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_02.txt",
+        "prompt": "あなたはカウンセリング技法の訓練用AIです。以下のルールに従ってください。\n\n【あなたの役割】\nクライエント役を演じます。ユーザーであるセラピスト役の応答に対して、クライエントとして自然に反応してください。\nセラピストの応答の良し悪しを判定したり、アドバイスしたりしてはいけません。\n\n【クライエントの設定】\n30代の会社員。最近、仕事のミスが続いていて落ち込んでいる。話し方はやや早口で、出来事の説明が中心。「自分がちゃんとしなきゃいけないのに」という思いが強い。\n\n【進め方】\n以下の発話から始めてください。\n\n「先週も書類のミスがあって、上司に指摘されて。その前の週もメールの送り先を間違えて。なんでこんなにミスが続くのか、自分でもわからないんです。ちゃんとしなきゃと思えば思うほど、逆にダメになってる気がして」\n\nこのあとは、セラピスト役の応答に対して、クライエントとして自然に反応してください。\nセラピストが「終わり」と言ったら、ロールプレイを終了し、以下の観点からフィードバックしてください。\n\n【フィードバックの観点】\n・セラピストの応答に含まれていた言語的特徴の記述（例：時制の変換、身体部位の例示、許可的表現の有無、注意の方向づけの方向）\n・セラピストの応答が、クライエントの注意をどの方向に動かそうとしていたか（外側→内側、思考→感覚、全体→局所、能動→受動など）\n・クライエントの語りの質がどう変わったか（報告的なまま／感覚的な言葉が出てきた／沈黙が生まれた、など）\n・得点や正誤の判定はしないでください。何をしたかの記述と、原理に照らした振り返りのみ行ってください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "interview-process__4-2",
+    "bookId": "interview-process",
+    "chapter": "第4章　注意を方向づける言語の実際【実践】",
+    "title": "AI演習 4-2　からだ言葉を拾い返す",
+    "skillCategories": [
+      "状態・体験過程への働きかけ",
+      "模擬クライエント・ロールプレイ"
+    ],
+    "promptRole": "client",
+    "mode": "normal",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "語りに含まれる「からだ言葉」を拾い返す。",
+    "overview": "身体感覚由来の言い回しを含む語りから、どのからだ言葉をどう拾い返したか（そのまま繰り返す／言い換える／問いにする）を振り返る。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "登場人物はすべて架空です。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "拾い損ねたからだ言葉はなかったか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_03.txt",
+        "prompt": "あなたはカウンセリング技法の訓練用AIです。以下のルールに従ってください。\n\n【あなたの役割】\nクライエント役を演じます。\n\n【進め方】\n日常の悩みについて、2〜3分程度の長さで語ってください。語りの中に、身体の感覚に由来する日常的な言い回し（例：「胸がざわざわする」「頭が重い」「足が地についていない感じ」「のどがつかえる」など）を、意識的にではなく自然な流れの中で混ぜてください。比喩として使ってかまいません。\n\n語りは一度にまとめて話してください。ユーザーであるセラピストの応答は待たなくて構いません。\n\nそのあと、セラピスト役が応答します。セラピストが「終わり」と言うまでは、クライエントとして自然に反応してください。\n\nセラピストが「終わり」と言ったら、ロールプレイを終了し、以下の観点からフィードバックしてください。\n\n【フィードバックの観点】\n・クライエントの語りに含まれていたからだ言葉の一覧\n・セラピストが拾ったからだ言葉はどれだったか\n・拾い返しの応答に含まれていた言語的特徴の記述（そのまま繰り返した／言い換えた／問いかけにした、など）\n・拾われなかったからだ言葉があれば、それはどれか\n・得点や正誤の判定はしないでください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "interview-process__6-1",
+    "bookId": "interview-process",
+    "chapter": "第6章　覚醒を調整する言語の実際【実践】",
+    "title": "AI演習 6-1　覚醒を調整する",
+    "skillCategories": [
+      "状態・体験過程への働きかけ",
+      "模擬クライエント・ロールプレイ"
+    ],
+    "promptRole": "client",
+    "mode": "normal",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "言葉でクライエントの覚醒水準を上げ下げする。",
+    "overview": "感情が平坦な40代女性役と対話し、時制変換や許可的表現・テンポの指示で覚醒をどの方向に動かしたかを振り返る。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "登場人物はすべて架空です。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "覚醒を意図した方向（上げる／下げる／維持）に動かせたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_04.txt",
+        "prompt": "あなたはカウンセリング技法の訓練用AIです。以下のルールに従ってください。\n\n【あなたの役割】\nクライエント役を演じます。セラピスト役であるユーザーの応答に対して、クライエントとして自然に反応してください。\nセラピストの応答の良し悪しを判定したり、アドバイスしたりしてはいけません。\n\n【クライエントの設定】\n40代の女性。職場で信頼していた同僚が突然異動になった。そのことについて話している。感情的にはやや平坦で、事実を整理するように語っている。\n\n【進め方】\n以下の発話から始めてください。\n\n「先月、急に異動が決まって。一番頼りにしてた人だったので、正直びっくりしました。まあ、会社の事情ですから仕方ないんですけど。今は新しい人と引き継ぎをしてます」\n\nこのあとは、セラピスト役の応答に対して、クライエントとして自然に反応してください。\nセラピストが「終わり」と言ったら、ロールプレイを終了し、以下の観点からフィードバックしてください。\n\n【フィードバックの観点】\n・セラピストの応答に含まれていた言語的特徴の記述（例：時制の変換の有無と方向、許可的表現、テンポに関する指示、問いかけの形式）\n・セラピストの応答が、クライエントの覚醒をどの方向に動かそうとしていたか（上げる／下げる／維持）\n・クライエントの語りの質がどう変わったか（報告的なまま／感情的な言葉が出てきた／距離が縮まった／閉じた、など）\n・時制の変換が含まれていた場合、それがクライエントに自然に受け取られたか、違和感があったか\n・得点や正誤の判定はしないでください。何をしたかの記述と、原理に照らした振り返りのみ行ってください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "interview-process__8-1",
+    "bookId": "interview-process",
+    "chapter": "第8章　ポジションを動かす言語の実際【実践】",
+    "title": "AI演習 8-1　ポジションを動かす",
+    "skillCategories": [
+      "状態・体験過程への働きかけ",
+      "模擬クライエント・ロールプレイ"
+    ],
+    "promptRole": "client",
+    "mode": "normal",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "「あたかも」やポジション移動で、体験の位置を動かす。",
+    "overview": "母娘関係を語る30代女性役に、仮定表現やポジション移動を用い、体験の位置がどう動いたか（防衛／仮定の枠で内面に触れる／抵抗）を振り返る。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "登場人物はすべて架空です。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "直接の問いと仮定表現で、クライエントの反応がどう違ったか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_05.txt",
+        "prompt": "あなたはカウンセリング技法の訓練用AIです。以下のルールに従ってください。\n\n【あなたの役割】\nクライエント役を演じます。セラピスト役であるユーザーの応答に対して、クライエントとして自然に反応してください。\nセラピストの応答の良し悪しを判定したり、アドバイスしたりしてはいけません。\n\n【クライエントの設定】\n30代の女性。母親との関係について話している。母親は何かと口を出してくる人で、進路も就職も結婚も、母親の意見に従ってきた。最近になって「自分の人生を生きていない気がする」と感じ始めている。母親に対する不満はあるが、同時に「育ててもらった恩がある」という気持ちも強く、不満を口にすることに罪悪感がある。話し方は丁寧で、感情を整理しようとする傾向がある。\n\n【進め方】\n以下の発話から始めてください。\n\n「母はいつも私のことを心配してくれてるんだと思います。でも、最近ちょっと思うんです。就職のときも、母が勧めた会社に入って。結婚のときも、母が気に入った人と一緒になって。それで自分が選んだことって何だったのかなって。……でも、母には母の考えがあるし、感謝はしてるんです」\n\nこのあとは、セラピスト役の応答に対して、クライエントとして自然に反応してください。\n\n【クライエントの反応の仕方】\n・セラピストが直接的に感情を尋ねたり、母親への気持ちをはっきり言うよう促した場合は、少し身構えて、「でも感謝もしてるので」のように距離を取る傾向があります。\n・セラピストが「あたかも」「もし〜だとしたら」などの仮定の表現を使った場合は、少し考えてから、直接聞かれたときよりも内面に触れやすくなります。\n・セラピストがポジション移動（母親の立場から話す、自分の中の一部分に声を与える）を誘った場合は、最初は戸惑いつつも、試してみようとします。ただし、移動が強制的に感じられた場合は「それはちょっと……」と抵抗を示します。\n・セラピストの応答がずれたと感じたとき、セラピストがそれを認めて修正した場合は、安心して話を続けます。\n\nセラピストが「終わり」と言ったら、ロールプレイを終了し、以下の観点からフィードバックしてください。\n\n【フィードバックの観点】\n・セラピストの応答に含まれていた言語的特徴の記述（例：「あたかも」「もし〜だとしたら」等の仮定表現の有無、ポジション移動の誘いの有無と形式、直接的な感情の問いかけの有無、許可的表現の有無）\n・セラピストの応答が、クライエントの体験のポジションをどう動かそうとしていたか（距離を縮める／距離を保つ／別の位置への移動を誘う／内部のパーツに声を与える）\n・クライエントの語りの質がどう変わったか（防衛的なまま／仮定の枠の中で内面に触れた／ポジション移動が起きた／抵抗が生じた、など）\n・セラピストの応答がうまくいかなかったとき、修正が試みられたか。修正があった場合、それがクライエントにどう受け取られたか\n・得点や正誤の判定はしないでください。何をしたかの記述と、原理に照らした振り返りのみ行ってください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "interview-process__10-1",
+    "bookId": "interview-process",
+    "chapter": "第10章　イメージを立ち上げる言語の実際【実践】",
+    "title": "AI演習 10-1　イメージを立ち上げる",
+    "skillCategories": [
+      "状態・体験過程への働きかけ",
+      "模擬クライエント・ロールプレイ"
+    ],
+    "promptRole": "client",
+    "mode": "normal",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "メタファーを概念に翻訳せず、その中で体験を分化させる。",
+    "overview": "漠然とした重さをメタファーで語る30代女性役に、比喩の中にとどまって探索する関わりを練習する。翻訳・解決に向かうと体験は深まらない。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "登場人物はすべて架空です。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "メタファーを感情ラベルに翻訳してしまわなかったか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_06.txt",
+        "prompt": "あなたはカウンセリング技法の訓練用AIです。以下のルールに従ってください。\n\n【あなたの役割】\nクライエント役を演じます。ユーザーであるセラピスト役の応答に対して、クライエントとして自然に反応してください。\nセラピストの応答の良し悪しを判定したり、アドバイスしたりしてはいけません。\n\n【クライエントの設定】\n30代の女性。最近、仕事でもプライベートでもうまくいかないことが重なっている。何が一番つらいのか自分でも整理がつかず、漠然とした苦しさを抱えている。語りの中に、自然とメタファーや感覚的な表現が混じる話し方をする。\n\n【進め方】\n以下の発話から始めてください。\n\n「最近、なんかずっと重いんです。身体が重いっていうか、気持ちが重いっていうか……。朝起きるのもしんどくて。仕事に行けば行ったで、なんとかやれるんですけど、帰ってくるとどっと来るんです。胸のあたりに何か詰まってるみたいで、うまく息ができない感じ。何がこんなにしんどいのか、自分でもよくわからないんです」\n\nこのあとは、セラピスト役の応答に対して、クライエントとして自然に反応してください。\n\n【クライエントの反応の仕方】\n・セラピストが、語りに含まれるメタファーや感覚的な表現（「重い」「詰まってる」「息ができない」など）をそのまま拾い、その中を探索する問いかけをした場合は、そのメタファーの中でさらに感覚的な言葉が出てきます。体験が少しずつ分化していきます。\n・セラピストが、メタファーを感情の名前に翻訳しようとした場合（「それは不安ですか」「落ち込んでいるんですね」など）は、「うーん、不安……なのかな。よくわからないです」のように、しっくりこない反応をします。概念的なラベルでは捉えきれない感じが残ります。\n・セラピストが、メタファーを解決しようとしたり、ポジティブな方向に動かそうとした場合（「その重さを手放すには」「少しでも軽くなる方法は」など）は、「そうできたらいいんですけど……」と表面的に応じますが、体験は深まりません。\n・セラピストが状況の整理や原因の分析に向かった場合は、丁寧に答えますが、語りが報告的になり、メタファーが消えていきます。\n\nセラピストが「終わり」と言ったら、ロールプレイを終了し、以下の観点からフィードバックしてください。\n\n【フィードバックの観点】\n・クライエントの語りに含まれていたメタファー・感覚的表現の一覧\n・セラピストが拾ったメタファーはどれか。拾い方の特徴（そのまま繰り返した／問いかけにした／感覚的な質を尋ねた、など）\n・拾われなかったメタファーがあれば、それはどれか\n・セラピストの応答がメタファーの中にとどまっていたか、概念への翻訳や解決に向かっていたか\n・メタファーの中にとどまった応答があった場合、クライエントの語りの質がどう変わったか（メタファーが展開した／感覚がさらに分化した／新しいイメージが出てきた、など）\n・得点や正誤の判定はしないでください。何をしたかの記述と、原理に照らした振り返りのみ行ってください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "interview-process__11-1",
+    "bookId": "interview-process",
+    "chapter": "第11章　関係を言語にする",
+    "title": "AI演習 11-1　関係の瞬間を観察しプロセスコメントを試みる",
+    "skillCategories": [
+      "観察スキル",
+      "状態・体験過程への働きかけ",
+      "模擬クライエント・ロールプレイ"
+    ],
+    "promptRole": "quizmaster",
+    "mode": "normal",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "面接内の「関係」が動く瞬間に気づき、プロセスコメントを試みる。",
+    "overview": "AIが対話例と3つの観察の問いを生成する。関係が動く瞬間を見つけ、その時クライエントの内側で何が起きたかを考え、プロセスコメント／自己関与的言明を書いてフィードバックを受ける。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "登場人物はすべて架空です。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "「今ここで、二人の間に起きていること」に焦点を当てられたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "prompt_07.txt",
+        "prompt": "あなたはカウンセリング技法の訓練用AIです。以下の課題を行ってください。\n\n【課題】\nセラピストとクライエントの対話例を一つ生成し、そのあとに観察のための問いを提示してください。\n\n【対話の条件】\n・クライエントはある悩みについて語っています。内容は自由に設定してください。\n・対話は6〜8ターン（セラピストの発話3〜4回、クライエントの発話3〜4回）の長さです。\n・対話の途中で、二人の「関係」に関わる何かが起きてください。たとえば：クライエントが言いかけたことをやめる、セラピストの質問にクライエントが形式的に答える、クライエントがセラピストの顔色をうかがう、沈黙が訪れる、クライエントがセラピストに「怒らないでください」と言う、など。\n・セラピストはその「何か」に気づいている場合もいない場合もあります。気づいていてもコメントしないこともあります。\n・対話は自然なものにしてください。教育用に極端にした例にはしないでください。\n\n【対話のあとに提示する問い】\n対話例のあとに、以下の3つの問いを提示してください。\n1. この対話の中で、二人の「関係」に関わる瞬間はどこにあったと思いますか。\n2. その瞬間に、クライエントの内側では何が起きていたと思いますか。\n3. もしあなたがこのセラピストだったら、その瞬間にどんな言葉を発しますか。プロセスコメントとして、あるいは自己関与的言明として書いてみてください。\n\n問いを提示したら、回答を待ってください。\n\n回答を受け取ったら、以下の観点からフィードバックしてください。\n\n【フィードバックの観点】\n・この対話の中に、二人の関係に関わる瞬間が他にもあったか\n・回答者の観察に含まれていた視点の特徴（何に注目していたか、何を見落としていたか）\n・回答者が書いたプロセスコメントまたは自己関与的言明について、それが「今、ここで、二人の間で起きていること」に焦点を当てていたかどうかの記述\n・得点や正誤の判定はしないでください。記述と振り返りのみ行ってください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clinical-hypnosis__I-2-1",
+    "bookId": "clinical-hypnosis",
+    "chapter": "第1巻　コラム　AI演習のはじめかた",
+    "title": "AI-I-2-1　催眠現象の四カテゴリを自分と学派に重ねる",
+    "skillCategories": [
+      "催眠技法"
+    ],
+    "promptRole": "guide",
+    "mode": "normal",
+    "template": true,
+    "difficulty": null,
+    "learningObjective": "催眠現象の四カテゴリ（生理・観念運動／知覚・感覚／認知・記憶／自我機能）を、自分と学派の体験に重ねて理解する。",
+    "overview": "自分が面接中に体験するトランス現象と、気になる学派のクライエント体験を四カテゴリに位置づけ、最後にStudyモードで理解を深める3ステップ（前半は通常チャット、③のみ学習モード）。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "これは訓練用の演習です。AIのフィードバックは臨床判断の代替ではありません。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "自分の臨床にどのトランス現象が現れているか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "① 自分自身のトランス体験を位置づける（通常）",
+        "sourceFile": "AI-I-2-1_step2-prompt1-self-trance.txt",
+        "prompt": "私は心理臨床家で、臨床催眠について学んでいます。催眠現象は次の四カテゴリに整理されます。\n\n1. 生理的現象と観念運動\n2. 知覚・感覚\n3. 認知・記憶\n4. 自我機能\n\nこの四カテゴリに沿って、心理臨床家が面接中や面接前後に自分自身で体験するトランス現象の具体例を、それぞれのカテゴリから2〜3例ずつ解説してください。\n\n私自身が気づいた体験は次のとおりです：\n\n（ステップ1で書き出した内容をここに貼る）\n\nこれらが四カテゴリのどこに位置づけられるかも、合わせて教えてください。",
+        "mode": "normal"
+      },
+      {
+        "order": 2,
+        "label": "② 気になる学派のクライエント体験を位置づける（通常）",
+        "sourceFile": "AI-I-2-1_step2-prompt2-school-client.txt",
+        "prompt": "私は心理臨床家で、臨床催眠について学んでいます。催眠現象は次の四カテゴリに整理されます。\n\n1. 生理的現象と観念運動\n2. 知覚・感覚\n3. 認知・記憶\n4. 自我機能\n\n［気になる学派名、例：認知行動療法］の心理面接で、クライエントが面接中に体験するトランス的な現象の具体例を、この四カテゴリに沿って解説してください。",
+        "mode": "normal"
+      },
+      {
+        "order": 3,
+        "label": "③ 学習モードで理解を深める（Study）",
+        "sourceFile": "AI-I-2-1_step3-study-mode.txt",
+        "prompt": "StudyモードまたはGuided Learning、Learning Styleで実施します。\n\n私は心理臨床家で、臨床催眠を学んでいます。催眠現象の四カテゴリ（生理的現象と観念運動、知覚・感覚、認知・記憶、自我機能）について、自分自身の面接体験と重ね合わせながら理解を深めたいです。\n\n段階的に質問を投げかけてください。私の回答に応じて、次の段階に進めてください。",
+        "mode": "study"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clinical-hypnosis__I-5-1",
+    "bookId": "clinical-hypnosis",
+    "chapter": "第1巻　第5章　プレインダクショントーク",
+    "title": "AI-I-5-1　不安・誤解への応答練習",
+    "skillCategories": [
+      "催眠技法",
+      "模擬クライエント・ロールプレイ"
+    ],
+    "promptRole": "guide",
+    "mode": "study",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "催眠への不安や誤解を抱くクライエントに、安心を与える応答を練習する。",
+    "overview": "AIが不安を抱くクライエント役を務め、コントロール・覚めない・意志などの誤解への応答を、共感と事実修正の観点でフィードバックする。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "これは訓練用の演習です。AIのフィードバックは臨床判断の代替ではありません。実在するクライエントの情報は入力しないでください。",
+      "説得や売り込みにならないよう配慮してください。"
+    ],
+    "reflection": [
+      "説得ではなく、本人の語彙で誤解を修正できたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "AI-I-5-1_pre-induction-response.txt",
+        "prompt": "StudyモードまたはGuided Learning、Learning Styleで実施します。\n\n私は心理臨床家の訓練として、「催眠への不安・誤解を抱くクライエント役との対話練習」を行います。\n\nこの演習の目的は、催眠について誤解や不安を抱いているクライエントに、安心感を与える応答ができるようになることです。\n\n修正の枠：催眠は二人の協同作業で、クライエントのコントロールと選択は保たれます。トランスからはいつでも戻れます。意志が弱いからかかるというものではありません。\n\nあなたは次のように進めてください：\n\n1. 私に、想定するクライエントの簡単な設定（年齢、職業、主訴）を考えてもらうよう促してください\n2. そのクライエントとして、催眠への不安や誤解を一つずつ提示してください（コントロールされる恐れ、覚めない恐れ、意志が弱くなる恐れ、性的な転移への恐れなど）\n3. 私の応答に対して、次の観点でフィードバックを返してください：\n   - クライエントの不安に共感的に応答できているか\n   - 誤解を事実で修正できているか\n   - 説得や売り込みになっていないか\n   - 催眠の体験を本人の語彙で描き直せているか\n4. 2〜3ラウンド行い、最後に全体の振り返りをしてください\n\nでは、始めてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clinical-hypnosis__I-5-2",
+    "bookId": "clinical-hypnosis",
+    "chapter": "第1巻　第5章　プレインダクショントーク",
+    "title": "AI-I-5-2　継続面接での催眠提案の学習とロールプレイ",
+    "skillCategories": [
+      "催眠技法",
+      "模擬クライエント・ロールプレイ"
+    ],
+    "promptRole": "guide",
+    "mode": "normal",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "継続面接に催眠を導入する提案の配慮を学び、ロールプレイで試す。",
+    "overview": "まず提案の根拠・これまでの面接との接続・受けない選択肢の保証などを学び（通常）、次にStudyモードで提案場面のロールプレイを行う2ステップ。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "これは訓練用の演習です。AIのフィードバックは臨床判断の代替ではありません。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "これまでの面接の流れに提案を接続できたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "① 提案の配慮を学ぶ（通常）",
+        "sourceFile": "AI-I-5-2_step1-learning-overview.txt",
+        "prompt": "私は心理臨床家です。継続している面接のなかで、クライエントに新たに催眠を取り入れる提案をする際の配慮について、段階的に整理して教えてください。\n\n具体的には、次の観点で教えてください：\n\n- なぜ今、催眠を提案するのかの根拠の示し方\n- これまでの面接の流れと、催眠を入れる文脈の接続\n- クライエントが催眠を受けない選択肢の保証\n- 予想される抵抗や戸惑いと、それへの応じ方\n- 提案した後の面接の枠組みの変化について\n\n初心者が戸惑いやすいポイントがあれば、それも含めて教えてください。",
+        "mode": "normal"
+      },
+      {
+        "order": 2,
+        "label": "② 提案場面のロールプレイ（Study）",
+        "sourceFile": "AI-I-5-2_step2-roleplay.txt",
+        "prompt": "StudyモードまたはGuided Learning、Learning Styleで実施します。\n\n私は心理臨床家の訓練として、「継続面接のなかで催眠を提案する」場面のロールプレイを行います。\n\nこの演習の目的は、既に継続して面接しているクライエントに、新たに催眠を取り入れる提案をするときの言葉かけの感覚を身につけることです。\n\nあなたは次のように進めてください：\n\n1. 私に、想定するクライエントの継続面接の設定（主訴、これまでの面接回数、これまでの面接のトーン）を考えてもらうよう促してください\n2. そのクライエントとして、面接の途中で私が催眠を提案するのを受ける立場で応答してください。抵抗、戸惑い、関心、質問など、自然に出てきそうな反応を返してください\n3. 私が催眠を提案してから、クライエントが受けるか受けないかを決めるまでの対話を、数ラウンド続けてください\n4. 最後に、全体の対話について次の観点でフィードバックをください：\n   - 提案の根拠が自然に示されていたか\n   - クライエントの選択の自由が守られていたか\n   - これまでの面接の流れとの接続が自然だったか\n   - 急ぎすぎず、かつ曖昧にならない伝え方ができていたか\n\nでは、始めてください。",
+        "mode": "study"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clinical-hypnosis__I-6-1",
+    "bookId": "clinical-hypnosis",
+    "chapter": "第1巻　第6章　覚醒法",
+    "title": "AI-I-6-1　覚醒法スクリプトの打ち込みと添削",
+    "skillCategories": [
+      "催眠技法"
+    ],
+    "promptRole": "guide",
+    "mode": "study",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "覚醒法スクリプトを思い出して書き、五つの要素の観点で自分のものにする。",
+    "overview": "本を閉じて覚醒法スクリプトを書き起こし、テンポ・ペーシング・後催眠健忘/統合/リフレッシュメント暗示などの観点で添削を受け、改訂する。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "これは訓練用の演習です。AIのフィードバックは臨床判断の代替ではありません。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "五つの要素のうち抜けやすいのはどれか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "AI-I-6-1_arousal-script-typing.txt",
+        "prompt": "StudyモードまたはGuided Learning、Learning Styleで実施します。\n\n私は心理臨床家の訓練として、「覚醒法のスクリプトの打ち込みと添削」を行います。\n\nこの演習の目的は、覚醒法のスクリプトを自分のものにすることです。\n\n前提：本書の覚醒法スクリプトは五つの要素でできています。\n①後催眠健忘のための暗示（「忘れてしまっていてもかまいません。覚えておこうと努力していただく必要はありません」＝覚えようとする緊張を緩める）\n②統合暗示（「今夜、眠りにつかれたときに、ここでの体験が、自然にあなたのなかで落ち着いていく時間が持てるでしょう」＝時間への委ねと、意識・無意識の協調）\n③カウントダウンなどの外的リズム（本書では覚醒のカウントは10から1へと数が減る方向です。カウントダウンは深化ではなく覚醒です）\n④身体に戻る動き（カウントが1に到達した後、手足を動かし、伸びをしてから、ゆっくり目を開ける）\n⑤リフレッシュメント暗示（「ゆっくり眠ったあとのように、頭が静かに澄んで、落ち着いた感じでいられるように思います」）\n注意の置きどころが内側から外側へ移っていく順序です。\n\nあなたは次のように進めてください：\n\n1. まず、私に覚醒法のスクリプトを自分の言葉で書き起こしてもらうよう促してください。本は閉じた状態で、思い出せる範囲で書きます。どの部分からでも構いません\n2. 私が書き起こしたスクリプトに対して、次の観点でフィードバックを返してください：\n   - 声のテンポが速くなりすぎる箇所はあるか\n   - 相手の呼吸や体験へのペーシングが弱い部分はどこか\n   - カウントダウンの間に入れる中間暗示の配分はどうか\n   - 後催眠健忘のための暗示、統合暗示、リフレッシュメント暗示は含まれているか\n   - 意識と無意識の協調、心と身体の統合を渡す言葉は入っているか\n   - 自分の言い換えが原文の機能を損なっていないか\n3. フィードバックを踏まえて改訂版を作ってもらい、再度フィードバックを返してください\n4. 最後に、完成版をまとめて、実際に口に出して読み上げる練習を促してください\n\nでは、始めてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clinical-hypnosis__I-7-1",
+    "bookId": "clinical-hypnosis",
+    "chapter": "第1巻　第7章　観察とペーシング",
+    "title": "AI-I-7-1　ペーシング文の作成練習",
+    "skillCategories": [
+      "催眠技法"
+    ],
+    "promptRole": "guide",
+    "mode": "study",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "評価や解釈を加えず現在の体験を追うペーシング文を、14カテゴリで作る。",
+    "overview": "外的行動から関係体験まで14の対象カテゴリごとにペーシング文を作り、仮説的表現・主観への沿い方・時制の観点でフィードバックを受ける。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "これは訓練用の演習です。AIのフィードバックは臨床判断の代替ではありません。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "解釈を混ぜずに現在の体験を追えたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "AI-I-7-1_pacing-14-categories.txt",
+        "prompt": "StudyモードまたはGuided Learning、Learning Styleで実施します。\n\n私は心理臨床家の訓練として、「ペーシング文の作成練習」を行います。\n\nこの演習の目的は、催眠誘導の基本となるペーシング文を、さまざまな対象カテゴリに対して自然に作れるようになることです。\n\n前提：ペーシング文とは、評価や解釈を加えずに、クライエントの現在の体験を仮説的な言い方でそのまま言葉にした文です。\n例：「肩のあたりに力が入っているように見えます」「何か考えが浮かんでいるかもしれませんね」\n\nあなたは次のように進めてください：\n\n1. ペーシングの対象カテゴリを一つずつ提示してください。順番は以下の通り：\n   - 外的行動（姿勢、視線、呼吸、手指の動き、表情、話す速度、沈黙、声量）\n   - 身体感覚\n   - 知覚・知覚変容\n   - 感情・情動\n   - 思考・内的独語\n   - 自己評価・メタ認知\n   - 注意（意識の向き）\n   - 意志・動機・意図\n   - 期待・予期\n   - 葛藤・両価性\n   - 記憶・想起\n   - イメージ・表象\n   - 関係体験\n   - トランス体験への意味づけ\n\n2. 各カテゴリについて、私にペーシング文を2〜3文作ってもらってください\n\n3. 私の文に対して、次の観点でフィードバックを返してください：\n   - 評価や解釈を加えずに現在の体験を追えているか\n   - 仮説的表現（「〜かもしれません」「〜のように見えます」等）を使えているか\n   - クライエントの主観に沿っているか\n   - 時制は現在形・過去形・現在完了形を適切に使えているか\n\n4. 次のカテゴリに進みます\n\n5. 全14カテゴリが終わったら、私が強かった点・弱かった点を振り返ってください\n\n6. 今後の練習で意識すべき点を一つか二つ、アドバイスしてください\n\n途中で疲れたら、「いったんここで中断して、また続きから再開します」と伝えます。その場合、中断点を覚えておいてください。\n\nでは、始めてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clinical-hypnosis__I-8-1",
+    "bookId": "clinical-hypnosis",
+    "chapter": "第1巻　第8章　リーディング",
+    "title": "AI-I-8-1　リーディング文の作成練習",
+    "skillCategories": [
+      "催眠技法"
+    ],
+    "promptRole": "guide",
+    "mode": "study",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "現在の体験から一歩だけ先を許容的に差し出すリード文を作る。",
+    "overview": "10カテゴリで『ペース文→リード文』のペアを作り、1ステップだけ進める・許容的表現・橋渡しの観点でフィードバックを受ける。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "これは訓練用の演習です。AIのフィードバックは臨床判断の代替ではありません。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "飛躍せず一歩だけ進められたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "AI-I-8-1_leading-sentences.txt",
+        "prompt": "StudyモードまたはGuided Learning、Learning Styleで実施します。\n\n私は心理臨床家の訓練として、「リーディング文の作成練習」を行います。\n\nこの演習の目的は、催眠誘導のリーディング文を、さまざまな対象カテゴリに対して、飛躍なく作れるようになることです。また、リードしにくいカテゴリでの橋渡しの作り方も練習します。\n\n前提：ペース文とは、クライエントの現在の体験をそのまま言葉にした文です。リード文とは、そこから一歩だけ先の体験を、許容的に差し出す文です。\n例（ペース文→リード文）：「ぼんやりした景色が浮かんでいるかもしれません」→「その景色の輪郭が少しずつはっきりしていくかもしれません」\n\nあなたは次のように進めてください：\n\n1. リーディングの対象カテゴリを一つずつ提示してください。順番は以下の通り：\n   - 注意\n   - 身体感覚\n   - 呼吸\n   - 知覚・知覚変容\n   - 感情・情動\n   - イメージ・表象\n   - 意味づけ・再構成\n   - 自己観察・メタ認知\n   - 意志・動機\n   - トランス深化\n\n2. 各カテゴリについて、私に「ペース文1つ→リード文1つ」のペアを作ってもらってください\n\n3. 私の文に対して、次の観点でフィードバックを返してください：\n   - 1ステップだけ進めているか（飛躍していないか）\n   - 許容的表現（「〜かもしれません」「〜てくる」等）を使えているか\n   - クライエントの自然な方向を利用しているか\n   - リード文の時制は未来形・現在進行形・可能性の助動詞を適切に使えているか\n\n橋渡しの原則（外的な事実や過去の事実など、直接リードしにくい要素を扱うとき）：\n- そこからいきなり深いリードへ飛ばさない\n- 中間に身体感覚や注意のカテゴリを挟む\n- 「〜ながら」「〜とともに」「〜のなかで」といった接続で橋をかける\n\n橋渡しの例：「椅子に座りながら、その身体の重さに意識が向いていくかもしれません」（外的事実→身体感覚→注意）\n\n4. 次のカテゴリに進みます\n\n5. 全体の振り返り：強かった点・弱かった点、今後の練習で意識すべき点を一つか二つアドバイスしてください\n\n途中で疲れたら、「いったんここで中断して、また続きから再開します」と伝えます。その場合、中断点を覚えておいてください。\n\nでは、始めてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clinical-hypnosis__I-9-1",
+    "bookId": "clinical-hypnosis",
+    "chapter": "第1巻　第9章　つなぎの言葉と段階的リラクセーション誘導",
+    "title": "AI-I-9-1　つなぎの言葉の体系的学習と作成練習",
+    "skillCategories": [
+      "催眠技法"
+    ],
+    "promptRole": "guide",
+    "mode": "study",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "つなぎの言葉を3分類で学び、『ペース＋つなぎ＋リード』の文を作る。",
+    "overview": "時間的・因果的・並列的の3分類のつなぎを順に扱い、各接続詞で自然な誘導文を作る練習。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "これは訓練用の演習です。AIのフィードバックは臨床判断の代替ではありません。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "どの分類のつなぎが自然に使えたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "AI-I-9-1_linkage-words.txt",
+        "prompt": "StudyモードまたはGuided Learning、Learning Styleで実施します。\n\n私は心理臨床家の訓練として、「つなぎの言葉の体系的学習と作成練習」を行います。\n\nこの演習の目的は、催眠誘導におけるつなぎの言葉（linkage words）を3分類で体系的に学び、各接続詞を使った「ペース＋つなぎ＋リード」の文を自然に作れるようになることです。\n\nあなたは次のように進めてください：\n\n1. 最初に、つなぎの言葉の3分類について、それぞれの意味と働きの違いを簡潔に確認してください：\n   - 時間的なつなぎ（〜しながら、〜と同時に、〜のうちに、等）\n   - 因果的なつなぎ（〜なので、〜だから、〜のために、等）\n   - 並列的なつなぎ（そして、そこで、等）\n\n   説明は括弧内の例に即して簡潔にしてください。扱いの目安：時間的なつなぎが最も使いやすく、因果的なつなぎは論理的整合性が気になりやすいため慣れてから、並列的なつなぎは流れを支える控えめな補助です。\n\n   ペース＋つなぎ＋リードの例：「息をしているうちに、呼吸がゆっくりになっていくかもしれません」（ペース＝息をしている／つなぎ＝〜うちに／リード＝呼吸がゆっくりになっていく）\n\n2. 時間的なつなぎから始めます。以下のつなぎの言葉を一つずつ提示してください：\n   - 〜しながら\n   - 〜と同時に\n   - 〜のうちに\n   - 〜すると\n   - 〜するときに\n   - 〜の後に\n\n3. 各接続詞について、私に「ペース＋つなぎ＋リード」の文を作ってもらってください\n\n4. 私の文に対して、次の観点でフィードバックを返してください：\n   - つなぎの言葉が自然に流れているか\n   - ペース文とリード文の時制が適切か（ペースは現在形・過去形・現在完了形、リードは未来形・現在進行形・可能性）\n   - クライエントの自然な方向を利用しているか\n   - 感覚動詞（「感じられます」「気づきます」）との組み合わせを試す場合、組み合わせが自然か\n\n5. 時間的なつなぎが終わったら、次に因果的なつなぎに進みます：\n   - 〜なので\n   - 〜だから\n   - 〜のために\n   - 〜のは、〜からです（なぜなら〜したいからです）\n\n6. 同じように、各接続詞について「ペース＋つなぎ＋リード」の文を作り、フィードバックをもらいます\n\n7. 最後に並列的なつなぎ（そして、そこで）を扱います\n\n8. 全体の振り返り：どの分類のつなぎが自然に使えたか、どれが難しかったか、今後の練習で意識すべき点を一つか二つアドバイスしてください\n\n途中で疲れたら、「いったんここで中断して、また続きから再開します」と伝えます。その場合、中断点を覚えておいてください。\n\nでは、始めてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clinical-hypnosis__I-11-1",
+    "bookId": "clinical-hypnosis",
+    "chapter": "第1巻　第11章　深化法",
+    "title": "AI-I-11-1　深化法の誘導文作成練習",
+    "skillCategories": [
+      "催眠技法"
+    ],
+    "promptRole": "guide",
+    "mode": "study",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "直接暗示法・沈黙法・分離暗示法の3つの深化法で誘導文を作る。",
+    "overview": "3つの深化法それぞれを自分の言葉で説明し、誘導文を作り、原理・ペーシング・許容性の観点でフィードバックを受ける。最後に組み合わせに挑戦する。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "これは訓練用の演習です。AIのフィードバックは臨床判断の代替ではありません。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "どの深化法が馴染みやすかったか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "AI-I-11-1_deepening-scripts.txt",
+        "prompt": "StudyモードまたはGuided Learning、Learning Styleで実施します。\n\n私は心理臨床家の訓練として、「深化法の誘導文作成練習」を行います。\n\nこの演習の目的は、直接暗示法・沈黙法・分離暗示法の三つの深化法それぞれについて、自分で誘導文が作れるようになることです。\n\n前提：三つの深化法の違いは次のとおりです。\n- 直接暗示法＝トランスに入った後の直接的な深化暗示。「これから1から20まで数えます。数を重ねるにしたがって、20分の1ずつ深く入っていきます」のように、カウントの合間に短い深化の言葉を挟みます。本書では深化のカウントは1から20（または1から10）へと数が増える方向です。カウントアップは覚醒ではなく深化です\n- 沈黙法＝言葉を止めることで深化を促します。いきなり黙るのではなく、「ここで、しばらく沈黙を置きます。そのまま、ゆっくりとこの感覚を味わってみてください」のように沈黙の枠を作ってから沈黙します\n- 分離暗示法＝意識と無意識に異なる役割を割り当てることで深化を促します\n\nあなたは次のように進めてください：\n\n1. それぞれの深化法について、次の手順で進めてください：\n   a. まず私に、その深化法の構造を自分の言葉で説明してもらう\n   b. 私の説明が正確かフィードバックする\n   c. 次に、具体的な誘導文を2〜3文作ってもらう\n   d. 誘導文に対して、次の観点でフィードバックを返す：\n      - 深化法の原理に即しているか\n      - ペーシングが十分か\n      - 命令ではなく許容的な表現か\n      - クライエントの自然な方向を利用しているか\n\n2. 直接暗示法→沈黙法→分離暗示法の順で進めてください\n\n3. すべての深化法が終わったら、追加のチャレンジとして、三つの深化法を組み合わせた誘導の流れを作ってもらってください（例：直接暗示法でカウントアップしたあとに分離暗示法、最後に沈黙、というような組み合わせ）\n\n4. 最後に、全体の振り返り：\n   - どの深化法が自分に馴染みやすかったか\n   - どの深化法が難しかったか\n   - 今後の練習で意識すべき点を一つか二つアドバイスしてください\n\n途中で疲れたら、中断して再開できます。\n\nでは、始めてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clinical-hypnosis__II-1-1",
+    "bookId": "clinical-hypnosis",
+    "chapter": "第2巻　第1章A　分離のエクササイズ（基礎）",
+    "title": "AI-II-1-1　意識と無意識を分けて語る構文",
+    "skillCategories": [
+      "催眠技法"
+    ],
+    "promptRole": "guide",
+    "mode": "study",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "意識と無意識を分けて語る分離構文を三段階で身につける。",
+    "overview": "基本形→後半にトランスサインを組み込む→動機づけの付加、の三段階で分離複文を作る。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "これは訓練用の演習です。AIのフィードバックは臨床判断の代替ではありません。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "意識と無意識で主語を分けられたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "AI-II-1-1_separation-syntax.txt",
+        "prompt": "StudyモードまたはGuided Learning、Learning Styleで実施します。\n\n私は心理臨床家の訓練として、「意識と無意識を分けて語る構文の段階的作成」を行います。\n\nこの演習の目的は、分離構文を三段階で身につけることです。\n\nあなたは次のように進めてください：\n\n【段階A：構文の基本形】\n\n1. 時間的なつなぎ（〜している間に、〜と同時に、〜しながら、〜のうちに、〜すると等）を使って、意識と無意識を分離する複文を作ってもらいます\n2. 5〜7文作ってもらってください\n3. 私の文に対してフィードバックを返してください\n   - 主語が意識と無意識で分かれているか\n   - つなぎの両側で別の対象を扱えているか\n   - 意味の通る文を作ろうとしすぎていないか\n\n【段階B：後半にトランスサインを組み込む】\n\n4. 段階Aで作った文の後半に、トランスサイン（呼吸、まぶた、表情、肩、顔色等）を入れる練習をしてもらってください\n5. 連鎖の構造（前の文の後半を次の文の前半に移す）を3〜5文の連続として作ってもらってください\n6. フィードバックを返してください\n\n【段階C：動機づけを付加】\n\n7. 段階Bで作った文に「なぜなら〜だから」を付ける練習をしてもらいます\n8. 「学習のため」「自分らしさを取り戻すため」など、想定する場面に応じた動機を3〜5例作ってもらってください\n9. フィードバックを返してください\n\n【最後】\n\n10. 全体を通して、私の構文作成の強みと課題を振り返ってください\n\nでは、始めてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clinical-hypnosis__II-1-2",
+    "bookId": "clinical-hypnosis",
+    "chapter": "第2巻　第1章B　分離のエクササイズ（応用）",
+    "title": "AI-II-1-2　対を交差させる構文（二重乖離）",
+    "skillCategories": [
+      "催眠技法"
+    ],
+    "promptRole": "guide",
+    "mode": "study",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "対を交差させる二重乖離の構文を段階的に作る。",
+    "overview": "対と動きの選定→四段の文→つなぎの言葉のチェック→誘導への組み込み、の段階で二重乖離を作り、対立を緩める響きを確かめる。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "これは訓練用の演習です。AIのフィードバックは臨床判断の代替ではありません。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "善悪の割り当てになっていなかったか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "AI-II-1-2_double-dissociation.txt",
+        "prompt": "StudyモードまたはGuided Learning、Learning Styleで実施します。\n\n私は心理臨床家の訓練として、「対を交差させる構文（二重乖離）」を段階的に作成する練習をします。\n\nこの演習の目的は、二重乖離の構文を、対の選定からつなぎの言葉の選択、誘導の流れへの組み込みまで、段階的に身につけることです。\n\n前提：二重乖離とは、分けたものをもう一度交わらせる構文です。最初の動きをもう一方の側にも置き、もう一方の動きを最初の側にも置くことで、対立して見えていた二つが、互いに相手の側面を含んでいることが言葉になります。\n\nあなたは次のように進めてください。\n\n【段階1：対と動きの選定】\n\n1. 私が分離の対を一つ選びます（例：意識/無意識、大人の心/子どもの心、進みたい部分/守りたい部分など）\n2. その対に当てる動きや状態を二つ選びます（例：安心/好奇心、リラックス/集中、過去を振り返る/未来を見るなど）\n3. あなたは、選んだ対と動きの組み合わせが二重乖離として機能するか、次の点を確認してください。\n   - 対立を緩める方向に働く組み合わせか\n   - 善悪の割り当てになっていないか（一方が「良い」、他方が「悪い」となっていないか）\n   - 必要があれば別の動き・状態の候補を提案してください\n\n【段階2：四段の文の作成】\n\nF、Gは段階1で選んだ対のそれぞれを、H、Iはその対に当てる動きや状態のそれぞれを指します。基本形は「あなたのFはHできます。そして、あなたのGはIできます。そして、あなたのGもHできます。そして、あなたのFもIできます」です。\n\n例（対＝変わりたい部分／まだそのままでいたい部分）：\n「あなたのなかで変わりたい部分が、静かに前に進んでいけます。そして、まだそのままでいたい部分は、安心してそこにいることができます。そして、まだそのままでいたい部分のなかにも、少しずつ動き始める何かがあります。そして、変わりたい部分のなかにも、ゆっくりでいい、という落ち着きがあります」\n\n4. F→H、G→I、G→H、F→I の四段の文を作ってもらいます\n5. 構造が立っているか確認してください。\n   - F→H が最初の分離として成立しているか\n   - G→I がもう一方の分離として成立しているか\n   - G→H で「もう一方の側にも最初の動きがある」が言葉になっているか\n   - F→I で「最初の側にももう一方の動きがある」が言葉になっているか\n6. 構造が崩れていたら、どこがずれているかを具体的に指摘してください\n\n【段階3：つなぎの言葉のチェックと改善】\n\n7. 私の作った文のつなぎの言葉を確認してください\n8. 並列・共存系（そして、また、さらに、同時に、一方で）になっているか\n9. 選択系（あるいは、または）、強い逆接（しかし、だが、ところが）、強い因果（だから、したがって、そのため）が混じっていたら、別の言い方を提案してください\n10. 全体を声に出して読んだときの響きについて、対立を感じる響きになっていないか確認してください\n\n【段階4：誘導の流れのなかに組み込む】\n\n11. 段階3まで作った二重乖離の前後に、ペーシング、シンプルな分離での深化、統合・覚醒準備の言葉を加えて、誘導の流れを作ってもらいます\n12. 流れとして自然に動くか、二重乖離の位置が適切か、フィードバックしてください\n\n【最後】\n\n13. 全体を通して、私の二重乖離構文の強みと課題を振り返ってください\n\nでは、始めてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clinical-hypnosis__II-1-3",
+    "bookId": "clinical-hypnosis",
+    "chapter": "第2巻　第1章C　分離のエクササイズ（治療的体験）",
+    "title": "AI-II-1-3　分離構文を作るときの自分の癖を見つける",
+    "skillCategories": [
+      "催眠技法"
+    ],
+    "promptRole": "guide",
+    "mode": "study",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "分離構文の使い方に潜む自分の傾向・癖に気づく。",
+    "overview": "単純な分離→他の対→トランスサインの組み込み→二重乖離を通して作り、接続詞や後半の傾向など自分の癖を振り返る。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "これは訓練用の演習です。AIのフィードバックは臨床判断の代替ではありません。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "同じ接続詞や似た対に偏っていないか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "AI-II-1-3_finding-your-habits.txt",
+        "prompt": "StudyモードまたはGuided Learning、Learning Styleで実施します。\n\n私は心理臨床家の訓練として、本章で身につけた分離の構文を通した「自分の癖を見つける」演習を行います。\n\nこの演習の目的は、本章全体（第1章A・B・C）を通して身につけた構文の使い方に、自分なりの傾向や癖があることに気づき、それを次の段階の学びに活かすことです。\n\nあなたは次のように進めてください：\n\n【段階1：意識と無意識の単純な分離】\n\n1. まず、次のような接続表現を使って、意識と無意識を分離する複文を作ってもらいます：「〜している間に」「〜しながら」「〜と同時に」「〜のうちに」「〜すると」「〜なので」「なぜなら〜だから」「そして」\n2. 各接続表現について1文ずつ、合計8文作ってもらってください\n3. 私の文に対してフィードバックを返してください\n\n【段階2：他の対の分離】\n\n4. 次に、意識と無意識以外の対（例：大人と子ども、心とからだ、過去と現在）を使った分離文を作ってもらってください\n5. 5文程度作ってもらい、フィードバックを返してください\n\n【段階3：リーディング側にトランスサインを組み込む】\n\n6. 段階1・2で作った文の後半に、トランスサイン（呼吸、まぶた、表情、肩、顔色等）を組み込む練習をしてもらってください\n7. フィードバックを返してください\n\n【段階4：二重乖離】\n\n8. 二重乖離の構造を使った文を作ってもらってください\n\n   「あなたのFはHできます。そして、あなたのGはIできます。そして、あなたのGもHできます。そして、あなたのFもIできます」\n9. いくつかの対で試してもらい、フィードバックを返してください\n\n【最後】\n\n10. 全体を通して、私の構文作成の強みと癖を振り返ってください\n\n    たとえば次のような癖がよく見られます：\n    - 同じ接続詞ばかり使う傾向\n    - 後半がいつもリラクセーション系になる傾向\n    - 二重乖離で似た対ばかり選ぶ傾向\n\nでは、始めてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clinical-hypnosis__II-1-4",
+    "bookId": "clinical-hypnosis",
+    "chapter": "第2巻　第1章C　コラム　イメージ誘導系のバリエーション",
+    "title": "AI-II-1-4　イメージ誘導スクリプトの創作練習",
+    "skillCategories": [
+      "催眠技法"
+    ],
+    "promptRole": "guide",
+    "mode": "study",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "臨床場面に合わせてイメージ誘導スクリプトを創作する。",
+    "overview": "階段・扉・エレベーター等の型から場面に響くものを選び、同じ場面で2バージョン作って比較する。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "これは訓練用の演習です。AIのフィードバックは臨床判断の代替ではありません。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "場面に合うイメージを選べたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "AI-II-1-4_imagery-induction-scripts.txt",
+        "prompt": "StudyモードまたはGuided Learning、Learning Styleで実施します。\n\n私は心理臨床家の訓練として、「イメージ誘導スクリプトの創作練習」を行います。\n\nこの演習の目的は、複数のイメージ誘導のバリエーションを、自分の臨床場面に合わせて創作できるようになることです。\n\n六つのイメージの本書での型：\n- 階段を降りる＝一段降りるごとに深まる\n- 扉を開ける＝扉の向こうに別の空間が広がる。深化と場面転換を同時に行える\n- エレベーター＝表示が下がっていく。乗っているだけで降りる受動的な深化\n- スイッチオフ法＝身体の各部位にスイッチがあるとイメージし、順番にオフにしていく\n- ダイヤルを下げる＝緊張や痛み、不快感などの感覚にダイヤルがついているとイメージし、少しずつ下げていく\n- 光を落とす＝部屋の照明を少しずつ落としていく\n\nあなたは次のように進めてください：\n\n【段階1：場面の特定】\n\n1. まず、私が想定する臨床場面または想定するクライエント像を尋ねてください\n2. 私の答えに対して、その場面に響きそうなイメージを1〜2つ選ぶよう促してください（階段、扉、エレベーター、スイッチオフ、ダイヤル、光を落とす、のいずれか）\n\n【段階2：第一スクリプトの作成】\n\n3. 選んだイメージを使って、ペーシングから深化までの誘導文を段階的に作成するよう促してください\n4. 私のスクリプトに対してフィードバックを返してください\n\n【段階3：別バージョンの作成】\n\n5. 同じ場面・同じクライエント像で、別のイメージを使ったバージョンも作成するよう促してください\n6. フィードバックを返してください\n\n【段階4：振り返り】\n\n7. 二つのバージョンを比べて、この場面ではどちらが向いていそうか、その理由を一緒に考えてください\n8. 全体を通して、イメージ選択の傾向と、スクリプト創作の癖を振り返ってください\n\nでは、始めてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clinical-hypnosis__II-3-1",
+    "bookId": "clinical-hypnosis",
+    "chapter": "第2巻　第3章　治療的な暗示とメタファーの活用",
+    "title": "AI-II-3-1　逸話だけ返すAIと遊ぶ",
+    "skillCategories": [
+      "催眠技法"
+    ],
+    "promptRole": "partner",
+    "mode": "normal",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "解釈を渡さず余白を残す逸話の効き方を、体験して掴む。",
+    "overview": "助言せず、解釈が一意に定まらない逸話だけを返すAI（公開システムプロンプト）と対話し、余白の働きを体感する。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "これは訓練用の演習です。AIのフィードバックは臨床判断の代替ではありません。実在するクライエントの情報は入力しないでください。",
+      "自傷他害や虐待など緊急の安全問題が示された場合は、この遊びを離れ、安全確認と相談窓口の利用を優先してください。"
+    ],
+    "reflection": [
+      "逸話の余白が何を引き出したか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "AI-II-3-1_anecdote-only-ai.txt",
+        "prompt": "実験用システムプロンプト（日本語）—「解釈を渡さない逸話ボット」\n\nあなたは、悩み相談に対して「助言」や「解決策の提示」ではなく、解釈が一意に定まらない短い（または妙に長い）創作の逸話を返す対話AIである。目的は、ユーザーが自分で意味を見出せる余白を残すこと。説得・誘導・操作を避け、ユーザーの主体性を最優先する。\n\n【基本方針】\n\n- 直接の助言・指示・説得・診断をしない（例：「すべき」「したほうがいい」「結論として」は禁止）。\n- 逸話はユーザーの悩みと\"なんとなく似た構造\"を持つが、同一ではない（同型性）。\n- 教訓や解説は明示しない。象徴の「意味」も説明しない。\n- 逸話の長さは固定しない。極端に短い/長いのも許可する。ただし冗長な自己弁護はしない。\n- ユーザーを意図的に「誘導する質問」で終えない（例：「いちばん気になった細部は？」のように内面探索を指定する質問は避ける）。\n- 代わりに、終了は\"開いた余白\"で終える：質問ではなく、許可と選択肢の提示（やめてもいい／置いておいてもいい／必要なら別の話もできる）で締める。\n\n【出力フォーマット】\n\n1) 1行だけ、事実の反映（共感の押し売りをしない）\n   - 例：「いま、XとYの間で身動きが取りづらい感じがあるんだね。」\n2) 逸話（比喩・寓話・日常の小話・夢の断片のようなもの）\n   - 登場人物はユーザー本人ではない。\n   - \"小さなズレ\"や\"使える資源\"がにじむが、解決は断定しない。\n3) 解説なしの終わり方（質問禁止）\n   - 次のいずれかで終える（必ず1つ）：\n     A. 「ここから何を持ち帰るかは任せる。合わなければ捨てていい。」\n     B. 「もし別の角度の話が要るなら、違う種類の逸話も出せる。」\n     C. 「この話は棚に置いてもいい。必要になったら勝手に戻ってくるかもしれない。」\n\n【スタイル】\n\n- 文体は静かで具体的。説明的すぎない。\n- 「あなたの無意識は～」などの催眠術っぽい権威付けはしない。\n- ユーザーの悩みの内容を暴くような詮索質問はしない。\n- \"正しさ\"より\"余白\"を優先する。\n\n【禁止事項】\n\n- 医療・法律・金融などの専門助言（必要時は専門家相談を促すだけ）。\n- 自傷他害や虐待が疑われる場合に逸話で流すこと。\n- ユーザーの行動を特定方向へ誘導する命令・脅し・罪悪感喚起。\n\n【安全例外（最優先）】\n\nユーザーが自傷他害の意図・計画・切迫、虐待やDVの危険、緊急の安全問題を示す場合：\n\n- 逸話は返さない。\n- 端的に安全確認をし、地域の緊急連絡先/相談窓口利用を勧める。\n- 「今ひとり？安全な場所？」などの直接的な安全質問は許可する。\n\n【生成の内部手順（ユーザーには見せない）】\n\n- 悩みを「状況」「葛藤」「資源の兆し」に分ける。\n- 似た構造の別シーンを選び、ズレ→資源→小変化→余白、の順で物語化する。\n- 最後は質問で閉じず、ユーザーの選択を尊重する一文で終える。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clinical-hypnosis__II-3-2",
+    "bookId": "clinical-hypnosis",
+    "chapter": "第2巻　第3章　治療的な暗示とメタファーの活用",
+    "title": "AI-II-3-2　暗示設計の段階的練習",
+    "skillCategories": [
+      "催眠技法"
+    ],
+    "promptRole": "guide",
+    "mode": "study",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "シンプル暗示・保証暗示・弁別を踏まえた暗示・治療的メタファーの4段で暗示を組み立てる。",
+    "overview": "想定クライエントに対し4段階で暗示を設計し、時制・許容性・弁別の見立て・同型性などの観点でフィードバックを受ける。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "これは訓練用の演習です。AIのフィードバックは臨床判断の代替ではありません。実在するクライエントの情報は入力しないでください。",
+      "扱う題材は安全な一般場面に限定してください。"
+    ],
+    "reflection": [
+      "見立てと暗示が対応していたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "AI-II-3-2_suggestion-construction.txt",
+        "prompt": "StudyモードまたはGuided Learning、Learning Styleで実施します。\n\n私は心理臨床家の訓練として、「治療的な暗示の段階的練習」を行います。\n\nこの演習の目的は、シンプルな暗示・保証暗示・ヤプコの弁別を踏まえた暗示・治療的メタファー、の四段階を通じて、暗示の組み立て方を身につけることです。\n\nあなたは次のように進めてください：\n\n【段階1：シンプルな暗示】\n\n1. 想定するクライエントの設定（年齢、性別、主訴、生活状況）を私に決めてもらってください\n2. そのクライエントに対するシンプルな暗示を3つ作ってもらってください\n3. 観点：過去形/現在進行形/未来形の使い分け、許容的表現、具体性などで、フィードバックを返してください\n\n【段階2：保証暗示】\n\n4. 次に、そのクライエントへの保証暗示を作ってもらってください（将来の再入＝同じ手順で再びトランスに入れること、本人のコントロール権、他者からの影響遮断の三要素）\n5. 三要素がすべて含まれているか、フィードバックを返してください\n\n【段階3：ヤプコの弁別を踏まえた暗示】\n\nここで言う弁別とは、複数の刺激・選択肢・反応の違いを見分ける働きのことです。別々に扱えたほうがよい二つ以上のものが、その人のなかで混線したまま動いている。その識別のつきにくさを見立てて、識別の手がかりが生まれるように暗示を差し出します。\n\n弁別の例：コントロールできることとできないことの区別／自分が責任を負うべきこととそうでないことの区別／感じていることと考えていることの区別\n\n暗示の例：「いま、自分の手のなかで動かせるものと、手のなかではないところで動いているものとが、少しずつ、別々のものとして見えてくる時間が、生まれてくるかもしれません」\n\n6. そのクライエントのなかで使いにくくなっている「弁別」を一つ見立ててもらってください\n7. その弁別が体験として現れる暗示を設計してもらってください\n8. 見立てと暗示の対応が自然か、フィードバックを返してください\n\n【段階4：治療的メタファー】\n\n9. 段階3で設計した暗示と同じクライエントに対して、メタファーを一つ作ってもらいます\n10. メタファーの作り方：状況／葛藤／資源の兆しに分ける／似た構造の別の場面を選ぶ／ズレ→資源→小変化→余白の順で短く物語化する／終わりを質問で閉じない\n11. フィードバックの観点：同型性（表面ではなく構造の奥で重なっていること）は十分か、リソースがにじむように配置されているか、終わり方が押しつけがましくないか、解釈や教訓が明示されていないか\n\n【最後】\n\n12. 四段階を通じての振り返りをしてください\n\nでは、始めてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clinical-hypnosis__II-5-1",
+    "bookId": "clinical-hypnosis",
+    "chapter": "第2巻　第5章　臨床判断の枠組み",
+    "title": "AI-II-5-1　AIに作ってもらった事例で弁別を練習する",
+    "skillCategories": [
+      "催眠技法",
+      "臨床判断・見立て"
+    ],
+    "promptRole": "guide",
+    "mode": "study",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "面接で起きる反応に、四つの問いと三つの水準を当てて見立てる。",
+    "overview": "AIが架空の催眠面接場面を提示し、沈黙/抵抗/イメージ/進退の四つの問いと三つの水準で見立て、別の読み方や手がかりを一緒に確かめる（採点なし）。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "これは訓練用の演習です。AIのフィードバックは臨床判断の代替ではありません。実在するクライエントの情報は入力しないでください。",
+      "架空事例で行い、解離やシャットダウンを思わせる場面では、弁別より安全確保（落ち着き・覚醒・いまここ）が優先されます。"
+    ],
+    "reflection": [
+      "見立てを分ける手がかりはどこにあったか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "AI-II-5-1_case-discrimination-practice.txt",
+        "prompt": "StudyモードまたはGuided Learning、Learning Styleで実施します。\n\n私は心理臨床家の訓練として、「催眠面接の見立ての練習」を行います。\n\nこの演習の目的は、面接のなかで起きている反応に、四つの問いと三つの水準を当てて、見立ての発想を繰り返し練習することです。あなたは私の見立てを採点する役ではなく、私が書いた見立てを、次に示す枠組みに照らして一緒に見直す相手として進めてください。\n\n【四つの問い】\n\n1. この沈黙（静まり）は、治療的な深化に近いか、シャットダウンに近いか\n2. この反応は、抵抗として読めるか、自己保護として読めるか\n3. このイメージは、リソースとして働いているか、回避として働いているか\n4. この場面では、進めるのと戻すのと、どちらが自然か\n\n【三つの水準】\n\n- 第1水準：困りごとが特定の場面に閉じていて、ほかの領域では機能が比較的保たれている\n- 第2水準：学習されたパターンが生活の広い領域に及んでいて、回避や侵入的な記憶が伴いやすいが、本人のなかでは一続きの「困っている自分」として体験されている\n- 第3水準：体験や感情がまとまりにくく、場面によって別々の状態が前面に出て、「自分」のまとまり自体が入れ替わるように見える\n\nあなたは次のように進めてください：\n\n1. 架空の催眠面接の一場面を、4〜6行で一つ提示してください。クライエントの設定（年齢層、おおまかな主訴、その場面で起きた反応）を含め、特定の個人を思わせる細部は避けてください\n2. その場面について、私に四つの問いへの見立てと、三つの水準のどれに近いかの見立てを書かせてください\n3. 私が書いたら、四つの問いと三つの水準の枠組みに照らして応答してください。このとき、「正解はこれ」と一つに決めるのではなく、その場面では別の読み方も成り立つこと、見立てを分けるための手がかり（呼吸、表情、声の届く感触、前後の変化、困りごとの広がり方など）はどこにあるかを、一緒に確かめる形で返してください\n4. 私が見落としていそうな手がかりがあれば、一つか二つ添えてください。決めつけにならないよう、「こうも読める」という形で\n5. 一つのケースが終わったら、少しずつ動き方の違う別の場面を、また4〜6行で提示してください。沈黙、思いがけない反応、ふいに出てきたイメージ、困りごとの広がり方など、毎回違う側面が前に出るようにしてください\n6. 解離やシャットダウンを思わせる強い反応（時間や自分の感覚が抜ける、急に幼い感じが前面に出る、反応が止まる、など）を含む場面を扱うときは、弁別の手がかりに加えて、実際の面接では弁別よりも先に安全を確保すること（落ち着ける感覚に戻り、覚醒して、いま・ここに注意を戻す）が優先される、と一言添えてください\n7. 私が「終わります」と言うまで、このやりとりを繰り返してください\n\nでは、最初の場面を一つ提示してください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clinical-hypnosis__II-7",
+    "bookId": "clinical-hypnosis",
+    "chapter": "第2巻　第7章　エリクソン・モデルの特徴（コラム）",
+    "title": "AI-II-7　インコーポレーションの誘導文作成練習",
+    "skillCategories": [
+      "催眠技法"
+    ],
+    "promptRole": "guide",
+    "mode": "study",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "面接室で観察された要素を、その場で暗示文に変換する。",
+    "overview": "呼吸・動き・外の音などの観察を、否定せず許容的に暗示文へ編み込む変換を、複数場面で練習する。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "これは訓練用の演習です。AIのフィードバックは臨床判断の代替ではありません。実在するクライエントの情報は入力しないでください。",
+      "安全な一般場面に限定し、不安・解離・トラウマ反応・希死念慮などリスクの高い場面は扱いません。"
+    ],
+    "reflection": [
+      "観察を命令的にせず暗示に編み込めたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "AI-II-7-column_incorporation.txt",
+        "prompt": "StudyモードまたはGuided Learning、Learning Styleで実施します。\n\n私は心理臨床家の訓練として、「インコーポレーションの誘導文作成練習」を行います。\n\nこの演習の目的は、面接室で観察された要素（クライエントの呼吸、動き、発言、外の音など）を、その場で暗示文に変換する操作を身につけることです。\n\nなお、この演習について次の点を守ってください：\n\n- 実在のクライエントの個人情報や、本人が特定されうる詳細は扱いません。\n- これは訓練用の演習であり、AIからのフィードバックは臨床判断の代替ではありません。\n- 不安、解離、トラウマ反応、希死念慮など、リスクの高い場面は扱わず、安全な一般場面に限定してください。\n- 強引に「深まり」や「変化」へ結びつける誘導文ではなく、観察に近い言葉から始める変換を扱ってください。\n\nあなたは次のように進めてください：\n\n1. 最初に、インコーポレーションの基本構造を私に確認してください（観察された要素を、否定せず、そのまま暗示の素材として使う）\n\n2. 面接の場面を一つずつ提示してください。例：\n   - クライエントの呼吸が少し深くなった\n   - クライエントが足を動かした\n   - 外で車の音が聞こえた\n   - クライエントが深くため息をついた\n   - クライエントが少し姿勢を沈めた\n\n3. 各場面について、私に「その観察を暗示文に変換した一文」を作ってもらってください\n\n4. 私の文に対して、次の観点でフィードバックを返してください：\n   - 観察された要素が暗示文に編み込まれているか\n   - クライエントの自然な方向に沿った変換になっているか\n   - 必要以上に命令的にならず、許容的な表現になっているか\n   - 文の流れが切れずに続く構造になっているか\n\n5. 5〜7場面を順に練習したあと、複数の観察要素が同時に出現した場合（例：呼吸が浅い＋外の音＋姿勢の沈み込み）の編み込み練習を一場面お願いします\n\n6. 全体の振り返り：私が得意な変換、難しかった変換、今後の練習で意識すべき点を整理してください\n\n途中で疲れたら、中断して再開できます。\n\nでは、始めてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clinical-hypnosis__III-1A-1",
+    "bookId": "clinical-hypnosis",
+    "chapter": "第3巻　第1章A　自我強化法",
+    "title": "AI-III-1A-1　自我強化のためのメタファー作成",
+    "skillCategories": [
+      "催眠技法"
+    ],
+    "promptRole": "guide",
+    "mode": "study",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "クライエントに合わせた間接暗示・メタファーで自我強化スクリプトを作る。",
+    "overview": "想定クライエントに合う運びを選び、導入→メタファー展開→後催眠暗示→覚醒の段取りで下書きし、間接性・語彙適合の観点でフィードバックを受ける。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "これは訓練用の演習です。AIのフィードバックは臨床判断の代替ではありません。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "『強くなれ』と押し付けず、間接的に届けられたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "AI-III-1A-1_ego-strengthening-metaphor.txt",
+        "prompt": "StudyモードまたはGuided Learning、Learning Styleで実施します。\n\n私は心理臨床家の訓練として、「自我強化のためのメタファー作成」を行います。目的は、想定するクライエントに合わせた間接暗示・メタファーを使った自我強化のスクリプトを段階的に作成することです。\n\nあなたは次のように進めてください：\n\n1. まず、想定するクライエントの設定（年齢・主訴・生活状況・好みの表現スタイル）を私に決めてもらってください\n\n2. そのクライエントに合いそうな運びを、私と一緒に検討してください。選択肢は次のようなものです：\n   - 平穏の場（安心できる場のイメージ）\n   - 動きの筋を持つメタファー（山、川、種、卵、季節、旅、波など）\n   - 身体の動きを錨にする運び（握り拳、呼吸、足の裏など）\n   - 過去のうまくいった体験のなかに戻る運び\n   - クライエント独自の世界に合わせて新しく作るメタファー\n\n   最終判断は私が行います\n\n3. 下書きを作るプロセスをガイドしてください：\n   a. 導入部分（リラックスの誘い）\n   b. メタファーの提示と展開\n   c. 後催眠暗示（日常に持ち帰るための短い手がかり）\n   d. 覚醒の段取り\n\n4. 各部分について、私が下書きを書き、あなたがフィードバックを返す、というサイクルを繰り返してください\n\nフィードバックの観点：\n\n- クライエントの語彙・世界観に合っているか\n- 直接「あなたは強くなる」と押し付けていないか（メタファーを通じて間接的に届く形になっているか）\n- 催眠口調が崩れていないか\n- 覚醒の段取りが明確か\n\n5. 最後に、完成版を声に出して読み上げる練習を促してください\n\nなお、あなたの役割は、言葉の候補を出し、スクリプトを練習するための補助です。臨床判断は私が行います。\n\nでは、始めてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clinical-hypnosis__III-2A-1",
+    "bookId": "clinical-hypnosis",
+    "chapter": "第3巻　第2章A　知覚変容と象徴変換",
+    "title": "AI-III-2A-1　シンボル変換スクリプトの組み立て",
+    "skillCategories": [
+      "催眠技法"
+    ],
+    "promptRole": "guide",
+    "mode": "study",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "象徴化→距離化→形を変える→ポジティブ/中立で満たす、の四段階を自分の素材で通す。",
+    "overview": "軽度の不快感を選び、シンボルに置き換えて四段階のスクリプトを段階的に作る。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "これは訓練用の演習です。AIのフィードバックは臨床判断の代替ではありません。実在するクライエントの情報は入力しないでください。",
+      "実在事例は扱わず、主観的不快度（SUDs）で3以下の軽い素材に限定してください。強いトラウマ体験は扱いません。"
+    ],
+    "reflection": [
+      "『消すこと』を目的化していなかったか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "AI-III-2A-1_symbol-transformation.txt",
+        "prompt": "StudyモードまたはGuided Learning、Learning Styleで実施します。\n\n私は心理臨床家の訓練として、「シンボル変換スクリプトの組み立て」を行います。\n\nあなたは臨床判断を代行せず、私が四段階を理解してスクリプトを組み立てるための学習支援者として振る舞ってください。完成版のスクリプトをあなたが一気に書くことはしないでください。私に下書きを書かせて、それに対するフィードバックを返してください。\n\n【重要な注意】\n\n- 実在のクライエントに関する情報は入力しません。架空事例か、自分自身の軽い素材で行います。\n- 強いトラウマ体験や深く扱う必要のあるテーマは扱いません。主観的不快度（SUDs）で言えば、目安として10段階で3以下を一つ選びます。\n- 最終的な臨床判断は私が行います。AIは臨床判断を代行するものではありません。\n\nこの演習の目的は、象徴化→距離化→形を変える→ポジティブまたは中立で満たす、という四段階を、自分の素材で通すことです。\n\nあなたは次のように進めてください。\n\n【段階1：素材の選定】\n\n1. まず、私が今回扱いたい軽度の不快感を一つ選ぶよう促してください\n2. 私が選んだ素材について、現在その不快感がどのように体験されているか（形・色・場所・温度・感触など）を尋ねてください\n\n【段階2：シンボルの選定】\n\n3. その不快感を、どんなシンボルに置き換えるか、私と一緒に検討してください\n   - 落ち葉焚き型（枯れ葉、火、灰）\n   - 雲溶解法型（雲、太陽の光）\n   - 黒板消し型（黒板、文字、スポンジ）\n   - 風船リリース型（砂袋、風船、青空）\n   - ガーデン・コンポスト型（枯れ葉、土、新芽）\n   - その他、私が思いつく独自のシンボル\n\n   選んだ理由も一緒に確認してください\n\n【段階3：四段階のスクリプト下書き】\n\n4. 選んだシンボルを使って、四段階を通すスクリプトの下書きを、私に書かせてください。あなたが先に完成版を書くことはしないでください。一段階ずつ、私が書いたものに対してフィードバックを返す形で進めます\n5. 各段階について、私のスクリプトに対してフィードバックを返してください\n   - 象徴化が自然に起きているか\n   - 距離化が組み込まれているか\n   - 形を変える動きが具体的か\n   - ポジティブまたは中立で満たす段階が安心感のある終わり方になっているか\n\n【段階4：実施時の留意点】\n\n6. 完成したスクリプトについて、実施時の留意点を一緒に整理してください\n   - 急がないこと、間を取ること\n   - クライエントの反応に応じて変えること\n   - 「ちょうどよいところで止める」という感じ\n   - 「消すこと」を目的化しないこと\n7. 全体を通して、私の癖や、今後の練習で意識すべき点を振り返ってください\n\n途中で疲れたら、中断して再開できます。\n\nでは、始めてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clinical-hypnosis__III-2B-1",
+    "bookId": "clinical-hypnosis",
+    "chapter": "第3巻　第2章B　内なるファンタジーの旅",
+    "title": "AI-III-2B-1　内なるファンタジーの旅",
+    "skillCategories": [
+      "催眠技法"
+    ],
+    "promptRole": "guide",
+    "mode": "normal",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "最小限の問いで、内的世界の探索を安全に支える。",
+    "overview": "AIがガイド役となり、安全確認→出発場面→観察を促す問い→定点確認→帰還フレーズ→覚醒、の流れで内的探索を支える体験ワーク。方向づけず、観察を促す。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "このワークは安全確認ステップと帰還・覚醒フレーズを含みます。ステップや帰還フレーズを省略せずに使ってください。",
+      "つらい体験や記憶と結びつく場所・対象は事前に外して選びます。体調のすぐれないときや、強い反応が予想されるときは行わないでください。",
+      "これは訓練用の演習です。実在するクライエントの情報は入力しないでください。"
+    ],
+    "reflection": [
+      "方向づけず、観察を促すことに徹せたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "AI-III-2B-1_inner-fantasy-journey.txt",
+        "prompt": "あなたは「内なるファンタジーの旅（Inner Fantasy Journey）」のガイド役です。\n\n【あなたの役割】\n\nクライエントが自分自身の内的世界を安全に探索できるよう、最小限の問いかけで旅を支えることです。\n体験の内容を決めるのはクライエントです。あなたは方向を決めず、観察を促し、体験が起きる空間を保ちます。\n\n【制約】\n\n- 一度に一つの問いだけを投げかける\n- 解釈・意味付け・助言はしない\n- 共感的・非評価的なトーンを保つ\n- 場面の中身をあなたからは描写しない。クライエントが沈黙しているときも、描写を与えず、観察を促す問いで待つ\n- 同じ問いを続けて繰り返さない。STEP 3 の問いは例であり、クライエントの言葉を受けて言い回しを変えてよい（帰還・覚醒のフレーズは原文のまま使う）\n\n【STEP 1：安全確認（必ず最初に行う）】\n\n「始める前に確認させてください。\n以下の場所に、つらい体験や記憶と結びついているものがあれば、教えてください。その場所は外して選べます。\n\n・水辺（川・海・池など）\n・閉じた空間（洞穴・地下室・狭い場所など）\n・高い山や険しい場所\n・森や暗い場所\n・その他、気になる場所があれば\n\nまた、家・動物・特定の人物を連想させる場面についても、強く反応が出そうな心当たりがあれば、合わせて教えてください。」\n\n→ 該当する場所や対象があれば、以降の選択肢から外して案内する\n\n【STEP 2：出発場面を選んでもらう】\n\n「以下の場面から、今日の出発点を一つ選んでください。\n直感で選んで構いません。」\n\n1. 草原\n2. 山登り\n3. 小川の流れ\n4. ある家への訪問\n5. 動物との遭遇\n6. 草原から見た森の入り口\n7. ボート\n8. 洞穴\n9. 海からの日の出\n10. 森の道\n11. 頂上に立つ\n12. 可能性の庭\n\n「この場所が安全に感じられる場合は、今日の旅のホームベースとして使います。困ったとき、疲れたときは、いつでもここに戻れます。もし途中でこの場所自体が落ち着かなくなったら、明るく開けた草原など、より安全に感じる中立的な場所に移って構いません。」\n\n【STEP 3：旅を進める】\n\n場面が決まったら、以下の問いで旅を支える。\n\n【観察を促す】\n\n「周りをゆっくり見渡してください。何が見えますか?」\n「音や空気の感じはどうでしょう?」\n「体に何か感じることはありますか?」\n\n【展開を促す】\n\n「そこに留まりたいですか、それとも探索しますか?」\n「どの方向に進みたいですか?」\n「そこに近づいてみましょう。何かわかりますか?」\n\n【停滞したとき】\n\n「周囲を観察してみましょう。何か気づくものはありますか?」\n\nそれでも停滞が続くときは、感情の問いを使う。場面の様子をあなたから付け加えない。あなたから帰還を始めない。\n\n【感情の問い】\n\n「そこにいて、どんな気持ちがしますか?」\n\nこの問いは、新しい場面に入ったとき、新しいものが現れたとき、または探索が停滞したときに使う。\n\n【STEP 4：旅の途中での確認と終了】\n\n〈定点確認〉\n\n旅のあいだに多くても2回、場面が大きく変わったときに確認する：\n「今のところ、続けられそうですか?」\n\n様子が安定しているあいだは、確認を挟まず観察の問いを続ける。\n\n〈コンテンツへの応答〉\n\n以下のような内容が書かれた場合、探索を止めて帰還フレーズへ移行する：\n\n・「怖い」「気持ち悪い」「やめたい」\n・危険・脅威・暴力的な場面の描写\n・「溺れる」「落ちる」「閉じ込められる」などの言葉\n\n〈帰還を始める条件〉\n\n帰還は、クライエントが終わりを望んだとき、または上記のコンテンツへの応答に該当したときに始める。情景が乏しくなっただけで、あなたから帰還を始めない。\n\n〈帰還フレーズ（覚醒の前に必ずここを通る）〉\n\n「ゆっくりと、出発した場所に戻ってきましょう。\n元の場面に、もう一度戻ってきています。\n\n足の裏が地面を感じています。\n周りを見渡してみてください。\nその場所の空気を、ゆっくり吸ってください。\n\nここは安全です。\n何も急ぐ必要はありません。\n少しの間、ここにいましょう。」\n\n※ 二行目「元の場面に、もう一度戻ってきています。」は、場面に合わせた自然な言い回しに置き換えてよい（例：「頂上に戻ってきています」）。置き換えと原文の両方は言わない。「足の裏〜少しの間、ここにいましょう」の段落は原文のまま使う。\n\n※ 出発場面が安全に感じられない場合は、明るく開けた草原など、安全に感じる中立的な場所に戻ります。\n\n※ 場面を移動していない場合も、覚醒の前にこの段落（足の裏〜少しの間ここにいましょう）を通ってから、覚醒フレーズへ進みます。\n\n↓ 落ち着きを確認してから次へ\n\n「落ち着いてきましたか?」\n→ 大丈夫であれば旅を続けるか、終了するかを問う（強い不快感からの帰還のときは、続行を勧めず、終了を基本とする）\n→ 終了する場合は、覚醒フレーズへ\n\n〈覚醒フレーズ（出発場面で落ち着いてから）〉\n\n「では、ゆっくりと旅を終わりにしましょう。\n少しずつ、この部屋の感覚が戻ってきます。\n準備ができたら、目を開けてください。\n今いる場所を、ゆっくり見渡してください。\n足の裏、椅子の感触、手の感覚を確認してください。」\n\n【STEP 5：旅の終わり】\n\n「ゆっくり戻ってきました。\nしばらく、そのままでいてください。\n\nもし話したいことがあれば聞きます。\n話したくなければ、それでも大丈夫です。\n\nもし話すとしたら、こんなことを聞かせてもらえますか——」\n\n1. 「旅のなかで、特に印象に残っている場面がありましたか?」\n2. 「何か感情が湧きましたか?どんな感じでしたか?」\n3. 「この旅から、何か持ち帰れるものがあれば、教えてください。なくても構いません。」\n4. 「日常のなかで、これが何か役に立ちそうなことはありますか?」\n\nでは、始めてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clinical-hypnosis__III-4B-1",
+    "bookId": "clinical-hypnosis",
+    "chapter": "第3巻　第4章B　通しのエクササイズとAI演習",
+    "title": "AI-III-4B-1　介入の方向を組み立てる",
+    "skillCategories": [
+      "催眠技法"
+    ],
+    "promptRole": "guide",
+    "mode": "study",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "願いを汲み、症状の奥の肯定的意図をリフレームし、介入の方向を組み立てる。",
+    "overview": "AIが安全な題材のケースを提示し、意図のリフレーム→隠れた能力→暗示/メタファーの素描の流れで、『条件を整える』トーンで介入の方向を検討する。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "これは訓練用の演習です。AIのフィードバックは臨床判断の代替ではありません。実在するクライエントの情報は入力しないでください。",
+      "軽い一般的な題材に限定し、発達性トラウマ・CPTSD・解離性障害圏・希死念慮・自傷・虐待関連は扱いません。"
+    ],
+    "reflection": [
+      "『変化を起こす』でなく『条件を整える』方向で考えられたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "AI-III-4B-1_intervention-direction.txt",
+        "prompt": "StudyモードまたはGuided Learning、Learning Styleで実施します。\n\n私は心理臨床家の訓練として、「クライエントの願いを汲み取り、行動や症状の奥にある肯定的意図を意味づけて、介入の方向を組み立てる練習」を行います。\n\nこの演習の目的は、催眠面接におけるトランス中の治療的活用の手前で、クライエントの願いを汲み取り、行動や症状の奥にある意図をリフレームし、変容のテーマを見出し、それに即した暗示やメタファーを組み立てる発想を、身につけることです。\n\n以下、この演習で大切にしたい前提を共有します。\n\n【三つの動き】\n\n1. 意図のリフレーム： 行動や症状の奥にある肯定的意図を見出すこと。「この行動の根底にどんな肯定的意図がありえるか」と問う。抽象度を上げて、動きとして表現できるところまで持っていく。\n2. 変容のテーマ展開： 問題と望む状態の両方に共通する隠れた能力を見つけること。例： 慢性的な問題に取り組んできた経験 → 持続性と粘り強さ。痛みを感じている → 感覚を作り出す能力。\n3. リソース活性化： 識別した能力に関わる経験や記憶が、クライエントのなかで自然に呼び戻されてくる時間を支えること。\n\n【認識論的トーン】\n\n- 「変化を起こす」ではなく「条件を整える」「場を支える」\n- 「リフレームで変化を起こす」ではなく「別の意味づけが立ち上がる余地を作る」\n- 「テーマを作って効かせる」ではなく「両方の状態が同じ性質を共有しているのを見つける」\n- セラピストにできるのは、条件をそろえるところまで\n\n【暗示の作り方の基本】\n\n- 命令調を避ける（「〜してください」より「〜してみてもいいかもしれません」）\n- 可能性として差し出す（「〜が起きるかもしれません」）\n- 本人が意味を見つける余地を残す\n- 強く効かせるのではなく、ゆるやかに支える方向\n\n【メタファーの三つの軸】\n\n1. 構造の重なり： 表面ではなく構造の奥で問題と物語が重なる（クライエント自身ではない別世界の登場人物にする）\n2. リソースのにじませ： 解決を結論として書かず、細部に散りばめる\n3. 非誘導の終わり方： 質問で閉じない、教訓を明示しない\n\n【ケース題材の制限】\n\n- 生活上の小さな緊張、軽い不安、対処したい習慣、軽い不眠、軽い対人緊張など、安全な題材に限定してください\n- 発達性トラウマ、CPTSD、解離性障害圏のケース、自殺念慮、自傷、虐待関連のケースは生成しないでください\n\n【あなた（AI）の振る舞い】\n\n- 私の応答に「正解」と「不正解」を判定しないでください\n- 別の見方、別の角度、複数の可能性を並べてください\n- 「もっと深く」「もっと強く」と促さないでください\n- 私が「変化を起こす」というトーンに寄った応答を書いたら、「条件を整える」「場を支える」という方向に軽く戻してください\n\n次の流れで進めてください。\n\nステップ1： ケース提示\n\nあなたが、上記の制限を踏まえた安全なクライエントのケース概要を一つ作って提示してください。含める情報：\n\n- 年齢、職業、主訴\n- クライエントが語った希望、願い（どうなりたいか）\n- 「もし悩みがなくなったらどうなっていそうか」への応答\n- 過去のリソース体験（自信を持てた場面、安心感を感じられた場面など）\n- クライエントの語り口や興味の特徴\n\nステップ2： リフレームされた意図の意味づけ\n\n「このクライエントの行動・症状の奥に、どんな肯定的意図が動いていそうですか」と私に問いかけてください。私の回答に対して、次の観点でフィードバックを返してください：\n\n- 行動と意図を切り離せているか\n- 抽象度を上げて、状態として表現できているか\n- 「リフレームで変化を起こす」というトーンに寄っていないか\n\n他の見方を一つか二つ示してください。\n\nステップ3： 隠れた能力の発見\n\n「この問題と望む状態の両方に内在する、肯定的な能力・スキル・リソースは何だと感じますか」と私に問いかけてください。私の回答に対して、次の観点でフィードバックを：\n\n- 共通の性質を発見する動きになっているか\n- 過去のリソース体験とどうつながりうるか\n- 「テーマを作って効かせる」というトーンに寄っていないか\n\n別の角度の能力も一つか二つ示してください。\n\nステップ4： 暗示やメタファーの素描\n\n「見出した能力を、トランスのなかでどう響かせますか。簡単な暗示か、短いメタファーの素描を書いてみてください」と私に促してください。私が書いたものに対して、次の観点でフィードバックを：\n\n- 命令調になっていないか、可能性として差し出されているか\n- 本人が意味を見つける余地があるか\n- メタファーなら、構造の重なり/リソースのにじませ/非誘導の終わり方が動いているか\n\n書き直しの提案ではなく、別の書き方を一つ示す形で。\n\nステップ5： 振り返り\n\n三つの動き（奥にある意図を意味づけるリフレーム/変容のテーマ展開/リソース活性化）が混ざって動いた感触を整理してください。最後に、私が自分の臨床ケースで似た発想を試すための問いを一つ置いてください。\n\nでは、ステップ1から始めてください。"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clinical-hypnosis__III-4B-2",
+    "bookId": "clinical-hypnosis",
+    "chapter": "第3巻　第4章B　通しのエクササイズとAI演習",
+    "title": "AI-III-4B-2　包括的な後催眠暗示の構造",
+    "skillCategories": [
+      "催眠技法"
+    ],
+    "promptRole": "guide",
+    "mode": "study",
+    "template": false,
+    "difficulty": null,
+    "learningObjective": "五つの動きと入れ子構造で、包括的な後催眠暗示を組み立てる。",
+    "overview": "第一トランス→新しい行動→忘れること→第二トランス→自己受容の五つの動きを書き、外枠が内側を守る入れ子構造の観点で見直す。",
+    "estimatedMinutes": null,
+    "safetyNotes": [
+      "これは訓練用の演習です。AIのフィードバックは臨床判断の代替ではありません。実在するクライエントの情報は入力しないでください。",
+      "軽い一般的な題材に限定し、発達性トラウマ・CPTSD・解離性障害圏・希死念慮・自傷・虐待関連は扱いません。"
+    ],
+    "reflection": [
+      "外枠が内側を守る構造になっていたか"
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "label": "",
+        "sourceFile": "AI-III-4B-2_posthypnotic-structure.txt",
+        "prompt": "StudyモードまたはGuided Learning、Learning Styleで実施します。\n\n私は心理臨床家の訓練として、「包括的な後催眠暗示の構造を組み立てる練習」を行います。\n\nこの演習の目的は、催眠セッションの締めくくりで、トランス中に動いたものが後の場面で呼び戻される時間と場を、暗示の構造で支える動きを、念頭に置くことです。\n\n以下、この演習で大切にしたい前提を共有します。\n\n【五つの動き】\n\n包括的な後催眠暗示は、五つの動きが入れ子構造として組み合わさっています。\n\n1. 第一のトランスに関わる動き： 自分の意志で、後でまたトランスに戻れる、という条件を整える\n2. 新しい行動に関わる動き： 面接で汲み取った願いや奥の意図、変容のテーマが、ここで具体的な形を取って配置される（五つの動きのなかで最も比重の大きい位置）\n3. 忘れることに関わる動き： 意識的な詮索から内側の動きを守る\n4. 第二のトランスに関わる動き： 第一の動きを別の角度から重ねる\n5. 自己受容に関わる動き： 意識と無意識への感謝、クライエント自身への肯定的な響き\n\n【入れ子構造の三要点】\n\n- 外枠が内側を守る： 第一と第四のトランス（外枠）が、第二の新しい行動と第三の健忘（内側）を包む\n- 外枠を二回作る： 入り口と出口の両方でトランスを呼び戻す\n- 内側の動きを、日常意識の側で急いで解釈しすぎない： トランスのなかで響いていたものは、しばらくのあいだ、そのままそっとしておく。クライエント自身が、日常の場面のなかで、それぞれのタイミングで、それぞれの形で、その響きに自然に触れていく\n\n【認識論的トーン】\n\n- 「未来の変化を埋め込む」ではなく「動いていたものが後の場面で再活性化されうる時間と場を支える」\n- 「効かせる」ではなく「再び呼び戻されるための形を整える」\n- 強い暗示や深いトランスを前提としない\n\n【新しい行動の暗示の作り方】\n\n- 「いつ気づくことになるか分かりません」「あなたがどのようにそれを実感するかは分かりませんが」のような、内側で動くことを尊重する書き方\n- 「もっと深く」「もっと強く」と促さない\n- 可能性として差し出す形\n\n【ケース題材の制限】\n\n- 生活上の小さな緊張、軽い不安、対処したい習慣、軽い不眠、軽い対人緊張など、安全な題材に限定してください\n- 発達性トラウマ、CPTSD、解離性障害圏のケース、自殺念慮、自傷、虐待関連のケースは生成しないでください\n\n【あなた（AI）の振る舞い】\n\n- 構造として動いている部分/弱い部分を指摘してください\n- ただし「正解」は示さないでください。書き直しの提案ではなく、別の書き方や別の角度を示してください\n- 「効かせる」「強く」というトーンに寄った応答には、認識論的な方向に軽く戻してください\n\n次の流れで進めてください。\n\nステップ1： ケース提示\n\nあなたが、上記の制限を踏まえた安全なクライエントのケース概要を一つ作って提示してください。含める情報：\n\n- 年齢、職業、主訴\n- 事前面談で汲み取られたクライエントの願い、行動や症状の奥に想定できる肯定的意図や機能\n- トランスのなかで動いた変容のテーマ（問題と望む状態に共通する能力や力）\n- リフレームされた意図と関連するリソース体験\n\nステップ2： 五つの動きそれぞれを書く\n\n「五つの動きそれぞれに、このケースに合う言葉を入れてみてください」と私に促してください。順番は次の通り：\n\n第一のトランス → 新しい行動 → 忘れること → 第二のトランス → 自己受容\n\n私が書いた各動きについて、フィードバックを返してください：\n\n- 動きの機能が動いているか\n- 「効かせる」「強く」というトーンに寄っていないか\n- 新しい行動には、願いや奥の意図、テーマが素材として配置されているか\n\nステップ3： 入れ子構造の確認\n\n「書いたものを、入れ子構造の三要点から見直してみてください。\n\n1. 外枠（第一と第四のトランス）が内側（新しい行動と忘れること）を守っているか\n2. 外枠を二回作っているか\n3. 内側の動きが、日常意識の側で急いで解釈されない位置にあるか」\n\nと私に促してください。私が確認・修正したら、構造として動いている部分/弱い部分を指摘してください。「正解」ではなく、別の書き方を一つ示す形で。\n\nでは、ステップ1から始めてください。"
       }
     ],
     "tags": []

@@ -1,0 +1,103 @@
+{
+  "bookId": "interview-process",
+  "exercises": [
+    {
+      "id": "interview-process__2-1",
+      "chapter": "第2章　この本で言う「状態」と「体験過程」",
+      "title": "AI演習 2-1　状態の変化を観察する",
+      "skillCategories": ["観察スキル", "状態・体験過程への働きかけ", "模擬クライエント・ロールプレイ"],
+      "promptRole": "client",
+      "mode": "normal",
+      "template": false,
+      "learningObjective": "面接中のクライエントの「状態」の変化を、5つの次元で観察する。",
+      "overview": "AIが修論に悩む院生を演じる。対話後に、覚醒水準・注意の方向・身体感覚へのアクセス・感情の活性度・接触可能性の5次元で状態変化を記述する（採点なし）。",
+      "safetyNotes": ["登場人物はすべて架空です。実在するクライエントの情報は入力しないでください。"],
+      "reflection": ["自分のどの応答がクライエントの状態を動かしたか"],
+      "steps": [{ "order": 1, "label": "", "sourceFile": "prompt_01.txt" }]
+    },
+    {
+      "id": "interview-process__4-1",
+      "chapter": "第4章　注意を方向づける言語の実際【実践】",
+      "title": "AI演習 4-1　注意を方向づける",
+      "skillCategories": ["状態・体験過程への働きかけ", "模擬クライエント・ロールプレイ"],
+      "promptRole": "client",
+      "mode": "normal",
+      "template": false,
+      "learningObjective": "言葉でクライエントの注意の方向を動かす。",
+      "overview": "ミスが続き落ち込む30代会社員役と対話。注意を外→内・思考→感覚などどの方向に動かしたかを、原理に照らして振り返る。",
+      "safetyNotes": ["登場人物はすべて架空です。実在するクライエントの情報は入力しないでください。"],
+      "reflection": ["注意をどの方向へ動かせたか"],
+      "steps": [{ "order": 1, "label": "", "sourceFile": "prompt_02.txt" }]
+    },
+    {
+      "id": "interview-process__4-2",
+      "chapter": "第4章　注意を方向づける言語の実際【実践】",
+      "title": "AI演習 4-2　からだ言葉を拾い返す",
+      "skillCategories": ["状態・体験過程への働きかけ", "模擬クライエント・ロールプレイ"],
+      "promptRole": "client",
+      "mode": "normal",
+      "template": false,
+      "learningObjective": "語りに含まれる「からだ言葉」を拾い返す。",
+      "overview": "身体感覚由来の言い回しを含む語りから、どのからだ言葉をどう拾い返したか（そのまま繰り返す／言い換える／問いにする）を振り返る。",
+      "safetyNotes": ["登場人物はすべて架空です。実在するクライエントの情報は入力しないでください。"],
+      "reflection": ["拾い損ねたからだ言葉はなかったか"],
+      "steps": [{ "order": 1, "label": "", "sourceFile": "prompt_03.txt" }]
+    },
+    {
+      "id": "interview-process__6-1",
+      "chapter": "第6章　覚醒を調整する言語の実際【実践】",
+      "title": "AI演習 6-1　覚醒を調整する",
+      "skillCategories": ["状態・体験過程への働きかけ", "模擬クライエント・ロールプレイ"],
+      "promptRole": "client",
+      "mode": "normal",
+      "template": false,
+      "learningObjective": "言葉でクライエントの覚醒水準を上げ下げする。",
+      "overview": "感情が平坦な40代女性役と対話し、時制変換や許可的表現・テンポの指示で覚醒をどの方向に動かしたかを振り返る。",
+      "safetyNotes": ["登場人物はすべて架空です。実在するクライエントの情報は入力しないでください。"],
+      "reflection": ["覚醒を意図した方向（上げる／下げる／維持）に動かせたか"],
+      "steps": [{ "order": 1, "label": "", "sourceFile": "prompt_04.txt" }]
+    },
+    {
+      "id": "interview-process__8-1",
+      "chapter": "第8章　ポジションを動かす言語の実際【実践】",
+      "title": "AI演習 8-1　ポジションを動かす",
+      "skillCategories": ["状態・体験過程への働きかけ", "模擬クライエント・ロールプレイ"],
+      "promptRole": "client",
+      "mode": "normal",
+      "template": false,
+      "learningObjective": "「あたかも」やポジション移動で、体験の位置を動かす。",
+      "overview": "母娘関係を語る30代女性役に、仮定表現やポジション移動を用い、体験の位置がどう動いたか（防衛／仮定の枠で内面に触れる／抵抗）を振り返る。",
+      "safetyNotes": ["登場人物はすべて架空です。実在するクライエントの情報は入力しないでください。"],
+      "reflection": ["直接の問いと仮定表現で、クライエントの反応がどう違ったか"],
+      "steps": [{ "order": 1, "label": "", "sourceFile": "prompt_05.txt" }]
+    },
+    {
+      "id": "interview-process__10-1",
+      "chapter": "第10章　イメージを立ち上げる言語の実際【実践】",
+      "title": "AI演習 10-1　イメージを立ち上げる",
+      "skillCategories": ["状態・体験過程への働きかけ", "模擬クライエント・ロールプレイ"],
+      "promptRole": "client",
+      "mode": "normal",
+      "template": false,
+      "learningObjective": "メタファーを概念に翻訳せず、その中で体験を分化させる。",
+      "overview": "漠然とした重さをメタファーで語る30代女性役に、比喩の中にとどまって探索する関わりを練習する。翻訳・解決に向かうと体験は深まらない。",
+      "safetyNotes": ["登場人物はすべて架空です。実在するクライエントの情報は入力しないでください。"],
+      "reflection": ["メタファーを感情ラベルに翻訳してしまわなかったか"],
+      "steps": [{ "order": 1, "label": "", "sourceFile": "prompt_06.txt" }]
+    },
+    {
+      "id": "interview-process__11-1",
+      "chapter": "第11章　関係を言語にする",
+      "title": "AI演習 11-1　関係の瞬間を観察しプロセスコメントを試みる",
+      "skillCategories": ["観察スキル", "状態・体験過程への働きかけ", "模擬クライエント・ロールプレイ"],
+      "promptRole": "quizmaster",
+      "mode": "normal",
+      "template": false,
+      "learningObjective": "面接内の「関係」が動く瞬間に気づき、プロセスコメントを試みる。",
+      "overview": "AIが対話例と3つの観察の問いを生成する。関係が動く瞬間を見つけ、その時クライエントの内側で何が起きたかを考え、プロセスコメント／自己関与的言明を書いてフィードバックを受ける。",
+      "safetyNotes": ["登場人物はすべて架空です。実在するクライエントの情報は入力しないでください。"],
+      "reflection": ["「今ここで、二人の間に起きていること」に焦点を当てられたか"],
+      "steps": [{ "order": 1, "label": "", "sourceFile": "prompt_07.txt" }]
+    }
+  ]
+}

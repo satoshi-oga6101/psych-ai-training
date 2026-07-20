@@ -53,6 +53,8 @@ function main() {
       errors.push(`${where}: promptRole "${ex.promptRole}" は不正（許可: ${VALID_ROLES.join(", ")}）`);
     if (!VALID_MODES.includes(ex.mode))
       errors.push(`${where}: mode "${ex.mode}" は不正（許可: ${VALID_MODES.join(", ")}）`);
+    if (ex.template !== undefined && typeof ex.template !== "boolean")
+      errors.push(`${where}: template は真偽値で指定してください`);
 
     if (!Array.isArray(ex.steps) || ex.steps.length === 0) {
       errors.push(`${where}: steps がありません`);
@@ -62,6 +64,7 @@ function main() {
         if (!s.sourceFile) errors.push(`${where}: step に sourceFile がありません`);
         else if (!existsSync(f)) errors.push(`${where}: sourceFile が実在しません → content/${book.sourceDir}/${s.sourceFile}`);
         if (!s.prompt || !s.prompt.trim()) errors.push(`${where}: step "${s.sourceFile}" の prompt（本文）が空です`);
+        if (s.mode !== undefined && !VALID_MODES.includes(s.mode)) errors.push(`${where}: step "${s.sourceFile}" の mode "${s.mode}" は不正`);
       });
     }
 

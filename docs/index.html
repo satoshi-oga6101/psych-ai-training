@@ -8,22 +8,54 @@
 </head>
 <body>
   <header class="site-header">
-    <h1>AI心理面接演習教材サイト</h1>
-    <p class="tagline">生成AIを「演習の実行環境」として使うためのプロンプト教材</p>
+    <div class="site-header__inner">
+      <div>
+        <h1>AI心理面接演習教材サイト</h1>
+        <p class="tagline">生成AIを「演習の実行環境」として使うためのプロンプト教材</p>
+      </div>
+      <input id="search" class="search" type="search" placeholder="キーワードで演習を検索" aria-label="演習を検索" />
+    </div>
   </header>
 
-  <main class="container">
-    <!-- これは構造確認用のスケルトンです。本UI（3ペイン・二軸ナビ・フィルタ・コピー）はPhase 1で実装します。 -->
-    <section id="status" class="status" aria-live="polite">データを読み込んでいます…</section>
+  <div id="app" class="app">
+    <!-- 左：ナビ＋フィルタ -->
+    <aside class="pane pane--nav" aria-label="ナビゲーション">
+      <div class="axis-toggle" role="tablist" aria-label="探し方">
+        <button id="axis-book" class="axis-toggle__btn is-active" role="tab" aria-selected="true">書籍で探す</button>
+        <button id="axis-skill" class="axis-toggle__btn" role="tab" aria-selected="false">スキルで探す</button>
+      </div>
+      <nav id="nav-list" class="nav-list" aria-label="一覧"></nav>
 
-    <section class="books">
-      <h2>収録シリーズ</h2>
-      <ul id="book-list" class="book-list"></ul>
+      <div class="filters">
+        <h2 class="filters__title">絞り込み</h2>
+        <div class="filter-group">
+          <span class="filter-group__label">AIの役割</span>
+          <div id="filter-roles" class="chip-row"></div>
+        </div>
+        <div class="filter-group">
+          <span class="filter-group__label">実行モード</span>
+          <div id="filter-modes" class="chip-row"></div>
+        </div>
+        <button id="clear-filters" class="clear-btn" type="button">絞り込みを解除</button>
+      </div>
+    </aside>
+
+    <!-- 中央：演習一覧 -->
+    <section class="pane pane--list" aria-label="演習一覧">
+      <div id="list-summary" class="list-summary" aria-live="polite"></div>
+      <ul id="exercise-list" class="exercise-list"></ul>
     </section>
-  </main>
+
+    <!-- 右：演習詳細 -->
+    <section class="pane pane--detail" aria-label="演習詳細">
+      <div id="detail" class="detail">
+        <p class="detail__placeholder">左の一覧から演習を選んでください。</p>
+      </div>
+    </section>
+  </div>
 
   <footer class="site-footer">
-    <p>登場人物はすべて架空です。実在するクライエントの情報は入力しないでください。</p>
+    <p>登場人物はすべて架空です。実在するクライエントの情報は入力しないでください。生成AIの応答は学習用のシミュレーションであり、臨床判断・診断・スーパービジョンの代替ではありません。</p>
   </footer>
 
   <script src="script.js"></script>
