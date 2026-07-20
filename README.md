@@ -50,12 +50,25 @@ GitHub Pages は「配信する場所」を1か所だけ指定する仕組みで
 
 ## 教材を追加・更新する流れ
 
+各書籍フォルダの `manifest.json`（グルーピング定義）が「真実の源」で、そこから `docs/data/exercises.json` を生成する。
+
 1. `content/<書籍>/` に元プロンプト（.txt）を置く／編集する。
-2. `node scripts/build-data.mjs` を実行 → `docs/data/exercises.draft.json`（雛形）が生成される。
-3. ドラフトから該当エントリを `docs/data/exercises.json` に移し、演習のグルーピング（多段演習の束ね）やメタデータ（学習目標・役割・モード等）を人手で整える。
-4. Git に push すると、GitHub Pages が自動でサイトを更新する。
+2. `node scripts/build-data.mjs --scaffold <bookId>` で `manifest.draft.json`（章・タイトルを index.md から prefill）を生成する。
+3. ドラフトを編集して多段演習を束ね、役割・モード・学習目標などを記入し、`manifest.json` にリネームする。
+4. `node scripts/build-data.mjs` で `docs/data/exercises.json` を生成（本文を焼き込み）。
+5. `node scripts/validate-data.mjs` で検証（必須項目・enum・参照切れ）。
+6. Git に push すると GitHub Pages が自動でサイトを更新する。
+
+手順の詳細は [`scripts/README.md`](scripts/README.md) を参照。
 
 > 難易度・想定時間・タグは当面は空（`null` / `[]`）で運用する（詳細は `planning/plan.md` §4.4）。
+
+### 収録状況
+
+- ✅ カウンセリング技法AI独学ワークブック … 25演習（`manifest.json` 整備済み）
+- ⬜ AIと学ぶ心理臨床 … 未着手
+- ⬜ 心理面接はなぜ進むのか … 未着手
+- ⬜ 心理臨床家のための臨床催眠入門（全3巻）… 未着手（多段演習の束ねが多い）
 
 ---
 

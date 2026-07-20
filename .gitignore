@@ -9,5 +9,6 @@ Thumbs.db
 node_modules/
 npm-debug.log*
 
-# 生成物（ドラフトはコミットしない。最終版 exercises.json のみコミットする）
+# 生成物・ドラフト（コミットしない）
 docs/data/exercises.draft.json
+content/*/manifest.draft.json
