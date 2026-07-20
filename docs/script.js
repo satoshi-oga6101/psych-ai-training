@@ -19,6 +19,12 @@ const ROLE_DESC = {
   partner: "AIが壁打ち相手・添削者になります",
 };
 
+// 著者情報（サイト全体で1か所。変わったらここだけ直す）
+const AUTHOR = {
+  name: "緒賀 郷志",
+  noteUrl: "https://note.com/oga_satoshi",
+};
+
 const state = {
   books: [],
   aiModes: null,
@@ -64,6 +70,7 @@ async function init() {
     renderFilters();
     renderNav();
     renderList();
+    renderGuide();   // 初回訪問時は詳細ペインに使い方ガイドを出す
   } catch (err) {
     $("list-summary").textContent = `データの読み込みに失敗しました: ${err.message}（ローカルでは docs/ をサーバー経由で開いてください）`;
   }
@@ -74,6 +81,77 @@ function bindEvents() {
   $("axis-skill").addEventListener("click", () => setAxis("skill"));
   $("search").addEventListener("input", (e) => { state.query = e.target.value.trim(); renderList(); });
   $("clear-filters").addEventListener("click", clearFilters);
+  $("show-guide").addEventListener("click", () => {
+    state.selectedExerciseId = null;
+    renderList();
+    renderGuide();
+  });
+}
+
+// ---------- guide ----------
+// 書籍の入手リンク。Amazonは Kindle版／紙版を併記し、全3巻の書籍は巻ごとに出す。
+// downloads[] は巻をまたぐ配布物（合本PDF等）。巻ごとではないので最後にまとめて出す。
+function bookLinksHTML(book, compact) {
+  const vols = book.volumes || [];
+  const rows = vols.map((v) => {
+    const a = v.amazon || {};
+    const links = [];
+    if (a.kindle) links.push(`<a href="${escapeAttr(a.kindle)}" target="_blank" rel="noopener">Kindle版 ↗</a>`);
+    if (a.paperback) links.push(`<a href="${escapeAttr(a.paperback)}" target="_blank" rel="noopener">紙版 ↗</a>`);
+    if (!links.length) return "";
+    const label = v.label ? `<span class="book-links__vol">${escapeHTML(compact ? volShortLabel(v.label) : v.label)}</span>` : "";
+    return `<span class="book-links__row">${label}${links.join(`<span class="book-links__sep">/</span>`)}</span>`;
+  }).filter(Boolean);
+
+  (book.downloads || []).forEach((d) => {
+    if (!d.url) return;
+    // 巻ごとのリンクと地続きに見えないよう、行を分けて出す
+    rows.push(`<span class="book-links__row book-links__row--download"><a href="${escapeAttr(d.url)}" target="_blank" rel="noopener">${escapeHTML(d.label)} ↗</a></span>`);
+  });
+
+  return rows.length ? `<span class="book-links">${rows.join("")}</span>` : "";
+}
+// 「第1巻　基礎：…」→「第1巻」（一覧の見出しでは巻数だけ出す）
+function volShortLabel(label) {
+  const m = String(label).match(/^第\d+巻/);
+  return m ? m[0] : label;
+}
+
+function renderGuide() {
+  const booksHTML = state.books.map((b) => `
+    <li class="guide-book">
+      <div class="guide-book__title">${escapeHTML(b.title)}${b.subtitle ? `<span class="guide-book__sub">${escapeHTML(b.subtitle)}</span>` : ""}</div>
+      <div class="guide-book__meta">${state.exercises.filter((e) => e.bookId === b.id).length} 演習　${bookLinksHTML(b, false)}</div>
+    </li>`).join("");
+
+  $("detail").innerHTML = `
+    <div class="guide">
+      <h2 class="detail__title">このサイトの使い方</h2>
+      <p class="detail__text">${escapeHTML(AUTHOR.name)}の書籍で紹介した AI演習プロンプト ${state.exercises.length} 本をまとめた教材サイトです。
+      プロンプトをコピーして、お使いの生成AI（ChatGPT・Claude・Gemini など）に貼り付けて使います。このサイト自体はAIと接続していません。</p>
+
+      <h3>3ステップ</h3>
+      <ol class="guide-steps">
+        <li><strong>演習を選ぶ</strong>　左の「書籍で探す」「スキルで探す」から絞り込み、中央の一覧で演習をクリックします。</li>
+        <li><strong>AIとモードを確認する</strong>　演習ごとに、通常のチャットに貼るか学習モードに貼るかが違います。詳細の「使うAIとモード」で選んでください。</li>
+        <li><strong>コピーして貼り付ける</strong>　「コピー」ボタンでプロンプトを写し、AIに貼り付けて対話を始めます。複数ステップの演習は上から順に進めます。</li>
+      </ol>
+
+      <div class="safety">
+        <strong>使うときの約束</strong>
+        <ul>
+          <li>登場人物はすべて架空です。実在するクライエントの情報は入力しないでください。</li>
+          <li>自分の事例を扱う演習では、必ず匿名化・改変してから入力してください。</li>
+          <li>AIの応答は学習用のシミュレーションです。臨床判断・診断・スーパービジョンの代わりにはなりません。</li>
+        </ul>
+      </div>
+
+      <h3>収録書籍</h3>
+      <ul class="guide-books">${booksHTML}</ul>
+
+      <h3>著者</h3>
+      <p class="detail__text">${escapeHTML(AUTHOR.name)}　<a href="${escapeAttr(AUTHOR.noteUrl)}" target="_blank" rel="noopener">note ↗</a></p>
+    </div>`;
 }
 
 function setAxis(axis) {
@@ -194,7 +272,7 @@ function renderList() {
     if (!items.length) return;
     const bh = document.createElement("li");
     bh.className = "group-book";
-    bh.textContent = book.title;
+    bh.innerHTML = `<span class="group-book__title">${escapeHTML(book.title)}</span>${bookLinksHTML(book, true)}`;
     ul.appendChild(bh);
 
     const chapters = [];

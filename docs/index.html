@@ -13,7 +13,10 @@
         <h1>AI心理面接演習教材サイト</h1>
         <p class="tagline">生成AIを「演習の実行環境」として使うためのプロンプト教材</p>
       </div>
-      <input id="search" class="search" type="search" placeholder="キーワードで演習を検索" aria-label="演習を検索" />
+      <div class="site-header__tools">
+        <button id="show-guide" class="guide-btn" type="button">使い方</button>
+        <input id="search" class="search" type="search" placeholder="キーワードで演習を検索" aria-label="演習を検索" />
+      </div>
     </div>
   </header>
 
@@ -48,9 +51,7 @@
 
     <!-- 右：演習詳細 -->
     <section class="pane pane--detail" aria-label="演習詳細">
-      <div id="detail" class="detail">
-        <p class="detail__placeholder">左の一覧から演習を選んでください。</p>
-      </div>
+      <div id="detail" class="detail"></div>
     </section>
   </div>
 

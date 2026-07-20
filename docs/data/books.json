@@ -2,29 +2,89 @@
   {
     "id": "ai-clinical-psychology",
     "title": "AIと学ぶ心理臨床",
+    "subtitle": "思考と実践の鏡として",
     "volume": null,
     "order": 1,
-    "sourceDir": "ai-clinical-psychology"
+    "sourceDir": "ai-clinical-psychology",
+    "volumes": [
+      {
+        "label": null,
+        "amazon": {
+          "kindle": "https://www.amazon.co.jp/dp/B0GRQ3NMBS",
+          "paperback": "https://www.amazon.co.jp/dp/B0GT1VXRVL"
+        }
+      }
+    ]
   },
   {
     "id": "counseling-techniques",
-    "title": "カウンセリング技法AI独学ワークブック",
+    "title": "カウンセリング技法独学AIワークブック",
+    "subtitle": "＜出来事・気持ち・願望・考え＞4要素で学ぶ伝え返し徹底演習",
     "volume": null,
     "order": 2,
-    "sourceDir": "counseling-techniques"
+    "sourceDir": "counseling-techniques",
+    "volumes": [
+      {
+        "label": null,
+        "amazon": {
+          "kindle": "https://www.amazon.co.jp/dp/B0GTX38SKT",
+          "paperback": "https://www.amazon.co.jp/dp/B0GVXSGXRJ"
+        }
+      }
+    ]
   },
   {
     "id": "interview-process",
     "title": "心理面接はなぜ進むのか",
+    "subtitle": "クライエントの体験過程が動く臨床言語",
     "volume": null,
     "order": 3,
-    "sourceDir": "interview-process"
+    "sourceDir": "interview-process",
+    "volumes": [
+      {
+        "label": null,
+        "amazon": {
+          "kindle": "https://www.amazon.co.jp/dp/B0GWXTV75P",
+          "paperback": "https://www.amazon.co.jp/dp/B0GXJ6X7GV"
+        }
+      }
+    ]
   },
   {
     "id": "clinical-hypnosis",
     "title": "心理臨床家のための臨床催眠入門（全3巻）",
+    "subtitle": null,
     "volume": null,
     "order": 4,
-    "sourceDir": "clinical-hypnosis"
+    "sourceDir": "clinical-hypnosis",
+    "downloads": [
+      {
+        "label": "全3巻 合本PDF版",
+        "url": "https://note.com/oga_satoshi/n/n384e97bd5569"
+      }
+    ],
+    "volumes": [
+      {
+        "label": "第1巻　基礎：トランスの誘導と基本技法",
+        "amazon": {
+          "kindle": "https://www.amazon.co.jp/dp/B0H4RB1FHT",
+          "paperback": "https://www.amazon.co.jp/dp/B0H5R7FZ7Z"
+        }
+      },
+      {
+        "label": "第2巻　応用：暗示と距離化の発展技法",
+        "amazon": {
+          "kindle": "https://www.amazon.co.jp/dp/B0H4S2PNHC",
+          "paperback": "https://www.amazon.co.jp/dp/B0H5TLNMJK"
+        }
+      },
+      {
+        "label": "第3巻　実践と統合：自我強化から心理療法の地図へ",
+        "amazon": {
+          "kindle": "https://www.amazon.co.jp/dp/B0H4RMD2ZJ",
+          "paperback": "https://www.amazon.co.jp/dp/B0H5V36WKY"
+        }
+      }
+    ]
   }
 ]

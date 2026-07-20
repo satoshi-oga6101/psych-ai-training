@@ -5,7 +5,7 @@
 | フォルダ名 (`content/`配下) | 書籍タイトル | `books.json` の id |
 |---|---|---|
 | `ai-clinical-psychology` | AIと学ぶ心理臨床 | `ai-clinical-psychology` |
-| `counseling-techniques` | カウンセリング技法AI独学ワークブック | `counseling-techniques` |
+| `counseling-techniques` | カウンセリング技法独学AIワークブック | `counseling-techniques` |
 | `interview-process` | 心理面接はなぜ進むのか | `interview-process` |
 | `clinical-hypnosis` | 心理臨床家のための臨床催眠入門（全3巻） | `clinical-hypnosis` |
 

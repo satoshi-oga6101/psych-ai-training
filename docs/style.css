@@ -43,8 +43,25 @@ body {
 }
 .site-header h1 { margin: 0; font-size: 1.25rem; }
 .tagline { margin: .15rem 0 0; opacity: .9; font-size: .85rem; }
+.site-header__tools {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  flex: 0 1 420px;
+}
+.guide-btn {
+  flex: 0 0 auto;
+  padding: .55rem .9rem;
+  border: 1px solid rgba(255, 255, 255, .5);
+  border-radius: var(--radius);
+  background: transparent;
+  color: #fff;
+  font-size: .85rem;
+  cursor: pointer;
+}
+.guide-btn:hover { background: rgba(255, 255, 255, .15); }
 .search {
-  flex: 0 1 320px;
+  flex: 1 1 320px;
   padding: .55rem .8rem;
   border: 1px solid rgba(255, 255, 255, .4);
   border-radius: var(--radius);
@@ -161,8 +178,29 @@ body {
   margin-top: .5rem;
   padding-bottom: .2rem;
   border-bottom: 2px solid var(--accent-weak);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .3rem .8rem;
 }
 .group-book:first-child { margin-top: 0; }
+.group-book__title { flex: 1 1 auto; }
+
+/* 書籍のAmazonリンク（一覧見出し・ガイド共通） */
+.book-links {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: .2rem .7rem;
+  font-weight: 400;
+  font-size: .74rem;
+}
+.book-links__row { display: inline-flex; align-items: baseline; gap: .3rem; }
+/* 合本PDF等（巻をまたぐ配布物）は巻ごとのリンクと混ざらないよう改行して出す */
+.book-links__row--download { flex-basis: 100%; }
+.book-links__vol { color: var(--muted); }
+.book-links__sep { color: var(--border); }
+.book-links a { color: var(--accent); text-decoration: none; border-bottom: 1px dotted currentColor; }
+.book-links a:hover { border-bottom-style: solid; }
 .group-chapter {
   font-size: .78rem;
   color: var(--muted);
@@ -236,6 +274,35 @@ body {
   color: var(--danger);
 }
 .safety ul { margin: .3rem 0 0; padding-left: 1.1rem; }
+
+/* ---------- Guide（使い方） ---------- */
+.guide .safety { margin-top: .6rem; }
+.guide-steps { margin: .3rem 0 0; padding-left: 1.3rem; }
+.guide-steps li { margin-bottom: .45rem; }
+.guide-books { list-style: none; margin: .3rem 0 0; padding: 0; display: grid; gap: .5rem; }
+.guide-book {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: .55rem .75rem;
+}
+.guide-book__title { font-weight: 600; font-size: .9rem; }
+.guide-book__sub {
+  display: block;
+  font-weight: 400;
+  font-size: .78rem;
+  color: var(--muted);
+  margin-top: .1rem;
+}
+.guide-book__meta {
+  margin-top: .35rem;
+  font-size: .78rem;
+  color: var(--muted);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .2rem .6rem;
+}
+.guide a { color: var(--accent); }
 
 /* ---------- AI selector ---------- */
 .ai-select { display: flex; flex-wrap: wrap; gap: .4rem; margin-bottom: .5rem; }
