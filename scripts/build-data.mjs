@@ -78,6 +78,7 @@ function compile() {
         chapter: ex.chapter ?? "",
         title: ex.title ?? "",
         skillCategories: ex.skillCategories ?? [],
+        exerciseType: ex.exerciseType ?? [],
         promptRole: ex.promptRole ?? "",
         mode: ex.mode ?? "normal",
         template: ex.template ?? false,
@@ -127,6 +128,7 @@ function scaffold(bookId) {
         chapter,
         title,                       // index.md から prefill 済み
         skillCategories: [],
+        exerciseType: [],            // 統合トレーニング / 典型的な失敗パターン / クライエント側に立つ体験 など（任意・該当のみ）
         promptRole: "",              // client / evaluator / educator / guide / quizmaster / partner
         mode: "normal",             // normal / study
         template: false,             // [ ] を学習者が埋めるテンプレートなら true

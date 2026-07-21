@@ -7,6 +7,9 @@
     "skillCategories": [
       "自己理解・臨床家自身の作業"
     ],
+    "exerciseType": [
+      "クライエント側に立つ体験"
+    ],
     "promptRole": "partner",
     "mode": "normal",
     "template": false,
@@ -35,6 +38,9 @@
     "title": "家族歴の探索",
     "skillCategories": [
       "自己理解・臨床家自身の作業"
+    ],
+    "exerciseType": [
+      "クライエント側に立つ体験"
     ],
     "promptRole": "partner",
     "mode": "normal",
@@ -65,6 +71,9 @@
     "skillCategories": [
       "自己理解・臨床家自身の作業"
     ],
+    "exerciseType": [
+      "クライエント側に立つ体験"
+    ],
     "promptRole": "partner",
     "mode": "normal",
     "template": false,
@@ -93,6 +102,9 @@
     "title": "対人パターンの見立て",
     "skillCategories": [
       "自己理解・臨床家自身の作業"
+    ],
+    "exerciseType": [
+      "クライエント側に立つ体験"
     ],
     "promptRole": "partner",
     "mode": "normal",
@@ -123,6 +135,7 @@
     "skillCategories": [
       "ケースフォーミュレーション"
     ],
+    "exerciseType": [],
     "promptRole": "educator",
     "mode": "normal",
     "template": false,
@@ -152,6 +165,7 @@
     "skillCategories": [
       "ケースフォーミュレーション"
     ],
+    "exerciseType": [],
     "promptRole": "educator",
     "mode": "normal",
     "template": true,
@@ -184,6 +198,7 @@
       "ケースフォーミュレーション",
       "スーパービジョン・振り返り"
     ],
+    "exerciseType": [],
     "promptRole": "educator",
     "mode": "normal",
     "template": true,
@@ -215,6 +230,7 @@
     "skillCategories": [
       "模擬クライエント・ロールプレイ"
     ],
+    "exerciseType": [],
     "promptRole": "client",
     "mode": "normal",
     "template": false,
@@ -253,6 +269,7 @@
     "skillCategories": [
       "模擬クライエント・ロールプレイ"
     ],
+    "exerciseType": [],
     "promptRole": "client",
     "mode": "normal",
     "template": false,
@@ -284,6 +301,7 @@
     "skillCategories": [
       "模擬クライエント・ロールプレイ"
     ],
+    "exerciseType": [],
     "promptRole": "client",
     "mode": "normal",
     "template": false,
@@ -316,6 +334,7 @@
       "スーパービジョン・振り返り",
       "模擬クライエント・ロールプレイ"
     ],
+    "exerciseType": [],
     "promptRole": "evaluator",
     "mode": "normal",
     "template": false,
@@ -345,6 +364,7 @@
     "skillCategories": [
       "スーパービジョン・振り返り"
     ],
+    "exerciseType": [],
     "promptRole": "educator",
     "mode": "normal",
     "template": true,
@@ -376,6 +396,7 @@
     "skillCategories": [
       "模擬クライエント・ロールプレイ"
     ],
+    "exerciseType": [],
     "promptRole": "client",
     "mode": "normal",
     "template": false,
@@ -407,6 +428,7 @@
     "skillCategories": [
       "学術学習（理論理解・文献・論文）"
     ],
+    "exerciseType": [],
     "promptRole": "partner",
     "mode": "normal",
     "template": true,
@@ -436,6 +458,7 @@
     "skillCategories": [
       "学術学習（理論理解・文献・論文）"
     ],
+    "exerciseType": [],
     "promptRole": "quizmaster",
     "mode": "normal",
     "template": true,
@@ -465,6 +488,7 @@
     "skillCategories": [
       "学術学習（理論理解・文献・論文）"
     ],
+    "exerciseType": [],
     "promptRole": "educator",
     "mode": "normal",
     "template": true,
@@ -494,6 +518,7 @@
     "skillCategories": [
       "学術学習（理論理解・文献・論文）"
     ],
+    "exerciseType": [],
     "promptRole": "educator",
     "mode": "normal",
     "template": true,
@@ -523,6 +548,7 @@
     "skillCategories": [
       "学術学習（理論理解・文献・論文）"
     ],
+    "exerciseType": [],
     "promptRole": "educator",
     "mode": "normal",
     "template": true,
@@ -552,6 +578,7 @@
     "skillCategories": [
       "学術学習（理論理解・文献・論文）"
     ],
+    "exerciseType": [],
     "promptRole": "partner",
     "mode": "normal",
     "template": true,
@@ -581,6 +608,7 @@
     "skillCategories": [
       "学術学習（理論理解・文献・論文）"
     ],
+    "exerciseType": [],
     "promptRole": "partner",
     "mode": "normal",
     "template": true,
@@ -610,6 +638,7 @@
     "skillCategories": [
       "学術学習（理論理解・文献・論文）"
     ],
+    "exerciseType": [],
     "promptRole": "quizmaster",
     "mode": "normal",
     "template": true,
@@ -639,6 +668,7 @@
     "skillCategories": [
       "学術学習（理論理解・文献・論文）"
     ],
+    "exerciseType": [],
     "promptRole": "quizmaster",
     "mode": "normal",
     "template": true,
@@ -668,6 +698,7 @@
     "skillCategories": [
       "学術学習（理論理解・文献・論文）"
     ],
+    "exerciseType": [],
     "promptRole": "quizmaster",
     "mode": "normal",
     "template": true,
@@ -697,6 +728,7 @@
     "skillCategories": [
       "学術学習（理論理解・文献・論文）"
     ],
+    "exerciseType": [],
     "promptRole": "quizmaster",
     "mode": "normal",
     "template": true,
@@ -726,6 +758,7 @@
     "skillCategories": [
       "学術学習（理論理解・文献・論文）"
     ],
+    "exerciseType": [],
     "promptRole": "quizmaster",
     "mode": "normal",
     "template": true,
@@ -755,6 +788,7 @@
     "skillCategories": [
       "学術学習（理論理解・文献・論文）"
     ],
+    "exerciseType": [],
     "promptRole": "quizmaster",
     "mode": "normal",
     "template": true,
@@ -784,6 +818,7 @@
     "skillCategories": [
       "学術学習（理論理解・文献・論文）"
     ],
+    "exerciseType": [],
     "promptRole": "educator",
     "mode": "normal",
     "template": false,
@@ -814,6 +849,7 @@
       "倫理・守るべき一線",
       "スーパービジョン・振り返り"
     ],
+    "exerciseType": [],
     "promptRole": "partner",
     "mode": "normal",
     "template": true,
@@ -846,6 +882,7 @@
       "ケースフォーミュレーション",
       "問いの設計（プロンプト設計）"
     ],
+    "exerciseType": [],
     "promptRole": "educator",
     "mode": "normal",
     "template": true,
@@ -877,6 +914,7 @@
     "skillCategories": [
       "模擬クライエント・ロールプレイ"
     ],
+    "exerciseType": [],
     "promptRole": "client",
     "mode": "normal",
     "template": false,
@@ -908,6 +946,7 @@
     "skillCategories": [
       "模擬クライエント・ロールプレイ"
     ],
+    "exerciseType": [],
     "promptRole": "client",
     "mode": "normal",
     "template": false,
@@ -940,6 +979,7 @@
       "模擬クライエント・ロールプレイ",
       "問いの設計（プロンプト設計）"
     ],
+    "exerciseType": [],
     "promptRole": "client",
     "mode": "normal",
     "template": true,
@@ -972,6 +1012,7 @@
       "模擬クライエント・ロールプレイ",
       "問いの設計（プロンプト設計）"
     ],
+    "exerciseType": [],
     "promptRole": "client",
     "mode": "normal",
     "template": true,
@@ -1004,6 +1045,7 @@
       "学術学習（理論理解・文献・論文）",
       "問いの設計（プロンプト設計）"
     ],
+    "exerciseType": [],
     "promptRole": "partner",
     "mode": "normal",
     "template": true,
@@ -1033,6 +1075,7 @@
     "skillCategories": [
       "問いの設計（プロンプト設計）"
     ],
+    "exerciseType": [],
     "promptRole": "partner",
     "mode": "normal",
     "template": true,
@@ -1062,6 +1105,7 @@
     "skillCategories": [
       "分解スキル"
     ],
+    "exerciseType": [],
     "promptRole": "evaluator",
     "mode": "normal",
     "template": false,
@@ -1091,6 +1135,7 @@
     "skillCategories": [
       "分解スキル"
     ],
+    "exerciseType": [],
     "promptRole": "evaluator",
     "mode": "normal",
     "template": false,
@@ -1120,6 +1165,7 @@
     "skillCategories": [
       "分解スキル"
     ],
+    "exerciseType": [],
     "promptRole": "evaluator",
     "mode": "normal",
     "template": false,
@@ -1149,6 +1195,7 @@
     "skillCategories": [
       "応答スキル（リフレクション）"
     ],
+    "exerciseType": [],
     "promptRole": "evaluator",
     "mode": "normal",
     "template": false,
@@ -1178,6 +1225,7 @@
     "skillCategories": [
       "応答スキル（リフレクション）"
     ],
+    "exerciseType": [],
     "promptRole": "evaluator",
     "mode": "normal",
     "template": false,
@@ -1207,6 +1255,7 @@
     "skillCategories": [
       "応答スキル（リフレクション）"
     ],
+    "exerciseType": [],
     "promptRole": "evaluator",
     "mode": "normal",
     "template": false,
@@ -1236,6 +1285,7 @@
     "skillCategories": [
       "応答スキル（リフレクション）"
     ],
+    "exerciseType": [],
     "promptRole": "evaluator",
     "mode": "normal",
     "template": false,
@@ -1265,6 +1315,7 @@
     "skillCategories": [
       "観察スキル"
     ],
+    "exerciseType": [],
     "promptRole": "evaluator",
     "mode": "normal",
     "template": false,
@@ -1294,6 +1345,7 @@
     "skillCategories": [
       "観察スキル"
     ],
+    "exerciseType": [],
     "promptRole": "evaluator",
     "mode": "normal",
     "template": false,
@@ -1323,6 +1375,7 @@
     "skillCategories": [
       "観察スキル"
     ],
+    "exerciseType": [],
     "promptRole": "evaluator",
     "mode": "normal",
     "template": false,
@@ -1353,6 +1406,7 @@
       "ズレの弁別",
       "観察スキル"
     ],
+    "exerciseType": [],
     "promptRole": "evaluator",
     "mode": "normal",
     "template": false,
@@ -1383,6 +1437,7 @@
       "ズレの弁別",
       "観察スキル"
     ],
+    "exerciseType": [],
     "promptRole": "evaluator",
     "mode": "normal",
     "template": false,
@@ -1412,6 +1467,7 @@
     "skillCategories": [
       "質問スキル"
     ],
+    "exerciseType": [],
     "promptRole": "evaluator",
     "mode": "normal",
     "template": false,
@@ -1447,6 +1503,7 @@
     "skillCategories": [
       "質問スキル"
     ],
+    "exerciseType": [],
     "promptRole": "quizmaster",
     "mode": "normal",
     "template": false,
@@ -1477,6 +1534,7 @@
       "質問スキル",
       "応答スキル（リフレクション）"
     ],
+    "exerciseType": [],
     "promptRole": "evaluator",
     "mode": "normal",
     "template": false,
@@ -1506,6 +1564,7 @@
     "skillCategories": [
       "質問スキル"
     ],
+    "exerciseType": [],
     "promptRole": "evaluator",
     "mode": "normal",
     "template": false,
@@ -1536,6 +1595,7 @@
       "質問スキル",
       "模擬クライエント・ロールプレイ"
     ],
+    "exerciseType": [],
     "promptRole": "client",
     "mode": "normal",
     "template": false,
@@ -1568,6 +1628,7 @@
       "介入スキル",
       "模擬クライエント・ロールプレイ"
     ],
+    "exerciseType": [],
     "promptRole": "client",
     "mode": "normal",
     "template": false,
@@ -1600,6 +1661,7 @@
       "介入スキル",
       "模擬クライエント・ロールプレイ"
     ],
+    "exerciseType": [],
     "promptRole": "client",
     "mode": "normal",
     "template": false,
@@ -1632,6 +1694,7 @@
       "介入スキル",
       "模擬クライエント・ロールプレイ"
     ],
+    "exerciseType": [],
     "promptRole": "client",
     "mode": "normal",
     "template": false,
@@ -1661,8 +1724,10 @@
     "chapter": "第8章　統合トレーニング（Deliberate Practice）",
     "title": "AI演習 8-1　通しの面接①（転職・孤立）",
     "skillCategories": [
-      "統合トレーニング",
       "模擬クライエント・ロールプレイ"
+    ],
+    "exerciseType": [
+      "統合トレーニング"
     ],
     "promptRole": "client",
     "mode": "normal",
@@ -1693,8 +1758,10 @@
     "chapter": "第8章　統合トレーニング（Deliberate Practice）",
     "title": "AI演習 8-2　通しの面接②（子育てと自分の時間）",
     "skillCategories": [
-      "統合トレーニング",
       "模擬クライエント・ロールプレイ"
+    ],
+    "exerciseType": [
+      "統合トレーニング"
     ],
     "promptRole": "client",
     "mode": "normal",
@@ -1725,8 +1792,10 @@
     "chapter": "第8章　統合トレーニング（Deliberate Practice）",
     "title": "AI演習 8-3　通しの面接③（沈黙・不本意な来談）",
     "skillCategories": [
-      "統合トレーニング",
       "模擬クライエント・ロールプレイ"
+    ],
+    "exerciseType": [
+      "統合トレーニング"
     ],
     "promptRole": "client",
     "mode": "normal",
@@ -1757,6 +1826,9 @@
     "chapter": "補章　典型的な失敗パターン（Common Errors）",
     "title": "AI演習 9-1　ずれた応答の分析と修正",
     "skillCategories": [
+      "ズレの弁別"
+    ],
+    "exerciseType": [
       "典型的な失敗パターン"
     ],
     "promptRole": "evaluator",
@@ -1786,6 +1858,9 @@
     "chapter": "補章　典型的な失敗パターン（Common Errors）",
     "title": "AI演習 9-2　9つの失敗パターンの判定",
     "skillCategories": [
+      "ズレの弁別"
+    ],
+    "exerciseType": [
       "典型的な失敗パターン"
     ],
     "promptRole": "evaluator",
@@ -1819,6 +1894,7 @@
       "状態・体験過程への働きかけ",
       "模擬クライエント・ロールプレイ"
     ],
+    "exerciseType": [],
     "promptRole": "client",
     "mode": "normal",
     "template": false,
@@ -1851,6 +1927,7 @@
       "状態・体験過程への働きかけ",
       "模擬クライエント・ロールプレイ"
     ],
+    "exerciseType": [],
     "promptRole": "client",
     "mode": "normal",
     "template": false,
@@ -1883,6 +1960,7 @@
       "状態・体験過程への働きかけ",
       "模擬クライエント・ロールプレイ"
     ],
+    "exerciseType": [],
     "promptRole": "client",
     "mode": "normal",
     "template": false,
@@ -1915,6 +1993,7 @@
       "状態・体験過程への働きかけ",
       "模擬クライエント・ロールプレイ"
     ],
+    "exerciseType": [],
     "promptRole": "client",
     "mode": "normal",
     "template": false,
@@ -1947,6 +2026,7 @@
       "状態・体験過程への働きかけ",
       "模擬クライエント・ロールプレイ"
     ],
+    "exerciseType": [],
     "promptRole": "client",
     "mode": "normal",
     "template": false,
@@ -1979,6 +2059,7 @@
       "状態・体験過程への働きかけ",
       "模擬クライエント・ロールプレイ"
     ],
+    "exerciseType": [],
     "promptRole": "client",
     "mode": "normal",
     "template": false,
@@ -2012,6 +2093,7 @@
       "状態・体験過程への働きかけ",
       "模擬クライエント・ロールプレイ"
     ],
+    "exerciseType": [],
     "promptRole": "quizmaster",
     "mode": "normal",
     "template": false,
@@ -2042,6 +2124,9 @@
     "title": "AI-I-2-1　催眠現象の四カテゴリを自分と学派に重ねる",
     "skillCategories": [
       "催眠技法"
+    ],
+    "exerciseType": [
+      "クライエント側に立つ体験"
     ],
     "promptRole": "guide",
     "mode": "normal",
@@ -2090,6 +2175,7 @@
       "催眠技法",
       "模擬クライエント・ロールプレイ"
     ],
+    "exerciseType": [],
     "promptRole": "guide",
     "mode": "study",
     "template": false,
@@ -2123,6 +2209,7 @@
       "催眠技法",
       "模擬クライエント・ロールプレイ"
     ],
+    "exerciseType": [],
     "promptRole": "guide",
     "mode": "normal",
     "template": false,
@@ -2162,6 +2249,7 @@
     "skillCategories": [
       "催眠技法"
     ],
+    "exerciseType": [],
     "promptRole": "guide",
     "mode": "study",
     "template": false,
@@ -2193,6 +2281,7 @@
     "skillCategories": [
       "催眠技法"
     ],
+    "exerciseType": [],
     "promptRole": "guide",
     "mode": "study",
     "template": false,
@@ -2224,6 +2313,7 @@
     "skillCategories": [
       "催眠技法"
     ],
+    "exerciseType": [],
     "promptRole": "guide",
     "mode": "study",
     "template": false,
@@ -2255,6 +2345,7 @@
     "skillCategories": [
       "催眠技法"
     ],
+    "exerciseType": [],
     "promptRole": "guide",
     "mode": "study",
     "template": false,
@@ -2286,6 +2377,7 @@
     "skillCategories": [
       "催眠技法"
     ],
+    "exerciseType": [],
     "promptRole": "guide",
     "mode": "study",
     "template": false,
@@ -2317,6 +2409,7 @@
     "skillCategories": [
       "催眠技法"
     ],
+    "exerciseType": [],
     "promptRole": "guide",
     "mode": "study",
     "template": false,
@@ -2348,6 +2441,7 @@
     "skillCategories": [
       "催眠技法"
     ],
+    "exerciseType": [],
     "promptRole": "guide",
     "mode": "study",
     "template": false,
@@ -2379,6 +2473,7 @@
     "skillCategories": [
       "催眠技法"
     ],
+    "exerciseType": [],
     "promptRole": "guide",
     "mode": "study",
     "template": false,
@@ -2410,6 +2505,7 @@
     "skillCategories": [
       "催眠技法"
     ],
+    "exerciseType": [],
     "promptRole": "guide",
     "mode": "study",
     "template": false,
@@ -2440,6 +2536,9 @@
     "title": "AI-II-3-1　逸話だけ返すAIと遊ぶ",
     "skillCategories": [
       "催眠技法"
+    ],
+    "exerciseType": [
+      "クライエント側に立つ体験"
     ],
     "promptRole": "partner",
     "mode": "normal",
@@ -2473,6 +2572,7 @@
     "skillCategories": [
       "催眠技法"
     ],
+    "exerciseType": [],
     "promptRole": "guide",
     "mode": "study",
     "template": false,
@@ -2506,6 +2606,7 @@
       "催眠技法",
       "臨床判断・見立て"
     ],
+    "exerciseType": [],
     "promptRole": "guide",
     "mode": "study",
     "template": false,
@@ -2538,6 +2639,7 @@
     "skillCategories": [
       "催眠技法"
     ],
+    "exerciseType": [],
     "promptRole": "guide",
     "mode": "study",
     "template": false,
@@ -2570,6 +2672,7 @@
     "skillCategories": [
       "催眠技法"
     ],
+    "exerciseType": [],
     "promptRole": "guide",
     "mode": "study",
     "template": false,
@@ -2601,6 +2704,7 @@
     "skillCategories": [
       "催眠技法"
     ],
+    "exerciseType": [],
     "promptRole": "guide",
     "mode": "study",
     "template": false,
@@ -2632,6 +2736,9 @@
     "title": "AI-III-2B-1　内なるファンタジーの旅",
     "skillCategories": [
       "催眠技法"
+    ],
+    "exerciseType": [
+      "クライエント側に立つ体験"
     ],
     "promptRole": "guide",
     "mode": "normal",
@@ -2666,6 +2773,7 @@
     "skillCategories": [
       "催眠技法"
     ],
+    "exerciseType": [],
     "promptRole": "guide",
     "mode": "study",
     "template": false,
@@ -2698,6 +2806,7 @@
     "skillCategories": [
       "催眠技法"
     ],
+    "exerciseType": [],
     "promptRole": "guide",
     "mode": "study",
     "template": false,

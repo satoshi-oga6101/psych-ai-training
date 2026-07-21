@@ -34,6 +34,8 @@ const state = {
   selectedBook: null,
   selectedCategory: null,
   roles: new Set(),
+  types: new Set(),       // 選択中の演習タイプ
+  allTypes: [],           // データ中の演習タイプ（出現順）
   mode: "",               // "" | "normal" | "study"
   query: "",
   selectedExerciseId: null,
@@ -64,6 +66,11 @@ async function init() {
     const seen = new Set();
     exercises.forEach((e) => (e.skillCategories || []).forEach((c) => {
       if (!seen.has(c)) { seen.add(c); state.categories.push(c); }
+    }));
+    // 演習タイプを出現順に収集（該当演習にだけ付くタグ）
+    const seenT = new Set();
+    exercises.forEach((e) => (e.exerciseType || []).forEach((t) => {
+      if (!seenT.has(t)) { seenT.add(t); state.allTypes.push(t); }
     }));
 
     bindEvents();
@@ -219,6 +226,7 @@ function setAxis(axis) {
 
 function clearFilters() {
   state.roles.clear();
+  state.types.clear();
   state.mode = "";
   state.query = "";
   $("search").value = "";
@@ -254,6 +262,20 @@ function renderFilters() {
       renderFilters(); renderList();
     });
     modesEl.appendChild(b);
+  });
+  // types（該当演習にだけ付くタグ。データに無ければ丸ごと隠す）
+  const typesEl = $("filter-types");
+  typesEl.innerHTML = "";
+  $("filter-types-group").hidden = state.allTypes.length === 0;
+  state.allTypes.forEach((t) => {
+    const b = document.createElement("button");
+    b.className = "chip" + (state.types.has(t) ? " is-on" : "");
+    b.textContent = t;
+    b.addEventListener("click", () => {
+      state.types.has(t) ? state.types.delete(t) : state.types.add(t);
+      renderFilters(); renderList();
+    });
+    typesEl.appendChild(b);
   });
 }
 
@@ -294,6 +316,7 @@ function filteredExercises() {
     if (state.axis === "book" && state.selectedBook && e.bookId !== state.selectedBook) return false;
     if (state.axis === "skill" && state.selectedCategory && !(e.skillCategories || []).includes(state.selectedCategory)) return false;
     if (state.roles.size && !state.roles.has(e.promptRole)) return false;
+    if (state.types.size && !(e.exerciseType || []).some((t) => state.types.has(t))) return false;
     if (state.mode && e.mode !== state.mode) return false;
     if (q) {
       const hay = `${e.title} ${e.overview} ${e.learningObjective} ${e.chapter}`.toLowerCase();
@@ -346,6 +369,7 @@ function exerciseCard(e) {
   li.innerHTML = `
     <div class="ex-card__title">${escapeHTML(e.title)}</div>
     <div class="ex-card__badges">
+      ${(e.exerciseType || []).map((t) => `<span class="badge badge--type">${escapeHTML(t)}</span>`).join("")}
       <span class="badge">${escapeHTML(ROLE_LABELS[e.promptRole] || e.promptRole)}</span>
       <span class="badge badge--mode">${isMixedMode(e) ? "モード混在" : escapeHTML(modeLabel(e.mode))}</span>
       ${e.steps.length > 1 ? `<span class="badge badge--steps">${e.steps.length}ステップ</span>` : ""}
@@ -379,6 +403,7 @@ function renderDetail(e) {
       <button id="copy-link" class="copy-link-btn" type="button" title="この演習への直接リンクをコピー">🔗 リンクをコピー</button>
     </div>
     <div class="detail__badges">
+      ${(e.exerciseType || []).map((t) => `<span class="badge badge--type">${escapeHTML(t)}</span>`).join("")}
       <span class="badge" title="${escapeHTML(ROLE_DESC[e.promptRole] || "")}">${escapeHTML(ROLE_LABELS[e.promptRole] || e.promptRole)}</span>
       <span class="badge badge--mode">${isMixedMode(e) ? "モード混在" : escapeHTML(modeLabel(e.mode))}</span>
       ${e.template ? `<span class="badge badge--template">テンプレート</span>` : ""}

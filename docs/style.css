@@ -231,6 +231,7 @@ body {
   white-space: nowrap;
 }
 .badge--mode { background: #eef2e9; color: #5a7040; }
+.badge--type { background: #e7eef7; color: #345e8a; border: 1px solid #cdddec; }
 .badge--steps { background: #f0eef7; color: #6a5a95; }
 .badge--template { background: #fbf1dd; color: #8a6a1e; }
 
