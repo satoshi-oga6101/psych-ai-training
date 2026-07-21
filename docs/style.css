@@ -252,7 +252,22 @@ body {
 /* ---------- Detail ---------- */
 .detail__placeholder { color: var(--muted); }
 .detail__source { font-size: .78rem; color: var(--muted); }
+.detail__titlerow { display: flex; align-items: flex-start; justify-content: space-between; gap: .6rem; }
 .detail__title { font-size: 1.2rem; margin: .3rem 0 .5rem; }
+.copy-link-btn {
+  flex: 0 0 auto;
+  margin-top: .3rem;
+  border: 1px solid var(--accent);
+  background: var(--card);
+  color: var(--accent);
+  border-radius: 8px;
+  padding: .3rem .7rem;
+  font-size: .76rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.copy-link-btn:hover { background: var(--accent-weak); }
+.copy-link-btn.is-copied { background: var(--accent); color: #fff; }
 .detail__badges { display: flex; flex-wrap: wrap; gap: .35rem; margin-bottom: 1rem; }
 .detail h3 {
   font-size: .82rem;

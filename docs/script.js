@@ -70,7 +70,8 @@ async function init() {
     renderFilters();
     renderNav();
     renderList();
-    renderGuide();   // 初回訪問時は詳細ペインに使い方ガイドを出す
+    // URLハッシュに演習IDがあればその演習を開く。無ければ使い方ガイド。
+    if (!openExerciseById(hashId(), { updateHash: false })) renderGuide();
   } catch (err) {
     $("list-summary").textContent = `データの読み込みに失敗しました: ${err.message}（ローカルでは docs/ をサーバー経由で開いてください）`;
   }
@@ -85,8 +86,46 @@ function bindEvents() {
     state.selectedExerciseId = null;
     renderList();
     renderGuide();
+    clearHash();
     scrollToDetailOnNarrow();
   });
+  // アドレスバーのハッシュが外から変わったとき（リンクを踏む・戻る・手入力）に追従する
+  window.addEventListener("hashchange", () => {
+    const id = hashId();
+    if (!id) {
+      if (state.selectedExerciseId) { state.selectedExerciseId = null; renderList(); renderGuide(); }
+      return;
+    }
+    if (id !== state.selectedExerciseId) openExerciseById(id, { updateHash: false });
+  });
+}
+
+// ---------- deep link (URLハッシュ = 演習ID) ----------
+function hashId() {
+  try { return decodeURIComponent(location.hash.replace(/^#/, "")); }
+  catch { return location.hash.replace(/^#/, ""); }
+}
+function clearHash() {
+  history.replaceState(null, "", location.pathname + location.search);
+}
+// 演習を開く（一覧の選択反映・詳細描画・任意でハッシュ更新とスクロール）
+function openExercise(e, { updateHash = true, scroll = true } = {}) {
+  state.selectedExerciseId = e.id;
+  renderList();
+  renderDetail(e);
+  if (updateHash) history.replaceState(null, "", "#" + e.id);
+  if (scroll) scrollToDetailOnNarrow();
+}
+// IDから開く。見つかれば true、無効なIDなら false（呼び出し側でガイドにフォールバック）。
+function openExerciseById(id, opts) {
+  if (!id) return false;
+  const e = state.exercises.find((x) => x.id === id);
+  if (!e) return false;
+  openExercise(e, opts);
+  return true;
+}
+function shareUrl(e) {
+  return location.origin + location.pathname + location.search + "#" + e.id;
 }
 
 // 詳細ペインが縦積みになる幅（style.css の @media と揃える）では、
@@ -145,6 +184,9 @@ function renderGuide() {
         <li><strong>AIとモードを確認する</strong>　演習ごとに、通常のチャットに貼るか学習モードに貼るかが違います。詳細の「使うAIとモード」で選んでください。</li>
         <li><strong>コピーして貼り付ける</strong>　「コピー」ボタンでプロンプトを写し、AIに貼り付けて対話を始めます。複数ステップの演習は上から順に進めます。</li>
       </ol>
+
+      <h3>演習を共有する</h3>
+      <p class="detail__text">演習を開くと、タイトルの右に「🔗 リンクをコピー」ボタンがあります。押すとその演習に直接飛べるURLがコピーされ、貼り付けた相手はサイトを開いた瞬間にその演習が表示されます。授業や勉強会で特定の演習を案内するとき、note やSNSで紹介するとき、自分用のメモに残すときに使ってください。ブラウザのアドレス欄も、演習を選ぶたびにその演習のURLに変わります。</p>
 
       <div class="safety">
         <strong>使うときの約束</strong>
@@ -309,7 +351,7 @@ function exerciseCard(e) {
       ${e.steps.length > 1 ? `<span class="badge badge--steps">${e.steps.length}ステップ</span>` : ""}
       ${e.template ? `<span class="badge badge--template">テンプレート</span>` : ""}
     </div>`;
-  li.addEventListener("click", () => { state.selectedExerciseId = e.id; renderList(); renderDetail(e); scrollToDetailOnNarrow(); });
+  li.addEventListener("click", () => openExercise(e));
   return li;
 }
 
@@ -332,7 +374,10 @@ function renderDetail(e) {
 
   el.innerHTML = `
     <div class="detail__source">${escapeHTML(bookTitle(e.bookId))}｜${escapeHTML(e.chapter || "")}</div>
-    <h2 class="detail__title">${escapeHTML(e.title)}</h2>
+    <div class="detail__titlerow">
+      <h2 class="detail__title">${escapeHTML(e.title)}</h2>
+      <button id="copy-link" class="copy-link-btn" type="button" title="この演習への直接リンクをコピー">🔗 リンクをコピー</button>
+    </div>
     <div class="detail__badges">
       <span class="badge" title="${escapeHTML(ROLE_DESC[e.promptRole] || "")}">${escapeHTML(ROLE_LABELS[e.promptRole] || e.promptRole)}</span>
       <span class="badge badge--mode">${isMixedMode(e) ? "モード混在" : escapeHTML(modeLabel(e.mode))}</span>
@@ -354,6 +399,9 @@ function renderDetail(e) {
 
     ${(e.reflection && e.reflection.length) ? `<h3>振り返り</h3><ul class="reflection">${e.reflection.map((r) => `<li>${escapeHTML(r)}</li>`).join("")}</ul>` : ""}
   `;
+
+  // この演習への直接リンクをコピー
+  $("copy-link").addEventListener("click", (ev) => copyText(shareUrl(e), ev.currentTarget));
 
   // AI selector
   const aiSel = $("ai-select");
