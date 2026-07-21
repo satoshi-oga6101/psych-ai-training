@@ -85,7 +85,16 @@ function bindEvents() {
     state.selectedExerciseId = null;
     renderList();
     renderGuide();
+    scrollToDetailOnNarrow();
   });
+}
+
+// 詳細ペインが縦積みになる幅（style.css の @media と揃える）では、
+// ガイド/演習を選んでも画面外の下に出るので、詳細ペインへスクロールして見せる。
+// デスクトップ（3カラム・詳細は sticky で常時可視）ではスクロールしない。
+function scrollToDetailOnNarrow() {
+  if (!window.matchMedia("(max-width: 960px)").matches) return;
+  $("detail").scrollIntoView({ block: "start" });
 }
 
 // ---------- guide ----------
@@ -300,7 +309,7 @@ function exerciseCard(e) {
       ${e.steps.length > 1 ? `<span class="badge badge--steps">${e.steps.length}ステップ</span>` : ""}
       ${e.template ? `<span class="badge badge--template">テンプレート</span>` : ""}
     </div>`;
-  li.addEventListener("click", () => { state.selectedExerciseId = e.id; renderList(); renderDetail(e); });
+  li.addEventListener("click", () => { state.selectedExerciseId = e.id; renderList(); renderDetail(e); scrollToDetailOnNarrow(); });
   return li;
 }
 
