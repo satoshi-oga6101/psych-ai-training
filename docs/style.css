@@ -43,6 +43,7 @@ body {
 }
 .site-header h1 { margin: 0; font-size: 1.25rem; }
 .tagline { margin: .15rem 0 0; opacity: .9; font-size: .85rem; }
+.byline { margin: .3rem 0 0; opacity: .85; font-size: .8rem; letter-spacing: .04em; }
 .site-header__tools {
   display: flex;
   align-items: center;
@@ -319,6 +320,14 @@ body {
   gap: .2rem .6rem;
 }
 .guide a { color: var(--accent); }
+.guide-links { margin: .3rem 0 0; padding-left: 1.2rem; }
+.guide-links li { margin-bottom: .3rem; }
+.guide-links__note {
+  margin-left: .4rem;
+  font-size: .74rem;
+  color: var(--muted);
+  white-space: nowrap;
+}
 
 /* ---------- AI selector ---------- */
 .ai-select { display: flex; flex-wrap: wrap; gap: .4rem; margin-bottom: .5rem; }

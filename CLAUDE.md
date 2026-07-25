@@ -163,7 +163,7 @@ docs/data/exercises.json       （サイトが読む最終データ）
 - `ai-modes.json` の各AIの学習モード名（Study / Learning Style / Guided Learning）は変わり得る。**名称はこのファイルだけで更新**し、UI・データ側は触らない。
 - **使い方ガイド**は初回表示時と「使い方」ボタンで詳細ペインに出る（`renderGuide()`）。文言は `script.js` 内に直書き。
 - **書籍のAmazonリンクは `books.json` の `volumes[]` で管理する。** 1冊の書籍も `volumes` は要素1つの配列（`label: null`）で持ち、全3巻の臨床催眠だけ3要素になる。UIは1つのコード経路（`bookLinksHTML()`）で両方を描く。リンクは Kindle版・紙版を併記し、演習一覧の書籍見出しと使い方ガイドの「収録書籍」の2か所に出る。巻をまたぐ配布物（臨床催眠の合本PDF版など）は書籍レベルの `downloads[]` に置き、巻ごとのリンクと混ざらないよう改行して表示する。
-- **著者名・note のURLは `script.js` 冒頭の `AUTHOR` 定数**が唯一の定義箇所。変わったらここだけ直す。
+- **著者名・note のURL・関連記事リンクは `script.js` 冒頭の `AUTHOR` 定数**にまとめる。`AUTHOR.articles[]` は「コピー&ペースト以外の使い方」（Claudeスキル／プロジェクト活用の note 記事）で、ガイドに一覧表示される。**ただし著者名は `index.html` の `<title>` と `.byline`、`<meta name="description">` にもある**（著者名で検索して来る人の入口になるため静的HTMLに置いた）。名前が変わったら両方直す。
 - **ディープリンク**：URLハッシュ＝演習ID（例 `…/#counseling-techniques__6-1`）。読み込み時にハッシュがあればその演習を開き、無効／無ければ使い方ガイド。演習を選ぶと `history.replaceState` でハッシュを更新（履歴は汚さない）、`hashchange` で外部リンク・戻る・手入力に追従する。詳細ヘッダの「リンクをコピー」ボタンは `shareUrl()`（origin+pathname+search+#id）をコピー。中心は `openExercise()` / `openExerciseById()`。ブラウザストレージ不使用の方針は維持（ハッシュはURLの一部でストレージではない）。
 - 書名は Amazon の表記に合わせている（例：「カウンセリング技法**独学AI**ワークブック」。語順に注意）。`subtitle` はガイドの収録書籍一覧にだけ表示され、ナビ・見出しは `title` を使う。
 
@@ -196,8 +196,8 @@ docs/data/exercises.json       （サイトが読む最終データ）
 
 ## 8. 未着手・次にやれること（優先度順ではない）
 
-- 匿名の利用ログ（訪問数・コピー回数・選択AI/モード等。個人は識別しない。`planning/plan.md` §12/§13）。
+- **OGP（SNS共有カード）**。今はURLをX・note等に貼ってもタイトル・説明・画像が出ない。`og:title` / `og:description` / `og:image` を `index.html` に追加する。ディープリンクと共有ボタンで「演習を人に紹介する」導線を作ったので、その受け皿になる。画像の用意が要るが、テキストだけでも改善する。
+- 匿名の利用ログ（訪問数・コピー回数・選択AI/モード等。個人は識別しない。`planning/plan.md` §12/§13）。導入するならCookie不使用・無料の Cloudflare Web Analytics か GoatCounter が候補（比較済み・保留中）。
 - 難易度・想定時間・タグの付与（基準が固まってから。§4.3）。
-- スキルカテゴリの最終整理（「統合トレーニング」等を演習タイプ軸に分けるか）。
 
 作業前に `planning/plan.md`（設計思想と積み残し §15）に目を通すと文脈が掴める。

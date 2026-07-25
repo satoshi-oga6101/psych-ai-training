@@ -19,10 +19,16 @@ const ROLE_DESC = {
   partner: "AIが壁打ち相手・添削者になります",
 };
 
-// 著者情報（サイト全体で1か所。変わったらここだけ直す）
+// 著者情報（サイト全体で1か所。ただし index.html の <title> と byline にも
+// 著者名があるので、名前が変わったらそちらも直す）
 const AUTHOR = {
   name: "緒賀 郷志",
   noteUrl: "https://note.com/oga_satoshi",
+  // コピー&ペースト以外の使い方を紹介した note 記事
+  articles: [
+    { label: "心理臨床のAI演習をClaudeのスキルにしました", note: "Claude", url: "https://note.com/oga_satoshi/n/na407beab81bc" },
+    { label: "心理臨床演習をプロジェクトに置いて使う", note: "Claude・ChatGPT共通", url: "https://note.com/oga_satoshi/n/n29d10e555b21" },
+  ],
 };
 
 const state = {
@@ -191,6 +197,12 @@ function renderGuide() {
         <li><strong>AIとモードを確認する</strong>　演習ごとに、通常のチャットに貼るか学習モードに貼るかが違います。詳細の「使うAIとモード」で選んでください。</li>
         <li><strong>コピーして貼り付ける</strong>　「コピー」ボタンでプロンプトを写し、AIに貼り付けて対話を始めます。複数ステップの演習は上から順に進めます。</li>
       </ol>
+
+      <h3>コピー&amp;ペースト以外の使い方</h3>
+      <p class="detail__text">演習データをまとめてAIに持たせておくと、毎回コピーしなくても「リフレクションの練習がしたい」と伝えるだけで、AIが該当する演習を見つけて進めてくれます。やり方は note に書きました。</p>
+      <ul class="guide-links">
+        ${AUTHOR.articles.map((a) => `<li><a href="${escapeAttr(a.url)}" target="_blank" rel="noopener">${escapeHTML(a.label)} ↗</a>${a.note ? `<span class="guide-links__note">${escapeHTML(a.note)}</span>` : ""}</li>`).join("")}
+      </ul>
 
       <h3>演習を共有する</h3>
       <p class="detail__text">演習を開くと、タイトルの右に「🔗 リンクをコピー」ボタンがあります。押すとその演習に直接飛べるURLがコピーされ、貼り付けた相手はサイトを開いた瞬間にその演習が表示されます。授業や勉強会で特定の演習を案内するとき、note やSNSで紹介するとき、自分用のメモに残すときに使ってください。ブラウザのアドレス欄も、演習を選ぶたびにその演習のURLに変わります。</p>
