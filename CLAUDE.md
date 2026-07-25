@@ -40,8 +40,14 @@ psych-ai-training/
 │   ├── <book>/*.txt           プロンプト本文
 │   └── FOLDER-MAP.md          日本語タイトル ↔ フォルダ名 対応表
 ├── scripts/
-│   ├── build-data.mjs     content の manifest → docs/data/exercises.json 生成
-│   └── validate-data.mjs  exercises.json の検証
+│   ├── build-data.mjs     content の manifest → docs/data/exercises.json ＋ skill/ を生成
+│   ├── validate-data.mjs  exercises.json の検証（Skill側との一致も見る）
+│   └── make-ogp.py        OGP画像の再生成（補助。Pillow が要る）
+├── skill/                 ← Claude Skill（Webサイトとは別の配布物。Pagesには出ない）
+│   └── gakushu-shien/
+│       ├── SKILL.md           手書き＋目次だけ自動生成（INDEX:START〜END）
+│       ├── exercises.json     ★生成物（docs/data/ と同一内容。手で編集しない）
+│       └── scripts/get_exercise.py  実行時に1件だけ取り出す
 └── docs/                  ← GitHub Pages で公開する静的サイト（ここだけWebに出る）
     ├── index.html / style.css / script.js   フレームワーク非依存の素のJS
     ├── assets/
@@ -62,9 +68,11 @@ content/<book>/index.md        （人間用の目次）
         │  ① node scripts/build-data.mjs --scaffold <bookId>  → manifest.draft.json（index.md解析でprefill）
         ▼
 content/<book>/manifest.json   （グルーピング＋メタデータを人手で整える）★
-        │  ② node scripts/build-data.mjs        → docs/data/exercises.json（本文を焼き込み）
+        │  ② node scripts/build-data.mjs        → 下の3つを同時に生成
         ▼
 docs/data/exercises.json       （サイトが読む最終データ）
+skill/gakushu-shien/exercises.json  （Skill用。サイトと同一内容）
+skill/gakushu-shien/SKILL.md の目次  （INDEX:START〜END の範囲だけ差し替え）
         │  ③ node scripts/validate-data.mjs     → 必須項目・enum・参照切れを検査
         ▼
         git add/commit/push → GitHub Pages 自動更新
@@ -73,6 +81,7 @@ docs/data/exercises.json       （サイトが読む最終データ）
 ### 鉄則
 
 - **`docs/data/exercises.json` を直接手で編集しないこと。** 必ず `manifest.json` を直して `build-data.mjs` で再生成する。
+- **Skill（`skill/gakushu-shien/`）も同じ真実の源から生成される。** `exercises.json` と SKILL.md の目次は生成物なので、Skillフォルダの中で直接編集しない（次のリビルドで上書きされる）。**リビルド1回でサイトとSkillの両方が揃う**ので、演習を直したら必ず `build-data.mjs` を通す。`validate-data.mjs` は両者が一致しているかを検査し、ズレていれば終了コード1で止める。SKILL.md の目次以外（動作フロー・promptRoleの説明など）は手書きなので、リビルドしても消えない。
 - サイトが読むプロンプト本文は `exercises.json` に**焼き込まれている**（`content/` の .txt は Web配信されないため）。だから manifest 編集後は必ずリビルドが要る。
 - **push 前に必ず `node scripts/validate-data.mjs` を通す。** エラーがあれば終了コード1。
 - 依存パッケージなし（Node 16+ 標準モジュールのみ）。`npm install` 不要。

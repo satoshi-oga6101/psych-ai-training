@@ -95,9 +95,55 @@ function compile() {
     console.log(`✓ ${book.title}: ${exercises.length} 演習`);
   }
 
-  const outFile = join(DATA_DIR, "exercises.json");
-  writeFileSync(outFile, JSON.stringify(out, null, 2) + "\n", "utf8");
+  const json = JSON.stringify(out, null, 2) + "\n";
+  writeFileSync(join(DATA_DIR, "exercises.json"), json, "utf8");
   console.log(`\n生成: docs/data/exercises.json（合計 ${out.length} 演習）`);
+
+  buildSkill(out, json);
+}
+
+// ---- Skill（skill/gakushu-shien）へ同じデータと目次を配る ----
+// サイトと Skill でデータが食い違わないよう、リビルド1回で両方を揃える。
+// Skill フォルダが無い環境ではスキップする（サイトのビルドは止めない）。
+const SKILL_DIR = join(ROOT, "skill", "gakushu-shien");
+const INDEX_START = "<!-- INDEX:START 自動生成。build-data.mjs が書き換えるので手で編集しない -->";
+const INDEX_END = "<!-- INDEX:END -->";
+
+function skillIndex(exercises) {
+  const lines = [];
+  let currentBook = null;
+  for (const ex of exercises) {
+    if (ex.bookId !== currentBook) {
+      currentBook = ex.bookId;
+      lines.push("", `#### ${currentBook}`, "");
+    }
+    const skill = (ex.skillCategories || []).join("/") || "-";
+    const type = (ex.exerciseType || []).length ? `, type: ${ex.exerciseType.join("/")}` : "";
+    const learning = ex.mode === "study" ? " [learning]" : "";
+    lines.push(`- [${ex.id}] ${ex.chapter} / ${ex.title} (role: ${ex.promptRole}, skill: ${skill}${type})${learning}`);
+  }
+  return lines.join("\n");
+}
+
+function buildSkill(exercises, json) {
+  if (!existsSync(SKILL_DIR)) return;
+
+  writeFileSync(join(SKILL_DIR, "exercises.json"), json, "utf8");
+  console.log(`生成: skill/gakushu-shien/exercises.json（サイトと同一内容）`);
+
+  const skillMd = join(SKILL_DIR, "SKILL.md");
+  if (!existsSync(skillMd)) return;
+  const md = readFileSync(skillMd, "utf8");
+  const s = md.indexOf(INDEX_START);
+  const e = md.indexOf(INDEX_END);
+  if (s === -1 || e === -1) {
+    console.error(`⚠ SKILL.md に目次マーカーが見つかりません。目次は更新していません。`);
+    console.error(`  「${INDEX_START}」と「${INDEX_END}」で目次を囲んでください。`);
+    return;
+  }
+  const next = md.slice(0, s + INDEX_START.length) + "\n" + skillIndex(exercises) + "\n" + md.slice(e);
+  writeFileSync(skillMd, next, "utf8");
+  console.log(`更新: skill/gakushu-shien/SKILL.md の目次（${exercises.length} 件）`);
 }
 
 // ---- 雛形生成：index.md を解析して manifest.draft.json を出力 ----

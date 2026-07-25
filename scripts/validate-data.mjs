@@ -74,6 +74,15 @@ function main() {
       warnings.push(`${where}: skillCategories が空です`);
   });
 
+  // Skill 側のコピーがサイト側と一致しているか（ズレたまま push するのを防ぐ）
+  const skillJson = join(ROOT, "skill", "gakushu-shien", "exercises.json");
+  if (existsSync(skillJson)) {
+    const site = readFileSync(join(DATA_DIR, "exercises.json"), "utf8");
+    if (readFileSync(skillJson, "utf8") !== site) {
+      errors.push("skill/gakushu-shien/exercises.json がサイト側と一致しません（node scripts/build-data.mjs で再生成してください）");
+    }
+  }
+
   console.log(`検査対象: ${exercises.length} 演習 / ${books.length} 書籍\n`);
   if (warnings.length) {
     console.log(`⚠ 警告 ${warnings.length} 件:`);
