@@ -81,9 +81,12 @@ GitHub Pages は「配信する場所」を1か所だけ指定する仕組みで
 `docs/data/*.json` を `fetch` で読むため、`file://` 直開きではなくローカルサーバー経由で確認する。
 
 ```bash
-cd docs && python3 -m http.server 8000
-# ブラウザで http://localhost:8000 を開く
+cd docs && python3 -m http.server 8010
+# ブラウザで http://localhost:8010 を開く
 ```
+
+ポートは 8010 を使う。8000 は oMLX などローカルのAIサーバーやフレームワークの
+既定値と衝突しやすく、別アプリのタブが残っていると誤ったページを見てしまう。
 
 ## 公開（GitHub Pages）
 

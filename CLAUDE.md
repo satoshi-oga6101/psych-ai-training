@@ -168,7 +168,7 @@ skill/gakushu-shien/SKILL.md の目次  （INDEX:START〜END の範囲だけ差�
 - **フレームワーク非依存の素のJS**（`docs/script.js`）。ビルド工程なし。`books.json` / `ai-modes.json` / `exercises.json` を `fetch` で読んで描画する。
 - **ブラウザストレージ（localStorage 等）は使わない。** 状態はメモリ上のみ。ただしURLハッシュは共有用に使う（ディープリンク。下記）。
 - 主な機能: 二軸ナビ（書籍で探す／スキルで探す）、フィルタ（AIの役割・実行モード・キーワード）、書籍→章のグループ見出し、演習詳細（出所・ねらい・概要・注意・AI選択・ステップ別コピー・振り返り）、テンプレート/モード混在バッジ。
-- **ローカル確認は `file://` 不可**（fetchがCORSで失敗する）。`cd docs && python3 -m http.server 8000` でサーバー経由で開く。
+- **ローカル確認は `file://` 不可**（fetchがCORSで失敗する）。`cd docs && python3 -m http.server 8010` でサーバー経由で開き、`http://localhost:8010/` を見る。**ポート8000は使わない**（oMLX などローカルのAIサーバーの既定値と衝突する。以前、8000で起動したら別アプリのタブが `/api/status` を叩き続け、サイトが表示されていないのに気づきにくい状態になった）。
 - `ai-modes.json` の各AIの学習モード名（Study / Learning Style / Guided Learning）は変わり得る。**名称はこのファイルだけで更新**し、UI・データ側は触らない。
 - **使い方ガイド**は初回表示時と「使い方」ボタンで詳細ペインに出る（`renderGuide()`）。文言は `script.js` 内に直書き。
 - **書籍のAmazonリンクは `books.json` の `volumes[]` で管理する。** 1冊の書籍も `volumes` は要素1つの配列（`label: null`）で持ち、全3巻の臨床催眠だけ3要素になる。UIは1つのコード経路（`bookLinksHTML()`）で両方を描く。リンクは Kindle版・紙版を併記し、演習一覧の書籍見出しと使い方ガイドの「収録書籍」の2か所に出る。巻をまたぐ配布物（臨床催眠の合本PDF版など）は書籍レベルの `downloads[]` に置き、巻ごとのリンクと混ざらないよう改行して表示する。
