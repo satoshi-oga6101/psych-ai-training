@@ -394,6 +394,15 @@ body {
   font-size: .78rem;
   background: var(--card);
 }
+.site-footer p { margin: 0; }
+.site-footer__license {
+  margin-top: .55rem !important;
+  padding-top: .55rem;
+  border-top: 1px solid var(--border);
+  font-size: .74rem;
+}
+.site-footer__license a { color: var(--accent); }
+.site-footer__sep { color: var(--border); margin: 0 .15rem; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 960px) {

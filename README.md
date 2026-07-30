@@ -91,3 +91,30 @@ cd docs && python3 -m http.server 8010
 ## 公開（GitHub Pages）
 
 リポジトリの Settings → Pages で、Source を「Deploy from a branch」、Branch を `main` / フォルダを `/docs` に設定する。以降は push するだけでサイトが更新される。
+
+## License
+
+教材コンテンツとソースコードで、異なるライセンスを適用している。
+
+| 対象 | ライセンス |
+|---|---|
+| **教材コンテンツ**<br>`content/` ／ `docs/data/` ／ `docs/assets/`<br>`skill/gakushu-shien/SKILL.md` ／ `skill/gakushu-shien/exercises.json` | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)（[LICENSE](LICENSE)） |
+| **ソースコード**<br>`scripts/` ／ `docs/index.html` ／ `docs/script.js` ／ `docs/style.css`<br>`skill/gakushu-shien/scripts/` | [MIT](https://opensource.org/licenses/MIT)（[LICENSE-CODE](LICENSE-CODE)） |
+
+### 教材コンテンツ（CC BY-NC 4.0）
+
+非営利目的（教育・研究・個人利用等）での利用は自由です。
+学習塾・予備校・コンサルティング業など、営利目的での利用は
+本ライセンスでは許可されていません。商用利用のご相談は
+下記よりお問い合わせください。
+
+お問い合わせ: https://note.com/oga_satoshi/message
+（note.comへのログインが必要です）
+
+### ソースコード（MIT）
+
+サイトの仕組み（ビルドスクリプト、表示用の HTML／CSS／JS）は MIT ライセンス。
+フォークして自分の教材を載せる用途であれば、営利・非営利を問わず自由に使える。
+その場合、上記の教材コンテンツは含めないこと。
+
+© 2026 緒賀 郷志

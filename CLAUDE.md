@@ -181,6 +181,7 @@ skill/gakushu-shien/SKILL.md の目次  （INDEX:START〜END の範囲だけ差�
 
 ## 6. これまでの主要な決定事項（踏襲すること）
 
+- **ライセンスは二本立て。** 教材コンテンツ（`content/` / `docs/data/` / `docs/assets/` / `skill/gakushu-shien/` の SKILL.md・exercises.json）は **CC BY-NC 4.0**（`LICENSE`＝CC公式の正文をそのまま配置）、ソースコード（`scripts/` / `docs/index.html`・`script.js`・`style.css` / `skill/gakushu-shien/scripts/`）は **MIT**（`LICENSE-CODE`）。フォークして自分の教材を載せる人がコードを自由に使えるようにするための分割。新しいファイルを足すときは、どちら側かを意識する。
 - 一次ソースのフォルダ名はローマ字（ASCII）。対応表は `content/FOLDER-MAP.md`。
 - GitHub Pages は `/docs` 公開方式。サイトは `docs/` 配下、企画資料は `planning/`、元データは `content/`。
 - プロンプト本文はAI共通で1本（ChatGPT/Claude/Gemini別に複製しない）。AIごとの違いは「モードと貼り付け先」だけ。
