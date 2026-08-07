@@ -291,6 +291,20 @@ body {
   color: var(--danger);
 }
 .safety ul { margin: .3rem 0 0; padding-left: 1.1rem; }
+.safety__more {
+  margin: .6rem 0 0;
+  padding-top: .5rem;
+  border-top: 1px solid #ecccbf;
+}
+/* リンク色は後段の .guide a（アクセント色）が効く。赤い箱の中で青いほうが
+   リンクだと分かるので、そのまま活かして太字だけ足す。 */
+.safety__more a { font-weight: 600; }
+.safety__more-note {
+  display: block;
+  margin-top: .15rem;
+  font-size: .78rem;
+  opacity: .85;
+}
 
 /* ---------- Guide（使い方） ---------- */
 .guide .safety { margin-top: .6rem; }
@@ -395,6 +409,7 @@ body {
   background: var(--card);
 }
 .site-footer p { margin: 0; }
+.site-footer p a { color: var(--accent); white-space: nowrap; }
 .site-footer__license {
   margin-top: .55rem !important;
   padding-top: .55rem;

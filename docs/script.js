@@ -29,6 +29,13 @@ const AUTHOR = {
     { label: "心理臨床のAI演習をClaudeのスキルにしました", note: "Claude", url: "https://note.com/oga_satoshi/n/na407beab81bc" },
     { label: "心理臨床演習をプロジェクトに置いて使う", note: "Claude・ChatGPT共通", url: "https://note.com/oga_satoshi/n/n29d10e555b21" },
   ],
+  // 練習の作法と限界をまとめた note 記事。操作方法の articles[] とは性格が違うので
+  // 「使うときの約束」に置く。同じURLが index.html のフッターにもあるので、
+  // 変わったら両方直す。
+  cautionArticle: {
+    label: "AI演習をはじめる前に——心理面接の練習にAIを使うときの注意点",
+    url: "https://note.com/oga_satoshi/n/nddd4a967dde6",
+  },
 };
 
 const state = {
@@ -212,8 +219,13 @@ function renderGuide() {
         <ul>
           <li>登場人物はすべて架空です。実在するクライエントの情報は入力しないでください。</li>
           <li>自分の事例を扱う演習では、必ず匿名化・改変してから入力してください。</li>
+          <li>ロールプレイをしたら、必ず振り返りとセットにしてください。練習だけを繰り返すと、共感的な応答がむしろ減るという研究結果があります。</li>
           <li>AIの応答は学習用のシミュレーションです。臨床判断・診断・スーパービジョンの代わりにはなりません。</li>
         </ul>
+        <p class="safety__more">
+          <a href="${escapeAttr(AUTHOR.cautionArticle.url)}" target="_blank" rel="noopener">練習にあたっての注意点を note にまとめました ↗</a>
+          <span class="safety__more-note">AIの講評を鵜呑みにしない／点数を演習間で比べない／AI患者は「できすぎ」ている など</span>
+        </p>
       </div>
 
       <h3>収録書籍</h3>
